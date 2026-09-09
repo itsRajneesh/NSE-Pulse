@@ -4,6 +4,7 @@ Implements multi-threaded parallel chunk batching via yfinance,
 in-memory TTL caching, and multi-criteria hierarchical ranking.
 """
 import time
+import threading
 import math
 from datetime import datetime, time as dtime, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -31,7 +32,7 @@ _CACHE = {
     "stock_histories": {},
     "last_session_date": ""
 }
-
+_SCREENER_LOCK = threading.Lock()
 
 def get_ist_now() -> datetime:
     """Returns current datetime in Indian Standard Time (IST)."""
@@ -138,125 +139,317 @@ def fetch_nifty500_parallel(stocks: List[Dict[str, Any]], chunk_size: int = 40, 
     print(f"Successfully downloaded {len(combined_data)} / {len(stocks)} stocks in {elapsed:.2f}s")
     return combined_data
 
+def fetch_nifty500_low_memory(stocks, chunk_size=20):
+    """
+    Memory-safe Nifty 500 downloader for low-RAM hosting.
 
-def run_screener(mode: str = "live", sector_filter: Optional[str] = None) -> ScreenerResponse:
+    Downloads one small chunk at a time and yields each stock's
+    DataFrame immediately instead of keeping all 500 DataFrames
+    in memory at once.
+    """
+    all_tickers = []
+
+    for stock in stocks:
+        symbol = stock["symbol"] if isinstance(stock, dict) else stock
+        ticker = symbol if symbol.endswith(".NS") else f"{symbol}.NS"
+        all_tickers.append(ticker)
+
+    for start in range(0, len(all_tickers), chunk_size):
+        chunk = all_tickers[start:start + chunk_size]
+
+        print(
+            f"Downloading chunk "
+            f"{start + 1}-{min(start + chunk_size, len(all_tickers))} "
+            f"of {len(all_tickers)}..."
+        )
+
+        chunk_data = _download_ticker_chunk(chunk)
+
+        for yf_tick, df in chunk_data.items():
+            symbol = yf_tick.replace(".NS", "")
+            yield symbol, df
+
+        # Release chunk references before moving to the next chunk
+        del chunk_data
+
+
+def run_screener(
+    mode: str = "live",
+    sector_filter: Optional[str] = None
+) -> ScreenerResponse:
     """
     Executes the stock screener across all Nifty 500 constituents.
-    Results are cached with a 60-second TTL to avoid API rate limits.
+
+    Uses chunk-by-chunk downloading to keep memory usage low on
+    Render Free (512 MB RAM).
+
+    A global lock prevents multiple simultaneous 500-stock scans.
     """
+
     current_timestamp = time.time()
     market_status = get_market_status(forced_mode=mode)
 
     ttl = CACHE_TTL_LIVE if market_status.is_open else CACHE_TTL_CLOSED
     cache_key = f"{mode}_{sector_filter}"
 
-    # Return cached data if fresh
+    # ---------------------------------------------------------
+    # RETURN CACHED DATA IF STILL FRESH
+    # ---------------------------------------------------------
     if (
         _CACHE["screener_data"] is not None
         and _CACHE.get("cache_key") == cache_key
         and (current_timestamp - _CACHE["cache_time"]) < ttl
     ):
         cached_resp: ScreenerResponse = _CACHE["screener_data"]
-        cached_resp.market_status.market_time_ist = get_ist_now().strftime("%d %b %Y, %I:%M:%S %p IST")
+
+        cached_resp.market_status.market_time_ist = (
+            get_ist_now().strftime(
+                "%d %b %Y, %I:%M:%S %p IST"
+            )
+        )
+
         return cached_resp
 
-    stocks_data: List[StockSignal] = []
+    # ---------------------------------------------------------
+    # PREVENT SIMULTANEOUS SCREENER RUNS
+    # ---------------------------------------------------------
+    with _SCREENER_LOCK:
 
-    # Parallel download across all 500 stocks
-    live_dfs = fetch_nifty500_parallel(NIFTY_500_STOCKS)
+        # Check cache again after acquiring the lock.
+        # Another request may have completed the scan while
+        # this request was waiting for the lock.
+        current_timestamp = time.time()
 
-    # Determine last completed trading session date for display
-    last_session_str = ""
-    for sym, df in live_dfs.items():
-        if not df.empty:
-            last_dt = df.index[-1]
-            last_session_str = last_dt.strftime("%d %b %Y, %I:%M %p IST") if hasattr(last_dt, 'strftime') else str(last_dt)
-            break
-    if last_session_str:
-        _CACHE["last_session_date"] = last_session_str
-        market_status = get_market_status(forced_mode=mode)
+        if (
+            _CACHE["screener_data"] is not None
+            and _CACHE.get("cache_key") == cache_key
+            and (current_timestamp - _CACHE["cache_time"]) < ttl
+        ):
+            cached_resp: ScreenerResponse = _CACHE["screener_data"]
 
-    # Evaluate each stock
-    for stock_info in NIFTY_500_STOCKS:
-        sym = stock_info["symbol"]
-        name = stock_info["name"]
-        sec = stock_info["sector"]
-        base_p = stock_info.get("base_price", 500.0)
+            cached_resp.market_status.market_time_ist = (
+                get_ist_now().strftime(
+                    "%d %b %Y, %I:%M:%S %p IST"
+                )
+            )
 
-        if sector_filter and sector_filter.lower() != "all" and sec.lower() != sector_filter.lower():
-            continue
+            return cached_resp
 
-        df_15m = live_dfs.get(sym)
+        # -----------------------------------------------------
+        # LOW-MEMORY SCANNING
+        # -----------------------------------------------------
+        stocks_data: List[StockSignal] = []
+        last_session_str = ""
 
-        if df_15m is None or len(df_15m) < 5:
-            # Skip unresolvable stocks or provide neutral placeholder
-            continue
-
-        _CACHE["stock_histories"][sym] = {
-            "df": df_15m,
-            "name": name,
-            "sector": sec
-        }
-
-        signal = evaluate_stock_signal(
-            symbol=sym,
-            name=name,
-            sector=sec,
-            df_15m=df_15m
+        print(
+            f"Starting low-memory screener scan "
+            f"for {len(NIFTY_500_STOCKS)} stocks..."
         )
-        stocks_data.append(signal)
 
-    # Multi-Criteria Hierarchical Ranking:
-    # 1. Primary: Active Signals First (is_active_signal == True)
-    # 2. Secondary: RelVol (Relative Volume) in descending order
-    # 3. Tertiary: abs(Price Change %) in descending order
-    stocks_data.sort(
-        key=lambda s: (
-            1 if s.is_active_signal else 0,
-            s.rel_vol,
-            abs(s.price_change_pct)
-        ),
-        reverse=True
-    )
+        # IMPORTANT:
+        # Do NOT convert this generator into dict().
+        #
+        # Each chunk is downloaded and processed before the
+        # next chunk is downloaded.
+        for sym, df_15m in fetch_nifty500_low_memory(
+            NIFTY_500_STOCKS,
+            chunk_size=20
+        ):
 
-    total_scanned = len(stocks_data)
-    bullish_count = sum(1 for s in stocks_data if s.signal_type == SignalType.BULLISH)
-    bearish_count = sum(1 for s in stocks_data if s.signal_type == SignalType.BEARISH)
-    neutral_count = sum(1 for s in stocks_data if s.signal_type == SignalType.NEUTRAL)
-    active_signals_count = bullish_count + bearish_count
+            # -------------------------------------------------
+            # FIND STOCK METADATA
+            # -------------------------------------------------
+            stock_info = next(
+                (
+                    stock
+                    for stock in NIFTY_500_STOCKS
+                    if stock["symbol"] == sym
+                ),
+                None
+            )
 
-    # Calculate Market Sentiment breadth across all scanned stocks
-    if (bullish_count + bearish_count) > 0:
-        bullish_ratio = round((bullish_count / (bullish_count + bearish_count)) * 100.0, 1)
-    else:
-        pos_count = sum(1 for s in stocks_data if s.price_change_pct > 0)
-        bullish_ratio = round((pos_count / max(1, total_scanned)) * 100.0, 1)
+            if not stock_info:
+                continue
 
-    if bullish_ratio >= 60.0:
-        market_sentiment = "Bullish Dominance"
-    elif bullish_ratio <= 40.0:
-        market_sentiment = "Bearish Pressure"
-    else:
-        market_sentiment = "Neutral / Balanced"
+            name = stock_info["name"]
+            sec = stock_info["sector"]
 
-    response = ScreenerResponse(
-        total_scanned=total_scanned,
-        active_signals_count=active_signals_count,
-        bullish_count=bullish_count,
-        bearish_count=bearish_count,
-        neutral_count=neutral_count,
-        bullish_ratio=bullish_ratio,
-        market_sentiment=market_sentiment,
-        market_status=market_status,
-        last_refreshed=get_ist_now().strftime("%I:%M:%S %p IST"),
-        stocks=stocks_data
-    )
+            # -------------------------------------------------
+            # SECTOR FILTER
+            # -------------------------------------------------
+            if (
+                sector_filter
+                and sector_filter.lower() != "all"
+                and sec.lower() != sector_filter.lower()
+            ):
+                continue
 
-    _CACHE["screener_data"] = response
-    _CACHE["cache_time"] = current_timestamp
-    _CACHE["cache_key"] = cache_key
+            # -------------------------------------------------
+            # VALIDATE DATA
+            # -------------------------------------------------
+            if (
+                df_15m is None
+                or df_15m.empty
+                or len(df_15m) < 5
+            ):
+                continue
 
-    return response
+            try:
+                # ---------------------------------------------
+                # LAST AVAILABLE TRADING SESSION
+                # ---------------------------------------------
+                if not last_session_str:
+                    last_dt = df_15m.index[-1]
+
+                    if hasattr(last_dt, "strftime"):
+                        last_session_str = last_dt.strftime(
+                            "%d %b %Y, %I:%M %p IST"
+                        )
+                    else:
+                        last_session_str = str(last_dt)
+
+                # ---------------------------------------------
+                # CALCULATE STOCK SIGNAL
+                # ---------------------------------------------
+                signal = evaluate_stock_signal(
+                    symbol=sym,
+                    name=name,
+                    sector=sec,
+                    df_15m=df_15m
+                )
+
+                stocks_data.append(signal)
+
+            except Exception as e:
+                print(
+                    f"Signal evaluation failed for {sym}: {e}"
+                )
+
+            finally:
+                # Release the current DataFrame reference.
+                del df_15m
+
+        # -----------------------------------------------------
+        # UPDATE LAST SESSION DATE
+        # -----------------------------------------------------
+        if last_session_str:
+            _CACHE["last_session_date"] = last_session_str
+            market_status = get_market_status(
+                forced_mode=mode
+            )
+
+        # -----------------------------------------------------
+        # MULTI-CRITERIA HIERARCHICAL RANKING
+        #
+        # 1. Active signals first
+        # 2. Relative volume descending
+        # 3. Absolute price change descending
+        # -----------------------------------------------------
+        stocks_data.sort(
+            key=lambda s: (
+                1 if s.is_active_signal else 0,
+                s.rel_vol,
+                abs(s.price_change_pct)
+            ),
+            reverse=True
+        )
+
+        # -----------------------------------------------------
+        # SUMMARY COUNTS
+        # -----------------------------------------------------
+        total_scanned = len(stocks_data)
+
+        bullish_count = sum(
+            1
+            for s in stocks_data
+            if s.signal_type == SignalType.BULLISH
+        )
+
+        bearish_count = sum(
+            1
+            for s in stocks_data
+            if s.signal_type == SignalType.BEARISH
+        )
+
+        neutral_count = sum(
+            1
+            for s in stocks_data
+            if s.signal_type == SignalType.NEUTRAL
+        )
+
+        active_signals_count = (
+            bullish_count + bearish_count
+        )
+
+        # -----------------------------------------------------
+        # MARKET SENTIMENT
+        # -----------------------------------------------------
+        if (bullish_count + bearish_count) > 0:
+
+            bullish_ratio = round(
+                (
+                    bullish_count
+                    / (bullish_count + bearish_count)
+                ) * 100.0,
+                1
+            )
+
+        else:
+            pos_count = sum(
+                1
+                for s in stocks_data
+                if s.price_change_pct > 0
+            )
+
+            bullish_ratio = round(
+                (
+                    pos_count
+                    / max(1, total_scanned)
+                ) * 100.0,
+                1
+            )
+
+        if bullish_ratio >= 60.0:
+            market_sentiment = "Bullish Dominance"
+
+        elif bullish_ratio <= 40.0:
+            market_sentiment = "Bearish Pressure"
+
+        else:
+            market_sentiment = "Neutral / Balanced"
+
+        # -----------------------------------------------------
+        # BUILD RESPONSE
+        # -----------------------------------------------------
+        response = ScreenerResponse(
+            total_scanned=total_scanned,
+            active_signals_count=active_signals_count,
+            bullish_count=bullish_count,
+            bearish_count=bearish_count,
+            neutral_count=neutral_count,
+            bullish_ratio=bullish_ratio,
+            market_sentiment=market_sentiment,
+            market_status=market_status,
+            last_refreshed=get_ist_now().strftime(
+                "%I:%M:%S %p IST"
+            ),
+            stocks=stocks_data
+        )
+
+        # -----------------------------------------------------
+        # CACHE FINAL RESULT
+        # -----------------------------------------------------
+        _CACHE["screener_data"] = response
+        _CACHE["cache_time"] = current_timestamp
+        _CACHE["cache_key"] = cache_key
+
+        print(
+            f"Screener scan complete: "
+            f"{total_scanned} stocks processed, "
+            f"{active_signals_count} active signals."
+        )
+
+        return response
 
 
 def get_stock_history_and_indicators(symbol: str) -> Optional[StockHistoryResponse]:
@@ -269,16 +462,39 @@ def get_stock_history_and_indicators(symbol: str) -> Optional[StockHistoryRespon
     cached = _CACHE["stock_histories"].get(symbol)
 
     if not cached:
-        # Try direct fetch if not yet in cache
-        t = yf.Ticker(f"{symbol}.NS")
-        df = t.history(period="5d", interval="15m")
-        if not df.empty:
-            # Find name and sector from registry
-            matched = next((s for s in NIFTY_500_STOCKS if s["symbol"] == symbol), None)
-            name = matched["name"] if matched else symbol
-            sec = matched["sector"] if matched else "NSE"
-            cached = {"df": df, "name": name, "sector": sec}
-            _CACHE["stock_histories"][symbol] = cached
+        # Fetch history on demand.
+        # We intentionally do NOT keep the DataFrame in the global
+        # cache to avoid increasing Render memory usage.
+        try:
+            t = yf.Ticker(f"{symbol}.NS")
+            df = t.history(
+                period="5d",
+                interval="15m"
+            )
+
+            if not df.empty:
+                matched = next(
+                    (
+                        s for s in NIFTY_500_STOCKS
+                        if s["symbol"] == symbol
+                    ),
+                    None
+                )
+
+                name = matched["name"] if matched else symbol
+                sec = matched["sector"] if matched else "NSE"
+
+                cached = {
+                    "df": df,
+                    "name": name,
+                    "sector": sec
+                }
+
+        except Exception as e:
+            print(
+                f"History fetch failed for {symbol}: {e}"
+            )
+            return None
 
     if not cached:
         return None
