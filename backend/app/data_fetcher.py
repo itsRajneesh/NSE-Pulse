@@ -86,7 +86,7 @@ def _download_ticker_chunk(chunk_tickers: List[str]) -> Dict[str, pd.DataFrame]:
             period="5d",
             interval="15m",
             group_by="ticker",
-            threads=True,
+            threads=False,
             progress=False
         )
 
@@ -110,7 +110,7 @@ def _download_ticker_chunk(chunk_tickers: List[str]) -> Dict[str, pd.DataFrame]:
     return chunk_data
 
 
-def fetch_nifty500_parallel(stocks: List[Dict[str, Any]], chunk_size: int = 80, max_workers: int = 6) -> Dict[str, pd.DataFrame]:
+def fetch_nifty500_parallel(stocks: List[Dict[str, Any]], chunk_size: int = 40, max_workers: int = 2) -> Dict[str, pd.DataFrame]:
     """
     High-performance parallel batch downloader for Nifty 500 stocks.
     Chunks the 500 constituents into batches and downloads concurrently.
