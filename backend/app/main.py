@@ -28,12 +28,8 @@ app.add_middleware(
 
 @app.on_event("startup")
 def on_startup():
-    """Pre-warm screener cache in a background thread so port binds immediately."""
-    try:
-        t = threading.Thread(target=run_screener, kwargs={"mode": "live"}, daemon=True)
-        t.start()
-    except Exception as e:
-        print(f"Startup pre-warm notice: {e}")
+    """Keep startup lightweight for low-memory deployment."""
+    pass
 
 
 @app.get("/")
