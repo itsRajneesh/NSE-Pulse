@@ -2,12 +2,12 @@
 
 import React from 'react';
 import { Zap, TrendingDown, X } from 'lucide-react';
-import { StockSignal } from '@/types/screener';
+import { V13Signal } from '@/types/screener';
 
 interface ToastProps {
-  signals: StockSignal[];
+  signals: V13Signal[];
   onDismiss: (symbol: string) => void;
-  onView: (stock: StockSignal) => void;
+  onView: (stock: V13Signal) => void;
 }
 
 export const ToastContainer: React.FC<ToastProps> = ({ signals, onDismiss, onView }) => {
@@ -16,7 +16,7 @@ export const ToastContainer: React.FC<ToastProps> = ({ signals, onDismiss, onVie
   return (
     <div className="fixed bottom-5 right-5 z-50 flex flex-col gap-2 max-w-sm w-full pointer-events-none">
       {signals.map((stock) => {
-        const isBullish = stock.signal_type === 'BULLISH';
+        const isBullish = stock.direction === 'BULLISH';
         return (
           <div
             key={stock.symbol}
@@ -36,15 +36,18 @@ export const ToastContainer: React.FC<ToastProps> = ({ signals, onDismiss, onVie
                   <span className="text-[10px] font-semibold uppercase px-1.5 py-0.2 bg-white/10 rounded">
                     {isBullish ? 'Bullish Breakout' : 'Bearish Breakdown'}
                   </span>
+                  <span className="text-[10px] font-mono text-indigo-300">
+                    {stock.stage} • {stock.score}
+                  </span>
                 </div>
                 <p className="text-xs text-slate-300 mt-0.5">
-                  {stock.rel_vol}x Vol ? Price: ?{stock.ltp} ({stock.price_change_pct >= 0 ? '+' : ''}{stock.price_change_pct}%)
+                  {stock.indicators.rel_vol ?? 'N/A'}x Vol • Price: {stock.price !== null ? `₹${stock.price}` : 'N/A'}
                 </p>
                 <button
                   onClick={() => onView(stock)}
                   className="text-xs font-semibold underline mt-1 text-white hover:text-indigo-300"
                 >
-                  View 15m Chart & Execution Levels ?
+                  View 15m Chart & Execution Levels →
                 </button>
               </div>
             </div>

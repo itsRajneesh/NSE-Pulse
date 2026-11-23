@@ -1,8 +1,3 @@
-"""
-High-Performance NSE Nifty 500 Data Fetcher:
-Implements multi-threaded parallel chunk batching via yfinance,
-in-memory TTL caching, and multi-criteria hierarchical ranking.
-"""
 import time
 import threading
 import math
@@ -22,8 +17,17 @@ from .models import (
     StockSignal, SignalType, ScreenerResponse, MarketStatus,
     Candle, StockHistoryResponse, TradeParameters, TechnicalIndicators
 )
+from .nse_calendar import is_nse_holiday, get_next_trading_day, get_upcoming_holiday_notice
 from .screener import evaluate_stock_signal
 from .indicators import calculate_ema, calculate_rsi
+from .prediction_engine import evaluate_prediction_setup
+from .market_context import build_live_context_cache
+from .paper_trading import (
+    record_prediction,
+    qualifies_for_v12,
+    is_duplicate_signal,
+    update_open_trade_outcome,
+)
 
 # Cache storage
 _CACHE = {
@@ -39,30 +43,45 @@ def get_ist_now() -> datetime:
     return datetime.now(IST_TZ)
 
 
-def get_market_status(forced_mode: Optional[str] = None) -> MarketStatus:
+def get_market_status(forced_mode: Optional[str] = None, now_dt: Optional[datetime] = None) -> MarketStatus:
     """
     Determines whether the NSE market is currently open or closed.
     NSE Regular Hours: 09:15 AM - 03:30 PM IST, Monday (0) to Friday (4).
     """
-    ist_now = get_ist_now()
+    ist_now = now_dt or get_ist_now()
     current_time = ist_now.time()
     weekday = ist_now.weekday()
 
     is_weekday = 0 <= weekday <= 4
     is_trading_hours = MARKET_OPEN_TIME <= current_time <= MARKET_CLOSE_TIME
-    is_open = is_weekday and is_trading_hours
+
+    # Check official NSE Trading Holiday
+    is_holiday, holiday_name = is_nse_holiday(ist_now)
+    _, next_trading_day_str = get_next_trading_day(ist_now)
+    upcoming_notice_dict = get_upcoming_holiday_notice(ist_now)
+    next_holiday_notice_str = (
+        f"Upcoming Holiday: {upcoming_notice_dict['holiday_name']} on {upcoming_notice_dict['target_formatted']}"
+        if upcoming_notice_dict else None
+    )
 
     last_date = _CACHE.get("last_session_date") or ist_now.strftime("%d %b %Y")
 
-    if is_open:
-        msg = "NSE Market Live (Trading Active)"
+    if is_holiday:
+        is_open = False
+        msg = f"Market Closed (NSE Holiday: {holiday_name}) - Real Last Session Data ({last_date})"
     else:
-        if not is_weekday:
-            msg = f"Market Closed (Weekend) - Real Last Session Data ({last_date})"
-        elif current_time < MARKET_OPEN_TIME:
-            msg = f"Pre-Market (Opens 09:15 AM) - Real Last Session Data ({last_date})"
+        is_open = is_weekday and is_trading_hours
+        if is_open:
+            msg = "NSE Market Live (Trading Active)"
         else:
-            msg = f"Market Closed - Real Last Session Data ({last_date})"
+            if not is_weekday:
+                msg = f"Market Closed (Weekend) - Real Last Session Data ({last_date})"
+            elif current_time < MARKET_OPEN_TIME:
+                msg = f"Pre-Market (Opens 09:15 AM) - Real Last Session Data ({last_date})"
+            elif dtime(15, 30) < current_time <= dtime(15, 36):
+                msg = f"Settling Final Market Close (15:30 Bar 25 in progress...) - {last_date}"
+            else:
+                msg = f"Market Closed - Real Last Session Data ({last_date})"
 
     time_str = ist_now.strftime("%d %b %Y, %I:%M:%S %p IST")
     mode = forced_mode if forced_mode else "live"
@@ -71,7 +90,11 @@ def get_market_status(forced_mode: Optional[str] = None) -> MarketStatus:
         is_open=is_open,
         session_message=msg,
         market_time_ist=time_str,
-        mode=mode
+        mode=mode,
+        is_holiday=is_holiday,
+        holiday_name=holiday_name,
+        next_holiday_notice=next_holiday_notice_str,
+        next_trading_session=next_trading_day_str,
     )
 
 
@@ -240,6 +263,20 @@ def run_screener(
         # -----------------------------------------------------
         stocks_data: List[StockSignal] = []
         last_session_str = ""
+        
+        # -----------------------------------------------------
+        # V12 MARKET + SECTOR CONTEXT
+        # Build once and reuse across all 500 stocks.
+        # -----------------------------------------------------
+        sectors = list(
+            {
+                stock["sector"]
+                for stock in NIFTY_500_STOCKS
+                if stock.get("sector")
+            }
+        )
+
+        prediction_context_cache = build_live_context_cache(sectors)
 
         print(
             f"Starting low-memory screener scan "
@@ -319,6 +356,53 @@ def run_screener(
                 )
 
                 stocks_data.append(signal)
+
+                # -------------------------------------------------
+                # V12 PAPER / SHADOW TRADING
+                # Reuse the SAME 15m DataFrame.
+                # No second Yahoo download.
+                # -------------------------------------------------
+                try:
+                    prediction_context = prediction_context_cache.get(sec)
+
+                    setup = evaluate_prediction_setup(
+                        symbol=sym,
+                        name=name,
+                        sector=sec,
+                        df=df_15m,
+                        context=prediction_context,
+                    )
+
+                    closed_count = update_open_trade_outcome(
+                        symbol=sym,
+                        df_15m=df_15m,
+                    )
+
+                    if closed_count > 0:
+                        print(
+                            f"V12 PAPER OUTCOME: "
+                            f"{closed_count} trade(s) closed | {sym}"
+                        )
+
+                    if (
+                        setup is not None
+                        and qualifies_for_v12(setup)
+                        and not is_duplicate_signal(setup)
+                    ):
+                        signal_id = record_prediction(setup)
+
+                        print(
+                            f"V12 PAPER SIGNAL: {signal_id} | "
+                            f"{setup.symbol} | "
+                            f"Score {setup.confidence_score:.1f} | "
+                            f"{setup.last_updated}"
+                        )
+
+                except Exception as prediction_error:
+                    print(
+                        f"V12 evaluation failed for {sym}: "
+                        f"{prediction_error}"
+                    )
 
             except Exception as e:
                 print(
@@ -459,31 +543,43 @@ def get_stock_history_and_indicators(symbol: str) -> Optional[StockHistoryRespon
     Supports any of the 500 stocks.
     """
     symbol = symbol.upper().replace(".NS", "")
+    matched = next(
+        (
+            s for s in NIFTY_500_STOCKS
+            if s["symbol"] == symbol
+        ),
+        None
+    )
+    yf_ticker = matched.get("yf_ticker", f"{symbol}.NS") if matched else f"{symbol}.NS"
+    name = matched["name"] if matched else symbol
+    sec = matched["sector"] if matched else "NSE"
+
     cached = _CACHE["stock_histories"].get(symbol)
 
+    # 1. Primary priority: Check V13 Scanner in-memory cache (0ms instant response)
     if not cached:
-        # Fetch history on demand.
-        # We intentionally do NOT keep the DataFrame in the global
-        # cache to avoid increasing Render memory usage.
         try:
-            t = yf.Ticker(f"{symbol}.NS")
+            from .v13_scanner import get_v13_cached_df
+            v13_df = get_v13_cached_df(yf_ticker)
+            if v13_df is not None and not v13_df.empty:
+                cached = {
+                    "df": v13_df,
+                    "name": name,
+                    "sector": sec
+                }
+        except Exception:
+            pass
+
+    # 2. Secondary fallback: Fetch on demand via yfinance if not in V13 cache
+    if not cached:
+        try:
+            t = yf.Ticker(yf_ticker)
             df = t.history(
                 period="5d",
                 interval="15m"
             )
 
             if not df.empty:
-                matched = next(
-                    (
-                        s for s in NIFTY_500_STOCKS
-                        if s["symbol"] == symbol
-                    ),
-                    None
-                )
-
-                name = matched["name"] if matched else symbol
-                sec = matched["sector"] if matched else "NSE"
-
                 cached = {
                     "df": df,
                     "name": name,

@@ -6,12 +6,23 @@ import {
   Clock, 
   Volume2, 
   VolumeX, 
-  RefreshCw 
+  RefreshCw,
+  Zap,
+  Target
 } from 'lucide-react';
+
 import { MarketStatus } from '@/types/screener';
+import { cn } from '@/lib/utils';
+
+export interface NiftySpotSnapshot {
+  spot_ltp: number;
+  spot_change: number;
+  spot_change_pct: number;
+  feed_mode?: string;
+}
 
 interface NavbarProps {
-  marketStatus: MarketStatus | null;
+  marketStatus: MarketStatus | 'LIVE' | 'CLOSED' | null;
   mode: 'live' | 'simulation' | 'auto';
   onModeChange: (mode: 'live' | 'simulation' | 'auto') => void;
   audioEnabled: boolean;
@@ -19,6 +30,10 @@ interface NavbarProps {
   onRefresh: () => void;
   isRefreshing: boolean;
   lastRefreshedTime: string;
+  activeTab?: 'V13_UNIVERSE' | 'LIVE_MOVERS' | 'MARKET_PULSE' | 'NIFTY_OPTIONS';
+  onTabChange?: (tab: 'V13_UNIVERSE' | 'LIVE_MOVERS' | 'MARKET_PULSE' | 'NIFTY_OPTIONS') => void;
+  niftySpot?: NiftySpotSnapshot | null;
+  onSelectNiftyOptions?: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -30,6 +45,10 @@ export const Navbar: React.FC<NavbarProps> = ({
   onRefresh,
   isRefreshing,
   lastRefreshedTime,
+  activeTab = 'V13_UNIVERSE',
+  onTabChange,
+  niftySpot,
+  onSelectNiftyOptions,
 }) => {
   const [istTime, setIstTime] = useState<string>('');
 
@@ -50,7 +69,9 @@ export const Navbar: React.FC<NavbarProps> = ({
     return () => clearInterval(interval);
   }, []);
 
-  const isOpen = marketStatus?.is_open ?? false;
+  const isOpen = marketStatus === 'LIVE' || (typeof marketStatus === 'object' && marketStatus?.is_open === true);
+  const isHoliday = typeof marketStatus === 'object' && Boolean(marketStatus?.is_holiday);
+  const holidayName = typeof marketStatus === 'object' ? marketStatus?.holiday_name : null;
 
   return (
     <header className="border-b border-white/10 bg-dark-850/90 backdrop-blur-md sticky top-0 z-40">
@@ -58,64 +79,96 @@ export const Navbar: React.FC<NavbarProps> = ({
         <div className="flex items-center justify-between h-16 gap-4">
           
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 via-indigo-600 to-purple-600 flex items-center justify-center shadow-lg shadow-indigo-500/20 border border-white/20">
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-blue-500 via-indigo-600 to-purple-600 flex items-center justify-center shadow-lg shadow-indigo-500/20 border border-white/20 shrink-0">
               <TrendingUp className="w-5 h-5 text-white" />
             </div>
-            <div>
+            <div className="min-w-0">
               <div className="flex items-center gap-2">
-                <span className="font-bold text-lg tracking-tight text-white flex items-center gap-1.5">
+                <span className="font-bold text-base sm:text-lg tracking-tight text-white whitespace-nowrap">
                   NSE Pulse
                 </span>
-                <span className="px-1.5 py-0.5 text-[10px] font-semibold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 rounded uppercase tracking-wider">
-                  Nifty 500 ? 15m
+                <span className="px-1.5 py-0.5 text-[9px] font-semibold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 rounded uppercase tracking-wider whitespace-nowrap">
+                  1000CR • 15M
+                </span>
+                <span className="px-1.5 py-0.5 text-[9px] font-medium bg-white/5 text-slate-400 border border-white/10 rounded uppercase tracking-wider hidden sm:inline-block">
+                  LTP: 15M CLOSE
                 </span>
               </div>
-              <p className="text-xs text-slate-400 hidden sm:block">
-                Quantitative Momentum, RelVol & 20 EMA Breakout Engine
+              <p className="text-xs text-slate-400 hidden md:block">
+                Quantitative Momentum, RelVol &amp; 20 EMA Breakout Engine
               </p>
             </div>
           </div>
 
           <div className="hidden md:flex items-center gap-3 bg-dark-800/80 px-3.5 py-1.5 rounded-full border border-white/5 text-xs">
             <div className="flex items-center gap-2">
-              <span className={`w-2 h-2 rounded-full ${isOpen ? 'bg-emerald-500 animate-ping' : 'bg-amber-500'}`} />
-              <span className={`font-medium ${isOpen ? 'text-emerald-400' : 'text-amber-400'}`}>
-                {isOpen ? 'NSE Market Live' : 'Market Closed'}
+              <span className={`w-2 h-2 rounded-full ${
+                isHoliday 
+                  ? 'bg-rose-500 animate-pulse' 
+                  : isOpen 
+                    ? 'bg-emerald-500 animate-ping' 
+                    : 'bg-amber-500'
+              }`} />
+              <span className={`font-medium ${
+                isHoliday 
+                  ? 'text-rose-400 font-semibold' 
+                  : isOpen 
+                    ? 'text-emerald-400' 
+                    : 'text-amber-400'
+              }`}>
+                {isHoliday 
+                  ? `Market Closed (${holidayName || 'NSE Holiday'})` 
+                  : isOpen 
+                    ? 'NSE Market Live' 
+                    : 'Market Closed'}
               </span>
             </div>
             <div className="w-px h-3.5 bg-white/15" />
             <div className="flex items-center gap-1.5 text-slate-300 font-mono">
               <Clock className="w-3.5 h-3.5 text-slate-400" />
               <span>{istTime || 'Loading IST...'}</span>
+            <div className="text-slate-400 font-mono whitespace-nowrap" title="Last completed V13 scan">
+              Updated {lastRefreshedTime ? new Date(lastRefreshedTime).toLocaleTimeString('en-IN', { timeZone: 'Asia/Kolkata', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }) + ' IST' : '—'}
+            </div>
             </div>
           </div>
 
           <div className="flex items-center gap-2.5">
-            <div className="bg-dark-800 p-0.5 rounded-lg border border-white/10 hidden sm:flex">
+            {/* Live Fyers NIFTY 50 Index Ticker Widget */}
+            {niftySpot && niftySpot.spot_ltp > 0 ? (
               <button
-                onClick={() => onModeChange('live')}
-                className={`px-3 py-1 text-xs font-medium rounded-md transition-all flex items-center gap-1.5 ${
-                  mode === 'live'
-                    ? 'bg-emerald-600 text-white shadow-sm'
-                    : 'text-slate-400 hover:text-white'
-                }`}
-                title="Real Live NSE Market Prices from Yahoo Finance / TradingView"
+                onClick={onSelectNiftyOptions}
+                className="h-8 px-2.5 rounded-lg bg-dark-800/90 border border-white/10 hover:border-cyan-500/40 hover:bg-dark-750 transition-all flex items-center gap-1.5 font-mono select-none whitespace-nowrap shrink-0 shadow-sm"
+                title="Fyers Real-Time Nifty 50 Index (Click to open NIFTY Options Quant Panel)"
               >
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                <span>Live NSE Data</span>
+                <span className="relative flex h-1.5 w-1.5 shrink-0">
+                  <span
+                    className={cn(
+                      "animate-ping absolute inline-flex h-full w-full rounded-full opacity-75",
+                      niftySpot.feed_mode === 'FULL' ? 'bg-emerald-400' : 'bg-amber-400'
+                    )}
+                  />
+                  <span
+                    className={cn(
+                      "relative inline-flex rounded-full h-1.5 w-1.5",
+                      niftySpot.feed_mode === 'FULL' ? 'bg-emerald-500' : 'bg-amber-500'
+                    )}
+                  />
+                </span>
+                <span className="text-[10px] font-bold text-cyan-300 tracking-tight whitespace-nowrap">NIFTY 50</span>
+                <span className="text-xs font-bold text-white font-mono whitespace-nowrap">
+                  ₹{niftySpot.spot_ltp.toLocaleString('en-IN', { minimumFractionDigits: 1, maximumFractionDigits: 2 })}
+                </span>
+                <span
+                  className={cn(
+                    "text-[10px] font-medium font-mono whitespace-nowrap",
+                    niftySpot.spot_change >= 0 ? "text-emerald-400" : "text-rose-400"
+                  )}
+                >
+                  {niftySpot.spot_change >= 0 ? '+' : ''}{niftySpot.spot_change.toFixed(1)} ({niftySpot.spot_change_pct >= 0 ? '+' : ''}{niftySpot.spot_change_pct.toFixed(2)}%)
+                </span>
               </button>
-              <button
-                onClick={() => onModeChange('simulation')}
-                className={`px-2.5 py-1 text-xs font-medium rounded-md transition-all ${
-                  mode === 'simulation'
-                    ? 'bg-indigo-600 text-white shadow-sm'
-                    : 'text-slate-400 hover:text-white'
-                }`}
-                title="Synthetic Breakout Sandbox"
-              >
-                Demo Sandbox
-              </button>
-            </div>
+            ) : null}
 
             <button
               onClick={onToggleAudio}
@@ -142,19 +195,9 @@ export const Navbar: React.FC<NavbarProps> = ({
 
         </div>
 
-        {marketStatus && !marketStatus.is_open && (
-          <div className="py-1.5 px-3 mb-2 bg-amber-500/10 border border-amber-500/20 rounded-md flex items-center justify-between text-xs text-amber-300">
-            <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-amber-400" />
-              <span>{marketStatus.session_message}</span>
-            </div>
-            <span className="text-amber-400/80 text-[11px] font-mono">
-              Last Refreshed: {lastRefreshedTime || marketStatus.market_time_ist}
-            </span>
-          </div>
-        )}
 
       </div>
     </header>
   );
 };
+

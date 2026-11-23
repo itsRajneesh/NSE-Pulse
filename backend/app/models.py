@@ -64,6 +64,10 @@ class MarketStatus(BaseModel):
     session_message: str
     market_time_ist: str
     mode: str = "live"  # 'live' or 'simulation'
+    is_holiday: bool = False
+    holiday_name: Optional[str] = None
+    next_holiday_notice: Optional[str] = None
+    next_trading_session: Optional[str] = None
 
 
 class ScreenerResponse(BaseModel):
@@ -89,3 +93,47 @@ class StockHistoryResponse(BaseModel):
     rsi_series: List[Dict[str, Any]]
     trade_params: Optional[TradeParameters] = None
     signal_type: SignalType = SignalType.NEUTRAL
+
+class PredictionSetup(BaseModel):
+    symbol: str
+    name: str
+    sector: str
+
+    signal_type: SignalType
+    setup_type: str
+
+    ltp: float
+    entry_price: float
+    stop_loss: float
+    target_1: float
+    target_2: float
+
+    risk_amount: float
+    risk_reward_ratio_t1: str
+    risk_reward_ratio_t2: str
+
+    confidence_score: float
+
+    ema20: float
+    rsi14: float
+    rel_vol: float
+    vwap: float
+    atr14: float
+
+    opening_range_high: float
+    opening_range_low: float
+    previous_day_high: float
+    previous_day_low: float
+
+    reasons: List[str]
+    last_updated: str
+
+
+class PredictionResponse(BaseModel):
+    market_status: MarketStatus
+    scan_time: str
+
+    total_scanned: int
+    setups_found: int
+
+    top_setups: List[PredictionSetup]

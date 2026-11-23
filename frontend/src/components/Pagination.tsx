@@ -48,7 +48,7 @@ export const Pagination: React.FC<PaginationProps> = ({
       {/* Left: Summary & Page Size Selector */}
       <div className="flex items-center gap-3 text-slate-400">
         <span>
-          Showing <strong className="text-white font-mono">{startIdx}</strong>?<strong className="text-white font-mono">{endIdx}</strong> of <strong className="text-white font-mono">{totalItems}</strong> stocks
+          Showing <strong className="text-white font-mono">{startIdx}–{endIdx}</strong> of <strong className="text-white font-mono">{totalItems}</strong> stocks
         </span>
 
         <div className="flex items-center gap-1.5 pl-3 border-l border-white/10">

@@ -1,0 +1,10 @@
+{
+  "rule": "Score >= 77",
+  "cutoff": "2026-09-10 22:15:00",
+  "historical_rows": 123,
+  "historical_total_r": -18.340954441577008,
+  "historical_score_ge_77_rows": 17,
+  "historical_score_ge_77_total_r": 8.838079567015813,
+  "future_rows_at_creation": 0,
+  "status": "FROZEN_OOS_RULE"
+}

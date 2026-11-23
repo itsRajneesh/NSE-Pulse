@@ -1,3 +1,4 @@
+# Existing rules
 .venv/
 __pycache__/
 *.pyc
@@ -6,3 +7,38 @@ __pycache__/
 node_modules/
 .next/
 .git/
+
+# --- Secrets & Broker Tokens (NEVER PUSH) ---
+backend/app/data/nifty_options_quant/fyers_config.json
+*fyers_config*.json
+
+# --- Large Cache & Build Artifacts (>100MB GitHub block se bachne ke liye) ---
+*.pkl
+frontend/tsconfig.tsbuildinfo
+
+# --- Backup & Temporary Junk Files ---
+*.bak
+*.bak_*
+*.v12_backup
+*_backup.py
+*_diagnostic_tmp.py
+*_before_recent_fix.py
+backend/scan_latest.json
+backend/scan_test.json
+current_movers.json
+backend/paper_trading_signals.csv
+
+# --- Runtime Logs / Audit / Daily State (Agar GitHub par sirf code chahiye) ---
+backend/app/data/telegram notification audit/
+backend/app/data/telegram notification history/
+backend/app/data/yahoo_sync_ledgers/
+backend/app/data/active performance live eod/
+backend/app/data/eod active/
+backend/app/data/conviction_audit_ledgers/
+backend/app/data/EOD Snapshot history/
+backend/app/data/EOD performance history/
+backend/app/data/shadow_portfolio/
+backend/app/data/shadow_portfolio_history/
+backend/app/data/weekly performance history/
+# Niche wali line tabhi rakho agar daily paper ledgers GitHub pe nahi bhejne:
+backend/app/data/nifty_options_quant/ledger_*.json

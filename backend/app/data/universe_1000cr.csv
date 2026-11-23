@@ -1,0 +1,1469 @@
+symbol,yf_ticker,name,sector,base_price,market_cap_cr
+RELIANCE,RELIANCE.NS,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,1226.4,1659622.48
+BHARTIARTL,BHARTIARTL.NS,Bharti Airtel Ltd.,Telecommunication,1893.3,1181165.17
+HDFCBANK,HDFCBANK.NS,HDFC Bank Ltd.,Financial Services,731.0,1126951.99
+ICICIBANK,ICICIBANK.NS,ICICI Bank Ltd.,Financial Services,1338.9,961031.29
+SBIN,SBIN.NS,State Bank of India,Financial Services,996.2,919554.14
+TCS,TCS.NS,Tata Consultancy Services Ltd.,Information Technology,2105.0,761607.42
+BAJFINANCE,BAJFINANCE.NS,Bajaj Finance Ltd.,Financial Services,1040.3,647161.62
+LT,LT.NS,Larsen & Toubro Ltd.,Construction,3885.0,534523.97
+LICI,LICI.NS,Life Insurance Corporation of India,Financial Services,407.7,515740.33
+HINDUNILVR,HINDUNILVR.NS,Hindustan Unilever Ltd.,Fast Moving Consumer Goods,1932.0,453941.03
+SUNPHARMA,SUNPHARMA.NS,Sun Pharmaceutical Industries Ltd.,Healthcare,1837.3,440829.83
+INFY,INFY.NS,Infosys Ltd.,Information Technology,1051.4,425853.13
+TITAN,TITAN.NS,Titan Company Ltd.,Consumer Durables,4798.5,425776.82
+ADANIPORTS,ADANIPORTS.NS,Adani Ports and Special Economic Zone Ltd.,Services,1824.0,420242.14
+KOTAKBANK,KOTAKBANK.NS,Kotak Mahindra Bank Ltd.,Financial Services,412.5,410340.81
+ADANIENT,ADANIENT.NS,Adani Enterprises Ltd.,Metals & Mining,3020.0,408824.23
+ADANIPOWER,ADANIPOWER.NS,Adani Power Ltd.,Power,206.6,398421.8
+AXISBANK,AXISBANK.NS,Axis Bank Ltd.,Financial Services,1257.0,391366.25
+MARUTI,MARUTI.NS,Maruti Suzuki India Ltd.,Automobile and Auto Components,12103.0,380521.44
+M&M,M&M.NS,Mahindra & Mahindra Ltd.,Automobile and Auto Components,3052.0,366472.64
+HCLTECH,HCLTECH.NS,HCL Technologies Ltd.,Information Technology,1249.3,338031.45
+ITC,ITC.NS,ITC Ltd.,Fast Moving Consumer Goods,262.3,328675.45
+ULTRACEMCO,ULTRACEMCO.NS,UltraTech Cement Ltd.,Construction Materials,11014.0,323998.44
+HAL,HAL.NS,Hindustan Aeronautics Ltd.,Capital Goods,4800.3,321032.05
+NTPC,NTPC.NS,NTPC Ltd.,Power,323.65,313832.59
+BAJAJ-AUTO,BAJAJ-AUTO.NS,Bajaj Auto Ltd.,Automobile and Auto Components,11414.0,313661.1
+JSWSTEEL,JSWSTEEL.NS,JSW Steel Ltd.,Metals & Mining,1275.6,311371.18
+ETERNAL,ETERNAL.NS,Eternal Ltd.,Consumer Services,326.85,300878.28
+BAJAJFINSV,BAJAJFINSV.NS,Bajaj Finserv Ltd.,Financial Services,1852.5,296445.34
+ONGC,ONGC.NS,Oil & Natural Gas Corporation Ltd.,Oil Gas & Consumable Fuels,232.8,292868.9
+BEL,BEL.NS,Bharat Electronics Ltd.,Capital Goods,393.3,287493.59
+NESTLEIND,NESTLEIND.NS,Nestle India Ltd.,Fast Moving Consumer Goods,1372.4,264641.86
+COALINDIA,COALINDIA.NS,Coal India Ltd.,Oil Gas & Consumable Fuels,409.9,252610.23
+HINDZINC,HINDZINC.NS,Hindustan Zinc Ltd.,Metals & Mining,596.0,251829.01
+POWERGRID,POWERGRID.NS,Power Grid Corporation of India Ltd.,Power,270.3,251395.31
+DIVISLAB,DIVISLAB.NS,Divi's Laboratories Ltd.,Healthcare,9375.0,248876.79
+DMART,DMART.NS,Avenue Supermarts Ltd.,Consumer Services,3749.9,244585.71
+SHRIRAMFIN,SHRIRAMFIN.NS,Shriram Finance Ltd.,Financial Services,1010.0,237657.55
+ASIANPAINT,ASIANPAINT.NS,Asian Paints Ltd.,Consumer Durables,2451.3,234992.48
+TATASTEEL,TATASTEEL.NS,Tata Steel Ltd.,Metals & Mining,185.54,231448.45
+ADANIGREEN,ADANIGREEN.NS,Adani Green Energy Ltd.,Power,1334.5,219815.66
+HINDALCO,HINDALCO.NS,Hindalco Industries Ltd.,Metals & Mining,986.5,218986.93
+GRASIM,GRASIM.NS,Grasim Industries Ltd.,Construction Materials,3209.2,217664.87
+EICHERMOT,EICHERMOT.NS,Eicher Motors Ltd.,Automobile and Auto Components,7516.0,206330.51
+TVSMOTOR,TVSMOTOR.NS,TVS Motor Company Ltd.,Automobile and Auto Components,4171.3,198231.12
+IOC,IOC.NS,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,137.0,193460.97
+INDIGO,INDIGO.NS,InterGlobe Aviation Ltd.,Services,4920.0,190239.97
+TORNTPHARM,TORNTPHARM.NS,Torrent Pharmaceuticals Ltd.,Healthcare,4840.0,184098.04
+HYUNDAI,HYUNDAI.NS,Hyundai Motor India Ltd.,Automobile and Auto Components,2208.8,179474.08
+ADANIENSOL,ADANIENSOL.NS,Adani Energy Solutions Ltd.,Power,1436.1,175628.49
+SBILIFE,SBILIFE.NS,SBI Life Insurance Company Ltd.,Financial Services,1731.0,173689.42
+MOTHERSON,MOTHERSON.NS,Samvardhana Motherson International Ltd.,Automobile and Auto Components,162.57,171206.23
+SOLARINDS,SOLARINDS.NS,Solar Industries India Ltd.,Chemicals,18555.0,167904.3
+WIPRO,WIPRO.NS,Wipro Ltd.,Information Technology,166.83,165050.6
+TMCV,TMCV.NS,Tata Motors Ltd.,Capital Goods,442.9,163110.74
+VAML,VAML.NS,Vedanta Aluminium Metal Limited,Diversified,416.5,162608.09
+PIDILITIND,PIDILITIND.NS,Pidilite Industries Ltd.,Chemicals,1572.1,160124.7
+DLF,DLF.NS,DLF Ltd.,Realty,644.35,159496.7
+ICICIAMC,ICICIAMC.NS,ICICI Prudential Asset Management Company Ltd.,Financial Services,3206.7,158493.88
+ABB,ABB.NS,ABB India Ltd.,Capital Goods,7270.5,154067.98
+CHOLAFIN,CHOLAFIN.NS,Cholamandalam Investment and Finance Company Ltd.,Financial Services,1800.0,153722.35
+BHEL,BHEL.NS,Bharat Heavy Electricals Ltd.,Capital Goods,439.9,153175.96
+JIOFIN,JIOFIN.NS,Jio Financial Services Ltd.,Financial Services,229.89,151799.62
+IDEA,IDEA.NS,Vodafone Idea Ltd.,Telecommunication,13.92,150813.51
+TRENT,TRENT.NS,Trent Ltd.,Consumer Services,2824.0,150584.8
+TATACAP,TATACAP.NS,Tata Capital Ltd.,Financial Services,351.35,148153.5
+POWERINDIA,POWERINDIA.NS,Hitachi Energy India Ltd.,Capital Goods,32700.0,145751.63
+VBL,VBL.NS,Varun Beverages Ltd.,Fast Moving Consumer Goods,421.95,142724.37
+CUMMINSIND,CUMMINSIND.NS,Cummins India Ltd.,Capital Goods,5099.5,141358.14
+CGPOWER,CGPOWER.NS,CG Power and Industrial Solutions Ltd.,Capital Goods,892.0,140530.15
+SIEMENS,SIEMENS.NS,Siemens Ltd.,Capital Goods,3913.9,139382.0
+BOSCHLTD,BOSCHLTD.NS,Bosch Ltd.,Automobile and Auto Components,47000.0,138631.67
+TECHM,TECHM.NS,Tech Mahindra Ltd.,Information Technology,1537.1,136175.29
+UNIONBANK,UNIONBANK.NS,Union Bank of India,Financial Services,176.56,134778.94
+PNB,PNB.NS,Punjab National Bank,Financial Services,117.27,134777.74
+BPCL,BPCL.NS,Bharat Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,314.0,134159.17
+BSE,BSE.NS,BSE Ltd.,Financial Services,3266.4,132658.0
+APOLLOHOSP,APOLLOHOSP.NS,Apollo Hospitals Enterprise Ltd.,Healthcare,8944.5,128608.19
+LTM,LTM.NS,LTM Ltd.,Information Technology,4275.1,126740.14
+POLYCAB,POLYCAB.NS,Polycab India Ltd.,Capital Goods,8400.0,126533.44
+BAJAJHLDNG,BAJAJHLDNG.NS,Bajaj Holdings & Investment Ltd.,Financial Services,11282.0,125561.34
+LENSKART,LENSKART.NS,Lenskart Solutions Ltd.,Consumer Services,707.2,122447.45
+BANKBARODA,BANKBARODA.NS,Bank of Baroda,Financial Services,234.94,121495.98
+BRITANNIA,BRITANNIA.NS,Britannia Industries Ltd.,Fast Moving Consumer Goods,4998.0,120385.97
+TATAPOWER,TATAPOWER.NS,Tata Power Co. Ltd.,Power,374.8,119761.32
+HDFCLIFE,HDFCLIFE.NS,HDFC Life Insurance Company Ltd.,Financial Services,550.95,119669.05
+GROWW,GROWW.NS,Billionbrains Garage Ventures Ltd.,Financial Services,191.76,118729.68
+PAYTM,PAYTM.NS,One 97 Communications Ltd.,Financial Services,1849.9,118603.22
+ZYDUSLIFE,ZYDUSLIFE.NS,Zydus Lifesciences Ltd.,Healthcare,1160.0,115710.44
+LGEINDIA,LGEINDIA.NS,LG Electronics India Ltd.,Consumer Durables,1696.9,115180.89
+ENRIN,ENRIN.NS,Siemens Energy India Ltd.,Capital Goods,3228.0,114955.7
+LODHA,LODHA.NS,Lodha Developers Ltd.,Realty,1144.7,114381.08
+GAIL,GAIL.NS,GAIL (India) Ltd.,Oil Gas & Consumable Fuels,173.9,114340.63
+SBIFUNDS,SBIFUNDS.NS,SBI Funds Management Limited,Diversified,561.35,114337.31
+MUTHOOTFIN,MUTHOOTFIN.NS,Muthoot Finance Ltd.,Financial Services,2841.1,114061.21
+JINDALSTEL,JINDALSTEL.NS,Jindal Steel Ltd.,Metals & Mining,1119.5,113907.79
+INDIANB,INDIANB.NS,Indian Bank,Financial Services,839.8,113118.03
+PFC,PFC.NS,Power Finance Corporation Ltd.,Financial Services,342.55,113044.98
+CIPLA,CIPLA.NS,Cipla Ltd.,Healthcare,1394.5,112655.86
+CANBK,CANBK.NS,Canara Bank,Financial Services,123.78,112276.52
+GVT&D,GVT&D.NS,GE Vernova T&D India Ltd.,Capital Goods,4385.0,112276.41
+ABCAPITAL,ABCAPITAL.NS,Aditya Birla Capital Ltd.,Financial Services,410.05,112260.49
+TMPV,TMPV.NS,Tata Motors Passenger Vehicles Ltd.,Automobile and Auto Components,303.8,111886.24
+IRFC,IRFC.NS,Indian Railway Finance Corporation Ltd.,Financial Services,81.5,106508.32
+INDHOTEL,INDHOTEL.NS,Indian Hotels Co. Ltd.,Consumer Services,732.75,106000.03
+HEROMOTOCO,HEROMOTOCO.NS,Hero MotoCorp Ltd.,Automobile and Auto Components,5285.5,105784.63
+LAURUSLABS,LAURUSLABS.NS,Laurus Labs Ltd.,Healthcare,1954.0,105577.01
+GMRAIRPORT,GMRAIRPORT.NS,GMR Airports Ltd.,Services,99.3,104850.63
+VEDL,VEDL.NS,Vedanta Ltd.,Metals & Mining,267.6,104492.5
+MARICO,MARICO.NS,Marico Ltd.,Fast Moving Consumer Goods,803.9,104344.38
+HDFCAMC,HDFCAMC.NS,HDFC Asset Management Company Ltd.,Financial Services,2425.0,103986.55
+OFSS,OFSS.NS,Oracle Financial Services Software Ltd.,Information Technology,11896.0,103594.09
+LLOYDSME,LLOYDSME.NS,Lloyds Metals And Energy Ltd.,Metals & Mining,1826.7,102768.25
+MAXHEALTH,MAXHEALTH.NS,Max Healthcare Institute Ltd.,Healthcare,1049.3,102129.45
+AUROPHARMA,AUROPHARMA.NS,Aurobindo Pharma Ltd.,Healthcare,1734.0,99770.53
+MEESHO,MEESHO.NS,Meesho Ltd.,Consumer Services,214.44,99204.68
+INDUSTOWER,INDUSTOWER.NS,Indus Towers Ltd.,Telecommunication,375.9,99132.44
+INDIAMART,INDIAMART.NS,Indiamart Intermesh Ltd.,Consumer Services,1646.3,99012.93
+DRREDDY,DRREDDY.NS,Dr. Reddy's Laboratories Ltd.,Healthcare,1185.0,98709.15
+TATACONSUM,TATACONSUM.NS,Tata Consumer Products Ltd.,Fast Moving Consumer Goods,996.0,98573.13
+UNITDSPR,UNITDSPR.NS,United Spirits Ltd.,Fast Moving Consumer Goods,1371.0,97348.6
+MANIPALHOS,MANIPALHOS.NS,Manipal Health Enterprises Limited,Diversified,738.95,97199.8
+AMBUJACEM,AMBUJACEM.NS,Ambuja Cements Ltd.,Construction Materials,388.3,96485.45
+JSWENERGY,JSWENERGY.NS,JSW Energy Ltd.,Power,526.0,96382.82
+ASHOKLEY,ASHOKLEY.NS,Ashok Leyland Ltd.,Capital Goods,163.0,95743.83
+LUPIN,LUPIN.NS,Lupin Ltd.,Healthcare,2083.0,95248.48
+NYKAA,NYKAA.NS,FSN E-Commerce Ventures Ltd.,Consumer Services,332.15,95169.96
+MANKIND,MANKIND.NS,Mankind Pharma Ltd.,Healthcare,2300.7,95029.28
+BHARATFORG,BHARATFORG.NS,Bharat Forge Ltd.,Automobile and Auto Components,1962.1,93805.77
+MAZDOCK,MAZDOCK.NS,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,2280.0,91970.64
+GODREJCP,GODREJCP.NS,Godrej Consumer Products Ltd.,Fast Moving Consumer Goods,880.0,90050.84
+IDBI,IDBI.NS,IDBI Bank Ltd.,Financial Services,83.06,89309.45
+PERSISTENT,PERSISTENT.NS,Persistent Systems Ltd.,Information Technology,5416.0,84614.73
+MCX,MCX.NS,Multi Commodity Exchange of India Ltd.,Financial Services,3260.0,82971.59
+FEDERALBNK,FEDERALBNK.NS,Federal Bank Ltd.,Financial Services,332.75,82196.39
+RECLTD,RECLTD.NS,REC Ltd.,Financial Services,312.0,82156.59
+COFORGE,COFORGE.NS,Coforge Ltd.,Information Technology,1841.0,81552.27
+SHREECEM,SHREECEM.NS,Shree Cement Ltd.,Construction Materials,22600.0,81542.49
+NAUKRI,NAUKRI.NS,Info Edge (India) Ltd.,Consumer Services,1251.2,81044.92
+JSWINFRA,JSWINFRA.NS,JSW Infrastructure Ltd.,Services,348.25,80625.51
+POLICYBZR,POLICYBZR.NS,PB Fintech Ltd.,Financial Services,1743.0,80544.01
+AUBANK,AUBANK.NS,AU Small Finance Bank Ltd.,Financial Services,1058.6,79333.16
+DIXON,DIXON.NS,Dixon Technologies (India) Ltd.,Consumer Durables,13005.0,79072.86
+APARINDS,APARINDS.NS,Apar Industries Ltd.,Capital Goods,18858.0,78962.85
+LTF,LTF.NS,L&T Finance Ltd.,Financial Services,312.8,78398.71
+OIL,OIL.NS,Oil India Ltd.,Oil Gas & Consumable Fuels,475.7,77377.73
+NHPC,NHPC.NS,NHPC Ltd.,Power,76.95,77296.54
+BHARTIHEXA,BHARTIHEXA.NS,Bharti Hexacom Ltd.,Telecommunication,1540.1,77005.0
+HINDPETRO,HINDPETRO.NS,Hindustan Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,359.0,76388.83
+INDUSINDBK,INDUSINDBK.NS,IndusInd Bank Ltd.,Financial Services,966.3,75288.75
+NTPCGREEN,NTPCGREEN.NS,NTPC Green Energy Ltd.,Power,88.55,74615.15
+SRF,SRF.NS,SRF Ltd.,Chemicals,2512.0,74457.19
+UNOMINDA,UNOMINDA.NS,UNO Minda Ltd.,Automobile and Auto Components,1284.0,74146.79
+IDFCFIRSTB,IDFCFIRSTB.NS,IDFC First Bank Ltd.,Financial Services,85.92,74081.91
+NAM-INDIA,NAM-INDIA.NS,Nippon Life India Asset Management Ltd.,Financial Services,1155.0,73914.17
+WAAREEENER,WAAREEENER.NS,Waaree Energies Ltd.,Capital Goods,2560.7,73658.88
+SAIL,SAIL.NS,Steel Authority of India Ltd.,Metals & Mining,177.33,73246.61
+ICICIGI,ICICIGI.NS,ICICI Lombard General Insurance Company Ltd.,Financial Services,1458.1,72847.88
+ATGL,ATGL.NS,Adani Total Gas Ltd.,Oil Gas & Consumable Fuels,660.7,72664.45
+SWIGGY,SWIGGY.NS,Swiggy Ltd.,Consumer Services,273.05,71539.14
+ICICIPRULI,ICICIPRULI.NS,ICICI Prudential Life Insurance Company Ltd.,Financial Services,492.0,71378.48
+YESBANK,YESBANK.NS,Yes Bank Ltd.,Financial Services,22.72,71314.55
+BAJAJHFL,BAJAJHFL.NS,Bajaj Housing Finance Ltd.,Financial Services,85.58,71276.69
+HAVELLS,HAVELLS.NS,Havells India Ltd.,Consumer Durables,1132.4,71065.08
+WELCORP,WELCORP.NS,Welspun Corp Ltd.,Capital Goods,2660.1,70147.88
+DABUR,DABUR.NS,Dabur India Ltd.,Fast Moving Consumer Goods,395.25,70115.65
+NMDC,NMDC.NS,NMDC Ltd.,Metals & Mining,79.15,69587.24
+GLENMARK,GLENMARK.NS,Glenmark Pharmaceuticals Ltd.,Healthcare,2447.4,69071.66
+PHOENIXLTD,PHOENIXLTD.NS,Phoenix Mills Ltd.,Realty,1877.9,67168.33
+FORTIS,FORTIS.NS,Fortis Healthcare Ltd.,Healthcare,886.0,66889.29
+SCHAEFFLER,SCHAEFFLER.NS,Schaeffler India Ltd.,Automobile and Auto Components,4217.6,65922.64
+ASTERDM,ASTERDM.NS,Aster DM Quality Care Ltd.,Healthcare,755.05,65815.63
+ALKEM,ALKEM.NS,Alkem Laboratories Ltd.,Healthcare,5466.5,65360.21
+ATHERENERG,ATHERENERG.NS,Ather Energy Ltd.,Automobile and Auto Components,1640.0,65043.02
+OBEROIRLTY,OBEROIRLTY.NS,Oberoi Realty Ltd.,Realty,1785.0,64903.0
+RBLBANK,RBLBANK.NS,RBL Bank Ltd.,Financial Services,415.9,64532.81
+NATIONALUM,NATIONALUM.NS,National Aluminium Co. Ltd.,Metals & Mining,350.5,64373.94
+MAHABANK,MAHABANK.NS,Bank of Maharashtra,Financial Services,83.54,64255.25
+BANKINDIA,BANKINDIA.NS,Bank of India,Financial Services,140.0,63737.35
+TORNTPOWER,TORNTPOWER.NS,Torrent Power Ltd.,Power,1258.8,63431.38
+APLAPOLLO,APLAPOLLO.NS,APL Apollo Tubes Ltd.,Capital Goods,2270.1,63031.24
+BIOCON,BIOCON.NS,Biocon Ltd.,Healthcare,385.0,62689.31
+SBICARD,SBICARD.NS,SBI Cards and Payment Services Ltd.,Financial Services,651.15,61966.24
+IOB,IOB.NS,Indian Overseas Bank,Financial Services,32.17,61948.45
+JSL,JSL.NS,Jindal Stainless Ltd.,Metals & Mining,750.95,61874.51
+PRESTIGE,PRESTIGE.NS,Prestige Estates Projects Ltd.,Realty,1435.1,61814.09
+GICRE,GICRE.NS,General Insurance Corporation of India,Financial Services,351.0,61579.44
+MOTILALOFS,MOTILALOFS.NS,Motilal Oswal Financial Services Ltd.,Financial Services,1010.0,60900.7
+RADICO,RADICO.NS,Radico Khaitan Ltd,Fast Moving Consumer Goods,4535.4,60766.38
+KALYANKJIL,KALYANKJIL.NS,Kalyan Jewellers India Ltd.,Consumer Durables,581.85,60090.61
+SUZLON,SUZLON.NS,Suzlon Energy Ltd.,Capital Goods,43.14,59302.07
+COROMANDEL,COROMANDEL.NS,Coromandel International Ltd.,Chemicals,1999.5,58893.49
+ABBOTINDIA,ABBOTINDIA.NS,Abbott India Ltd.,Healthcare,27270.0,57946.85
+HDBFS,HDBFS.NS,HDB Financial Services Ltd.,Financial Services,698.4,57859.27
+PIRAMALFIN,PIRAMALFIN.NS,Piramal Finance Ltd.,Financial Services,2300.2,54318.34
+MFSL,MFSL.NS,Max Financial Services Ltd.,Financial Services,1559.0,53520.27
+BERGEPAINT,BERGEPAINT.NS,Berger Paints India Ltd.,Consumer Durables,458.65,53478.72
+MRF,MRF.NS,MRF Ltd.,Automobile and Auto Components,125670.0,53298.44
+LINDEINDIA,LINDEINDIA.NS,Linde India Ltd.,Chemicals,6241.5,53230.15
+INDOMIM,INDOMIM.NS,INDO-MIM Limited,Diversified,1055.9,52212.24
+COLPAL,COLPAL.NS,Colgate Palmolive (India) Ltd.,Fast Moving Consumer Goods,1917.8,52161.41
+ANTHEM,ANTHEM.NS,Anthem Biosciences Ltd.,Healthcare,928.5,52155.13
+SUNDARMFIN,SUNDARMFIN.NS,Sundaram Finance Ltd.,Financial Services,4730.6,52139.53
+IPCALAB,IPCALAB.NS,Ipca Laboratories Ltd.,Healthcare,2009.6,50984.4
+GODREJPROP,GODREJPROP.NS,Godrej Properties Ltd.,Realty,1691.1,50940.41
+TATACOMM,TATACOMM.NS,Tata Communications Ltd.,Telecommunication,1780.1,50748.09
+SONACOMS,SONACOMS.NS,Sona BLW Precision Forgings Ltd.,Automobile and Auto Components,808.0,50429.58
+FLUOROCHEM,FLUOROCHEM.NS,Gujarat Fluorochemicals Ltd.,Chemicals,4586.7,50384.9
+TIINDIA,TIINDIA.NS,Tube Investments of India Ltd.,Automobile and Auto Components,2600.0,50328.8
+AEGISLOG,AEGISLOG.NS,Aegis Logistics Ltd.,Oil Gas & Consumable Fuels,1415.4,49680.54
+FACT,FACT.NS,Fertilisers and Chemicals Travancore Ltd.,Chemicals,764.2,49449.24
+M&MFIN,M&MFIN.NS,Mahindra & Mahindra Financial Services Ltd.,Financial Services,353.3,49095.42
+UPL,UPL.NS,UPL Ltd.,Chemicals,580.0,49026.48
+GLAND,GLAND.NS,Gland Pharma Ltd.,Healthcare,2961.9,48874.56
+HINDCOPPER,HINDCOPPER.NS,Hindustan Copper Ltd.,Metals & Mining,497.4,48099.77
+GLAXO,GLAXO.NS,Glaxosmithkline Pharmaceuticals Ltd.,Healthcare,2838.8,48090.99
+VMM,VMM.NS,Vishal Mega Mart Ltd.,Consumer Services,102.65,48089.56
+AIIL,AIIL.NS,Authum Investment & Infrastructure Ltd.,Financial Services,559.0,47471.71
+SUPREMEIND,SUPREMEIND.NS,Supreme Industries Ltd.,Capital Goods,3580.3,45499.09
+RVNL,RVNL.NS,Rail Vikas Nigam Ltd.,Construction,214.29,44679.89
+AJANTPHARM,AJANTPHARM.NS,Ajanta Pharmaceuticals Ltd.,Healthcare,3563.6,44530.4
+KEI,KEI.NS,KEI Industries Ltd.,Capital Goods,4650.0,44454.28
+NAVINFLUOR,NAVINFLUOR.NS,Navin Fluorine International Ltd.,Chemicals,8590.0,44073.67
+MPHASIS,MPHASIS.NS,MphasiS Ltd.,Information Technology,2300.4,43895.55
+PETRONET,PETRONET.NS,Petronet LNG Ltd.,Oil Gas & Consumable Fuels,292.6,43890.0
+BDL,BDL.NS,Bharat Dynamics Ltd.,Capital Goods,1196.6,43862.87
+BALKRISIND,BALKRISIND.NS,Balkrishna Industries Ltd.,Automobile and Auto Components,2265.3,43792.14
+360ONE,360ONE.NS,360 ONE WAM Ltd.,Financial Services,1073.1,43773.27
+STLTECH,STLTECH.NS,Sterlite Technologies Ltd.,Telecommunication,818.8,42091.02
+POONAWALLA,POONAWALLA.NS,Poonawalla Fincorp Ltd.,Financial Services,479.4,41989.06
+PREMIERENE,PREMIERENE.NS,Premier Energies Ltd.,Capital Goods,902.0,40720.48
+PAGEIND,PAGEIND.NS,Page Industries Ltd.,Textiles,36400.0,40600.1
+MEDANTA,MEDANTA.NS,Global Health Ltd.,Healthcare,1499.4,40291.7
+THERMAX,THERMAX.NS,Thermax Ltd.,Capital Goods,3551.9,40011.68
+PATANJALI,PATANJALI.NS,Patanjali Foods Ltd.,Fast Moving Consumer Goods,367.0,39925.18
+CPPLUS,CPPLUS.NS,Aditya Infotech Ltd.,Capital Goods,3355.1,39690.98
+PWL,PWL.NS,Physicswallah Ltd.,Consumer Services,136.6,39626.3
+NH,NH.NS,Narayana Hrudayalaya Ltd.,Healthcare,1928.5,39167.8
+JKCEMENT,JKCEMENT.NS,J.K. Cement Ltd.,Construction Materials,5064.5,39132.51
+KPRMILL,KPRMILL.NS,K.P.R. Mill Ltd.,Textiles,1141.4,39095.52
+ENDURANCE,ENDURANCE.NS,Endurance Technologies Ltd.,Automobile and Auto Components,2732.0,38429.09
+CONCOR,CONCOR.NS,Container Corporation of India Ltd.,Services,504.55,38427.43
+3MINDIA,3MINDIA.NS,3M India Ltd.,Diversified,34095.0,38408.26
+ASTRAL,ASTRAL.NS,Astral Ltd.,Capital Goods,1427.7,38355.18
+IRCTC,IRCTC.NS,Indian Railway Catering And Tourism Corporation Ltd.,Consumer Services,476.75,38140.0
+EMCURE,EMCURE.NS,Emcure Pharmaceuticals Ltd.,Healthcare,2003.8,38014.22
+GODREJIND,GODREJIND.NS,Godrej Industries Ltd.,Diversified,1107.4,37302.89
+NLCINDIA,NLCINDIA.NS,NLC India Ltd.,Power,268.8,37272.79
+AIAENG,AIAENG.NS,AIA Engineering Ltd.,Capital Goods,3973.3,37078.98
+EXIDEIND,EXIDEIND.NS,Exide Industries Ltd.,Automobile and Auto Components,435.85,37047.25
+ANANDRATHI,ANANDRATHI.NS,Anand Rathi Wealth Ltd.,Financial Services,2229.4,37017.24
+COCHINSHIP,COCHINSHIP.NS,Cochin Shipyard Ltd.,Capital Goods,1398.0,36778.69
+VOLTAS,VOLTAS.NS,Voltas Ltd.,Consumer Durables,1110.9,36757.99
+PIIND,PIIND.NS,PI Industries Ltd.,Chemicals,2366.8,35905.81
+CUPID,CUPID.NS,Cupid Ltd.,Fast Moving Consumer Goods,265.0,35633.51
+TATAINVEST,TATAINVEST.NS,Tata Investment Corporation Ltd.,Financial Services,702.35,35535.6
+LTTS,LTTS.NS,L&T Technology Services Ltd.,Information Technology,3347.5,35512.38
+HUDCO,HUDCO.NS,Housing & Urban Development Corporation Ltd.,Financial Services,174.92,35017.23
+AEGISVOPAK,AEGISVOPAK.NS,Aegis Vopak Terminals Ltd.,Oil Gas & Consumable Fuels,314.95,34896.19
+PTCIL,PTCIL.NS,PTC Industries Ltd.,Capital Goods,22805.0,34190.51
+HSCL,HSCL.NS,Himadri Speciality Chemical Ltd.,Chemicals,675.35,34076.42
+SAILIFE,SAILIFE.NS,Sai Life Sciences Ltd.,Healthcare,1600.5,33997.54
+WOCKPHARMA,WOCKPHARMA.NS,Wockhardt Ltd.,Healthcare,2086.1,33897.49
+CRISIL,CRISIL.NS,CRISIL Ltd.,Financial Services,4577.5,33475.27
+SYRMA,SYRMA.NS,Syrma SGS Technology Ltd.,Capital Goods,1728.9,33302.93
+UBL,UBL.NS,United Breweries Ltd.,Fast Moving Consumer Goods,1251.5,33090.3
+ITCHOTELS,ITCHOTELS.NS,ITC Hotels Ltd.,Consumer Services,158.8,33078.13
+DALBHARAT,DALBHARAT.NS,Dalmia Bharat Ltd.,Construction Materials,1761.4,33066.55
+KIMS,KIMS.NS,Krishna Institute of Medical Sciences Ltd.,Healthcare,809.85,33029.01
+HFCL,HFCL.NS,HFCL Ltd.,Telecommunication,215.71,33009.32
+JUBLFOOD,JUBLFOOD.NS,Jubilant Foodworks Ltd.,Consumer Services,500.0,32883.73
+DHOOTTRANS,DHOOTTRANS.NS,Dhoot Transmission Limited,Diversified,1590.7,32537.46
+STARHEALTH,STARHEALTH.NS,Star Health and Allied Insurance Company Ltd.,Financial Services,547.05,32188.61
+IREDA,IREDA.NS,Indian Renewable Energy Development Agency Ltd.,Financial Services,114.32,32115.13
+KARURVYSYA,KARURVYSYA.NS,Karur Vysya Bank Ltd.,Financial Services,332.15,32107.85
+DELHIVERY,DELHIVERY.NS,Delhivery Ltd.,Services,428.0,32069.8
+HEXT,HEXT.NS,Hexaware Technologies Ltd.,Information Technology,524.55,31986.64
+LALPATHLAB,LALPATHLAB.NS,Dr. Lal Path Labs Ltd.,Healthcare,1896.9,31674.01
+NUVAMA,NUVAMA.NS,Nuvama Wealth Management Ltd.,Financial Services,1713.7,31609.04
+BLUESTARCO,BLUESTARCO.NS,Blue Star Ltd.,Consumer Durables,1531.8,31492.68
+GODFRYPHLP,GODFRYPHLP.NS,Godfrey Phillips India Ltd.,Fast Moving Consumer Goods,2018.0,31477.12
+KIRLOSENG,KIRLOSENG.NS,Kirloskar Oil Eng Ltd.,Capital Goods,2160.1,31433.75
+HONAUT,HONAUT.NS,Honeywell Automation India Ltd.,Capital Goods,35445.0,31359.46
+REDINGTON,REDINGTON.NS,Redington Ltd.,Services,399.85,31259.25
+NIACL,NIACL.NS,The New India Assurance Company Ltd.,Financial Services,187.66,30926.37
+ESCORTS,ESCORTS.NS,Escorts Kubota Ltd.,Capital Goods,2798.2,30787.86
+ACMESOLAR,ACMESOLAR.NS,ACME Solar Holdings Ltd.,Power,435.25,30741.34
+ABSLAMC,ABSLAMC.NS,Aditya Birla Sun Life AMC Ltd.,Financial Services,1060.4,30683.58
+SHYAMMETL,SHYAMMETL.NS,Shyam Metalics and Energy Ltd.,Capital Goods,1100.0,30615.92
+LICHSGFIN,LICHSGFIN.NS,LIC Housing Finance Ltd.,Financial Services,548.15,30151.7
+MANAPPURAM,MANAPPURAM.NS,Manappuram Finance Ltd.,Financial Services,319.15,29978.91
+IKS,IKS.NS,Inventurus Knowledge Solutions Ltd.,Information Technology,1779.9,29859.15
+UCOBANK,UCOBANK.NS,UCO Bank,Financial Services,23.75,29781.45
+PNBHOUSING,PNBHOUSING.NS,PNB Housing Finance Ltd.,Financial Services,1133.1,29551.69
+TATATECH,TATATECH.NS,Tata Technologies Ltd.,Information Technology,722.45,29335.21
+NEULANDLAB,NEULANDLAB.NS,Neuland Laboratories Ltd.,Healthcare,22840.0,29303.47
+CRAFTSMAN,CRAFTSMAN.NS,Craftsman Automation Ltd.,Automobile and Auto Components,11138.0,29130.81
+CDSL,CDSL.NS,Central Depository Services (India) Ltd.,Financial Services,1390.0,29051.0
+SCHNEIDER,SCHNEIDER.NS,Schneider Electric Infrastructure Ltd.,Capital Goods,1213.5,29015.27
+MRPL,MRPL.NS,Mangalore Refinery & Petrochemicals Ltd.,Oil Gas & Consumable Fuels,165.38,28984.48
+RUBICON,RUBICON.NS,Rubicon Research Ltd.,Healthcare,1751.1,28909.28
+CENTRALBK,CENTRALBK.NS,Central Bank of India,Financial Services,31.73,28720.1
+CHOLAHLDNG,CHOLAHLDNG.NS,Cholamandalam Financial Holdings Ltd.,Financial Services,1507.7,28311.21
+BANDHANBNK,BANDHANBNK.NS,Bandhan Bank Ltd.,Financial Services,175.0,28195.08
+ACUTAAS,ACUTAAS.NS,Acutaas Chemicals Ltd.,Healthcare,3440.3,28166.12
+NETWEB,NETWEB.NS,Netweb Technologies India Ltd.,Information Technology,4664.5,27729.31
+RRKABEL,RRKABEL.NS,R R Kabel Ltd.,Capital Goods,2450.8,27719.9
+GRSE,GRSE.NS,Garden Reach Shipbuilders & Engineers Ltd.,Capital Goods,2411.8,27627.65
+PPLPHARMA,PPLPHARMA.NS,Piramal Pharma Ltd.,Healthcare,208.16,27581.58
+ANGELONE,ANGELONE.NS,Angel One Ltd.,Financial Services,299.1,27338.83
+ZFCVINDIA,ZFCVINDIA.NS,ZF Commercial Vehicle Control Systems India Ltd.,Automobile and Auto Components,2387.0,27165.37
+PFOCUS,PFOCUS.NS,Prime Focus Ltd.,Media Entertainment & Publication,344.35,26817.08
+SANSERA,SANSERA.NS,Sansera Engineering Ltd.,Automobile and Auto Components,4259.9,26583.3
+CGCL,CGCL.NS,Capri Global Capital Ltd.,Financial Services,270.65,26040.7
+TVSHLTD,TVSHLTD.NS,TVS Holdings Limited,Diversified,12812.0,25921.37
+APOLLOTYRE,APOLLOTYRE.NS,Apollo Tyres Ltd.,Automobile and Auto Components,409.3,25891.55
+SUNDRMFAST,SUNDRMFAST.NS,Sundram Fasteners Limited,Diversified,1228.2,25807.97
+METROBRAND,METROBRAND.NS,Metro Brands Limited,Diversified,940.85,25646.89
+IIFL,IIFL.NS,IIFL Finance Ltd.,Financial Services,600.2,25525.88
+HATSUN,HATSUN.NS,Hatsun Agro Product Limited,Diversified,1139.1,25373.25
+GABRIEL,GABRIEL.NS,Gabriel India Ltd.,Automobile and Auto Components,1321.8,25330.21
+DATAPATTNS,DATAPATTNS.NS,Data Patterns (India) Ltd.,Capital Goods,4513.3,25267.24
+SJVN,SJVN.NS,SJVN Ltd.,Power,63.95,25131.04
+AMBER,AMBER.NS,Amber Enterprises India Ltd.,Consumer Durables,7125.0,25128.28
+URBANCO,URBANCO.NS,Urban Company Ltd.,Consumer Services,169.11,24902.13
+KPIL,KPIL.NS,Kalpataru Projects International Ltd.,Construction,1445.5,24685.17
+ITI,ITI.NS,ITI Ltd.,Telecommunication,256.3,24677.89
+ASAHIINDIA,ASAHIINDIA.NS,Asahi India Glass Ltd.,Automobile and Auto Components,961.05,24499.78
+PGHH,PGHH.NS,Procter & Gamble Hygiene and Health Care Limited,Diversified,7486.0,24300.11
+AWL,AWL.NS,AWL Agri Business Ltd.,Fast Moving Consumer Goods,186.98,24154.41
+GRANULES,GRANULES.NS,Granules India Ltd.,Healthcare,875.5,23883.37
+JYOTICNC,JYOTICNC.NS,Jyoti CNC Automation Ltd.,Capital Goods,1049.7,23872.6
+TDPOWERSYS,TDPOWERSYS.NS,TD Power Systems Ltd.,Capital Goods,763.75,23863.89
+ACC,ACC.NS,ACC Ltd.,Construction Materials,1259.7,23655.56
+MSUMI,MSUMI.NS,Motherson Sumi Wiring India Ltd.,Automobile and Auto Components,35.67,23655.14
+KAYNES,KAYNES.NS,Kaynes Technology India Ltd.,Capital Goods,3515.0,23628.71
+TIMKEN,TIMKEN.NS,Timken India Ltd.,Capital Goods,3124.2,23499.84
+CUB,CUB.NS,City Union Bank Ltd.,Financial Services,235.79,23361.77
+BELRISE,BELRISE.NS,Belrise Industries Ltd.,Automobile and Auto Components,240.18,23229.05
+GILLETTE,GILLETTE.NS,Gillette India Ltd.,Fast Moving Consumer Goods,7073.0,23047.52
+FORCEMOT,FORCEMOT.NS,Force Motors Ltd.,Automobile and Auto Components,17488.0,23042.65
+SUMICHEM,SUMICHEM.NS,Sumitomo Chemical India Ltd.,Chemicals,460.85,23003.13
+GUJENERGY,GUJENERGY.NS,GUJARAT ENERGY LIMITED,Diversified,244.64,22952.88
+EMMVEE,EMMVEE.NS,Emmvee Photovoltaic Power Ltd.,Capital Goods,328.0,22708.92
+AFFLE,AFFLE.NS,Affle 3i Ltd.,Information Technology,1603.5,22567.73
+IRB,IRB.NS,IRB Infrastructure Developers Ltd.,Construction,18.48,22320.14
+NBCC,NBCC.NS,NBCC (India) Ltd.,Construction,82.4,22248.0
+CREDITACC,CREDITACC.NS,CreditAccess Grameen Ltd.,Financial Services,1387.6,22237.61
+PINELABS,PINELABS.NS,Pine Labs Ltd.,Financial Services,192.04,22158.69
+MTARTECH,MTARTECH.NS,MTAR Technologies Ltd.,Capital Goods,7202.0,22153.06
+GODIGIT,GODIGIT.NS,Go Digit General Insurance Ltd.,Financial Services,239.0,22095.53
+DIACABS,DIACABS.NS,Diamond Power Infrastructure Ltd.,Capital Goods,366.8,21937.25
+ANANTRAJ,ANANTRAJ.NS,Anant Raj Ltd.,Realty,606.15,21813.94
+CEMPRO,CEMPRO.NS,Cemindia Projects Ltd.,Construction,1263.5,21705.36
+DEEPAKNTR,DEEPAKNTR.NS,Deepak Nitrite Ltd.,Chemicals,1586.3,21636.03
+AETHER,AETHER.NS,Aether Industries Ltd.,Chemicals,1630.0,21634.64
+FINCABLES,FINCABLES.NS,Finolex Cables Ltd.,Capital Goods,1411.2,21582.8
+CARBORUNIV,CARBORUNIV.NS,Carborundum Universal Ltd.,Capital Goods,1124.4,21420.43
+SAGILITY,SAGILITY.NS,Sagility Ltd.,Information Technology,45.66,21374.95
+SHRIPISTON,SHRIPISTON.NS,SPR Auto Technologies Ltd.,Automobile and Auto Components,4576.6,21229.14
+MILKYMIST,MILKYMIST.NS,Milky Mist Dairy Food Limited,Diversified,274.07,21099.1
+CHENNPETRO,CHENNPETRO.NS,Chennai Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,1416.6,21094.79
+HBLENGINE,HBLENGINE.NS,HBL Engineering Ltd.,Capital Goods,760.0,21066.82
+GRINDWELL,GRINDWELL.NS,Grindwell Norton Ltd.,Capital Goods,1895.6,20988.08
+TENNIND,TENNIND.NS,Tenneco Clean Air India Ltd.,Automobile and Auto Components,517.9,20902.67
+CAPLIPOINT,CAPLIPOINT.NS,Caplin Point Laboratories Ltd.,Healthcare,2748.6,20892.58
+IGL,IGL.NS,Indraprastha Gas Ltd.,Oil Gas & Consumable Fuels,148.56,20798.42
+KIOCL,KIOCL.NS,KIOCL Limited,Diversified,340.65,20703.04
+IFCI,IFCI.NS,IFCI Ltd.,Financial Services,76.51,20614.2
+RAMCOCEM,RAMCOCEM.NS,The Ramco Cements Ltd.,Construction Materials,869.75,20551.53
+TATAELXSI,TATAELXSI.NS,Tata Elxsi Ltd.,Information Technology,3266.7,20351.4
+WELSPUNLIV,WELSPUNLIV.NS,Welspun Living Ltd.,Textiles,214.66,20351.06
+GESHIP,GESHIP.NS,Great Eastern Shipping Co. Ltd.,Services,1432.1,20303.38
+HAPPYFORGE,HAPPYFORGE.NS,Happy Forgings Limited,Diversified,2148.3,20280.2
+BRIGADE,BRIGADE.NS,Brigade Enterprises Ltd.,Realty,621.7,20277.52
+AADHARHFC,AADHARHFC.NS,Aadhar Housing Finance Ltd.,Financial Services,461.65,20229.81
+RATNAMANI,RATNAMANI.NS,Ratnamani Metals & Tubes Ltd.,Capital Goods,2859.1,20040.0
+SHILPAMED,SHILPAMED.NS,Shilpa Medicare Ltd.,Healthcare,1021.1,19970.86
+EIHOTEL,EIHOTEL.NS,EIH Ltd.,Consumer Services,317.9,19880.33
+CASTROLIND,CASTROLIND.NS,Castrol India Ltd.,Oil Gas & Consumable Fuels,197.14,19499.56
+ELGIEQUIP,ELGIEQUIP.NS,Elgi Equipments Ltd.,Capital Goods,609.55,19215.54
+INOXINDIA,INOXINDIA.NS,INOX India Ltd.,Capital Goods,2098.8,19082.81
+LMW,LMW.NS,LMW Limited,Diversified,17759.0,18971.94
+CHALET,CHALET.NS,Chalet Hotels Ltd.,Consumer Services,865.65,18957.23
+KAJARIACER,KAJARIACER.NS,Kajaria Ceramics Ltd.,Consumer Durables,1202.7,18899.59
+FSL,FSL.NS,Firstsource Solutions Ltd.,Services,273.45,18882.69
+CESC,CESC.NS,CESC Ltd.,Power,141.53,18760.8
+JINDALSAW,JINDALSAW.NS,Jindal Saw Ltd.,Capital Goods,289.5,18459.13
+ESDS,ESDS.NS,ESDS Software Solution Limited,Diversified,1564.55,18338.24
+ERIS,ERIS.NS,Eris Lifesciences Ltd.,Healthcare,1321.3,18311.01
+PFIZER,PFIZER.NS,Pfizer Ltd.,Healthcare,4002.4,18310.07
+ONESOURCE,ONESOURCE.NS,Onesource Specialty Pharma Ltd.,Healthcare,1594.9,18289.18
+TBOTEK,TBOTEK.NS,TBO Tek Ltd.,Consumer Services,1710.6,18266.47
+ATUL,ATUL.NS,Atul Ltd.,Chemicals,6170.5,18167.03
+ABDL,ABDL.NS,Allied Blenders and Distillers Ltd.,Fast Moving Consumer Goods,647.6,18114.03
+THELEELA,THELEELA.NS,Leela Palaces Hotels & Resorts Ltd.,Consumer Services,540.55,18052.09
+TRITURBINE,TRITURBINE.NS,Triveni Turbine Ltd.,Capital Goods,567.8,18050.27
+AZAD,AZAD.NS,Azad Engineering Ltd.,Capital Goods,2790.3,18020.24
+SARDAEN,SARDAEN.NS,Sarda Energy and Minerals Ltd.,Metals & Mining,505.95,17828.73
+AARTIIND,AARTIIND.NS,Aarti Industries Ltd.,Chemicals,491.15,17815.32
+SUNTV,SUNTV.NS,Sun TV Network Ltd.,Media Entertainment & Publication,451.7,17800.8
+BEML,BEML.NS,BEML Ltd.,Capital Goods,2135.0,17782.2
+GMDCLTD,GMDCLTD.NS,Gujarat Mineral Development Corporation Ltd.,Metals & Mining,556.45,17695.11
+TATACHEM,TATACHEM.NS,Tata Chemicals Ltd.,Chemicals,693.25,17660.98
+ECLERX,ECLERX.NS,eClerx Services Ltd.,Services,1915.6,17628.36
+CAMS,CAMS.NS,Computer Age Management Services Ltd.,Financial Services,708.05,17589.26
+ALIVUS,ALIVUS.NS,Alivus Life Sciences Ltd.,Healthcare,1430.8,17566.14
+POLYMED,POLYMED.NS,Poly Medicure Ltd.,Healthcare,1726.0,17494.99
+DEVYANI,DEVYANI.NS,Devyani International Ltd.,Consumer Services,140.62,17337.6
+LALITHAA,LALITHAA.NS,Lalithaa Jewellery Mart Limited,Diversified,304.9,17065.55
+CHOICEIN,CHOICEIN.NS,Choice International Ltd.,Financial Services,763.85,17016.78
+BAYERCROP,BAYERCROP.NS,Bayer Cropscience Ltd.,Chemicals,3779.5,16985.86
+DEEPAKFERT,DEEPAKFERT.NS,Deepak Fertilisers & Petrochemicals Corp. Ltd.,Chemicals,1343.2,16973.39
+AVALON,AVALON.NS,Avalon Technologies Ltd.,Capital Goods,2537.7,16972.72
+ASTRAZEN,ASTRAZEN.NS,AstraZeneca Pharma India Limited,Diversified,6751.5,16878.75
+JUBLPHARMA,JUBLPHARMA.NS,Jubilant Pharmova Ltd.,Healthcare,1065.4,16874.57
+COHANCE,COHANCE.NS,Cohance Lifesciences Ltd.,Healthcare,438.0,16757.76
+VTL,VTL.NS,Vardhman Textiles Ltd.,Textiles,578.05,16733.15
+APLLTD,APLLTD.NS,Alembic Pharmaceuticals Ltd.,Healthcare,845.75,16624.33
+CHAMBLFERT,CHAMBLFERT.NS,Chambal Fertilizers & Chemicals Ltd.,Chemicals,414.9,16623.06
+ZYDUSWELL,ZYDUSWELL.NS,Zydus Wellness Ltd.,Fast Moving Consumer Goods,522.25,16615.94
+TRAVELFOOD,TRAVELFOOD.NS,Travel Food Services Ltd.,Consumer Services,1256.1,16544.11
+SAMMAANCAP,SAMMAANCAP.NS,Sammaan Capital Ltd.,Financial Services,143.92,16531.9
+SPLPETRO,SPLPETRO.NS,Supreme Petrochem Ltd.,Chemicals,865.7,16278.74
+MINDACORP,MINDACORP.NS,Minda Corporation Ltd.,Automobile and Auto Components,691.45,16274.03
+GRAPHITE,GRAPHITE.NS,Graphite India Ltd.,Capital Goods,830.85,16232.78
+PARADEEP,PARADEEP.NS,Paradeep Phosphates Ltd.,Chemicals,155.62,16161.45
+J&KBANK,J&KBANK.NS,Jammu & Kashmir Bank Ltd.,Financial Services,146.58,16141.13
+EMAMILTD,EMAMILTD.NS,Emami Ltd.,Fast Moving Consumer Goods,368.45,16082.84
+OLAELEC,OLAELEC.NS,Ola Electric Mobility Ltd.,Automobile and Auto Components,36.39,16079.58
+KFINTECH,KFINTECH.NS,Kfin Technologies Ltd.,Financial Services,930.0,16077.1
+VIJAYA,VIJAYA.NS,Vijaya Diagnostic Centre Ltd.,Healthcare,1558.9,16056.31
+CENTURYPLY,CENTURYPLY.NS,Century Plyboards (India) Ltd.,Consumer Durables,722.65,16055.33
+INDIACEM,INDIACEM.NS,India Cements Ltd.,Construction Materials,344.8,16027.86
+FINEORG,FINEORG.NS,Fine Organic Industries Limited,Diversified,5199.0,15940.12
+NAVA,NAVA.NS,Nava Ltd.,Power,562.3,15930.67
+FIVESTAR,FIVESTAR.NS,Five-Star Business Finance Ltd.,Financial Services,538.45,15894.81
+AGARWALEYE,AGARWALEYE.NS,Dr. Agarwal's Health Care Ltd.,Healthcare,500.45,15863.42
+JSWCEMENT,JSWCEMENT.NS,JSW Cement Ltd.,Construction Materials,117.44,15858.45
+MAHSCOOTER,MAHSCOOTER.NS,Maharashtra Scooters Ltd.,Financial Services,13729.0,15690.28
+PSB,PSB.NS,Punjab & Sind Bank,Diversified,22.1,15681.24
+THANGAMAYL,THANGAMAYL.NS,Thangamayil Jewellery Ltd.,Consumer Durables,5044.5,15679.33
+HONASA,HONASA.NS,Honasa Consumer Ltd.,Fast Moving Consumer Goods,479.55,15634.49
+HORIZONIND,HORIZONIND.NS,Horizon Industrial Parks Limited,Diversified,54.23,15633.98
+CONCORDBIO,CONCORDBIO.NS,Concord Biotech Ltd.,Healthcare,1494.4,15633.85
+GRWRHITECH,GRWRHITECH.NS,Garware Hi-Tech Films Ltd.,Capital Goods,6724.5,15622.62
+BASF,BASF.NS,BASF India Limited,Diversified,3605.7,15607.5
+ASTRAMICRO,ASTRAMICRO.NS,Astra Microwave Products Ltd.,Capital Goods,1631.2,15487.43
+USHAMART,USHAMART.NS,Usha Martin Ltd.,Capital Goods,507.2,15439.18
+DCMSHRIRAM,DCMSHRIRAM.NS,DCM Shriram Ltd.,Diversified,995.0,15408.05
+SIGMAADV,SIGMAADV.NS,SIGMA ADVANCED SYSTEMS LIMITED,Diversified,866.1,15264.12
+GPIL,GPIL.NS,Godawari Power & Ispat Ltd.,Capital Goods,233.47,15192.8
+ZENTEC,ZENTEC.NS,Zen Technologies Ltd.,Capital Goods,1687.4,15176.92
+AEQUS,AEQUS.NS,Aequs Ltd.,Capital Goods,231.67,15171.01
+PGEL,PGEL.NS,PG Electroplast Ltd.,Consumer Durables,529.15,15159.97
+JNPR,JNPR.NS,Juniper Green Energy Limited,Diversified,265.15,15086.99
+ARVIND,ARVIND.NS,Arvind Ltd.,Textiles,552.6,15032.96
+CLEANMAX,CLEANMAX.NS,Clean Max Enviro Energy Solutions Limited,Diversified,1279.4,15003.67
+ENGINERSIN,ENGINERSIN.NS,Engineers India Ltd.,Construction,266.35,14970.0
+KANSAINER,KANSAINER.NS,Kansai Nerolac Paints Ltd.,Consumer Durables,183.96,14878.29
+SYNGENE,SYNGENE.NS,Syngene International Ltd.,Healthcare,369.05,14854.38
+MOLBIO,MOLBIO.NS,Molbio Diagnostics Limited,Diversified,1288.3,14846.37
+NATCOPHARM,NATCOPHARM.NS,NATCO Pharma Ltd.,Healthcare,813.4,14834.79
+SHADOWFAX,SHADOWFAX.NS,Shadowfax Technologies Limited,Diversified,251.55,14763.16
+RAINBOW,RAINBOW.NS,Rainbow Childrens Medicare Ltd.,Healthcare,1454.7,14757.95
+SKFINDUS,SKFINDUS.NS,SKF India (Industrial) Ltd.,Capital Goods,2984.2,14753.28
+NIVABUPA,NIVABUPA.NS,Niva Bupa Health Insurance Company Ltd.,Financial Services,79.59,14721.32
+LTFOODS,LTFOODS.NS,LT Foods Ltd.,Fast Moving Consumer Goods,423.2,14695.75
+CIEINDIA,CIEINDIA.NS,CIE Automotive India Ltd.,Automobile and Auto Components,387.15,14687.01
+ACE,ACE.NS,Action Construction Equipment Ltd.,Capital Goods,1229.2,14630.91
+CROMPTON,CROMPTON.NS,Crompton Greaves Consumer Electricals Ltd.,Consumer Durables,227.12,14624.59
+TEGA,TEGA.NS,Tega Industries Ltd.,Capital Goods,1943.0,14597.31
+ARE&M,ARE&M.NS,Amara Raja Energy & Mobility Ltd.,Automobile and Auto Components,796.0,14568.82
+CANHLIFE,CANHLIFE.NS,Canara HSBC Life Insurance Company Ltd.,Financial Services,153.59,14552.42
+BIKAJI,BIKAJI.NS,Bikaji Foods International Ltd.,Fast Moving Consumer Goods,580.25,14548.98
+CARTRADE,CARTRADE.NS,Cartrade Tech Ltd.,Consumer Services,2988.9,14530.5
+JSWDULUX,JSWDULUX.NS,JSW Dulux Ltd.,Consumer Durables,3188.8,14521.9
+MARKSANS,MARKSANS.NS,Marksans Pharma Ltd.,Healthcare,320.15,14508.04
+PRUDENT,PRUDENT.NS,Prudent Corporate Advisory Services Ltd.,Financial Services,3501.6,14498.96
+SHAILY,SHAILY.NS,Shaily Engineering Plastics Ltd.,Consumer Durables,3149.8,14487.58
+KPITTECH,KPITTECH.NS,KPIT Technologies Ltd.,Information Technology,532.0,14482.49
+SWANDEF,SWANDEF.NS,Swan Defence and Heavy Industries Limited,Diversified,2746.4,14468.63
+INDGN,INDGN.NS,Indegene Ltd.,Healthcare,600.1,14450.89
+KIRLOSBROS,KIRLOSBROS.NS,Kirloskar Brothers Ltd.,Capital Goods,1811.4,14384.13
+LUMAXTECH,LUMAXTECH.NS,Lumax Auto Technologies Ltd.,Automobile and Auto Components,2102.7,14331.52
+IGIL,IGIL.NS,International Gemological Institute Ltd.,Services,330.95,14302.33
+BALRAMCHIN,BALRAMCHIN.NS,Balrampur Chini Mills Ltd.,Fast Moving Consumer Goods,672.6,14232.05
+BBOX,BBOX.NS,Black Box Ltd.,Information Technology,801.15,14228.36
+VGUARD,VGUARD.NS,V-Guard Industries Ltd.,Consumer Durables,325.4,14216.43
+CCL,CCL.NS,CCL Products (I) Ltd.,Fast Moving Consumer Goods,1065.6,14208.94
+NAZARA,NAZARA.NS,Nazara Technologies Ltd.,Media Entertainment & Publication,369.35,14208.75
+TMB,TMB.NS,Tamilnad Mercantile Bank Ltd.,Financial Services,895.75,14184.33
+JBMA,JBMA.NS,JBM Auto Ltd.,Automobile and Auto Components,599.1,14168.37
+KSB,KSB.NS,KSB Ltd.,Capital Goods,813.1,14151.13
+TI,TI.NS,Tilaknagar Industries Ltd.,Fast Moving Consumer Goods,568.7,14097.95
+CEATLTD,CEATLTD.NS,Ceat Ltd.,Automobile and Auto Components,3468.9,14031.73
+ABREL,ABREL.NS,Aditya Birla Real Estate Ltd.,Realty,1266.2,14001.37
+SEDEMAC,SEDEMAC.NS,SEDEMAC Mechatronics Limited,Diversified,3147.8,13903.05
+APOLLO,APOLLO.NS,Apollo Micro Systems Ltd.,Capital Goods,370.7,13775.19
+ANURAS,ANURAS.NS,Anupam Rasayan India Ltd.,Chemicals,1207.7,13749.46
+PRIVISCL,PRIVISCL.NS,Privi Speciality Chemicals Ltd.,Chemicals,3444.9,13456.71
+VOGL,VOGL.NS,Vedanta Oil and Gas Limited,Diversified,34.26,13375.64
+WABAG,WABAG.NS,Va Tech Wabag Ltd.,Utilities,2132.6,13326.95
+INOXWIND,INOXWIND.NS,Inox Wind Ltd.,Capital Goods,76.8,13272.87
+PCBL,PCBL.NS,PCBL Chemical Ltd.,Chemicals,336.7,13247.89
+MANYAVAR,MANYAVAR.NS,Vedant Fashions Ltd.,Consumer Services,544.25,13224.04
+GALLANTT,GALLANTT.NS,Gallantt Ispat Ltd.,Capital Goods,547.15,13201.69
+RKFORGE,RKFORGE.NS,Ramkrishna Forgings Ltd.,Automobile and Auto Components,724.1,13164.82
+VARROC,VARROC.NS,Varroc Engineering Ltd.,Automobile and Auto Components,861.55,13164.43
+FRACTAL,FRACTAL.NS,Fractal Analytics Limited,Diversified,764.35,13144.15
+INGERRAND,INGERRAND.NS,Ingersoll Rand (India) Limited,Diversified,4155.7,13118.71
+SUDEEPPHRM,SUDEEPPHRM.NS,Sudeep Pharma Ltd.,Chemicals,1155.0,13045.57
+VENTIVE,VENTIVE.NS,Ventive Hospitality Limited,Diversified,557.35,13016.44
+PVRINOX,PVRINOX.NS,PVR INOX Ltd.,Media Entertainment & Publication,1324.7,13008.55
+SOBHA,SOBHA.NS,Sobha Ltd.,Realty,1215.2,12997.03
+HOMEFIRST,HOMEFIRST.NS,Home First Finance Company India Ltd.,Financial Services,1241.3,12979.42
+ASKAUTOLTD,ASKAUTOLTD.NS,ASK Automotive Ltd.,Automobile and Auto Components,656.25,12937.48
+SCI,SCI.NS,Shipping Corporation of India Ltd.,Services,277.05,12904.96
+EDELWEISS,EDELWEISS.NS,Edelweiss Financial Services Ltd.,Financial Services,136.25,12896.49
+UTLSOLAR,UTLSOLAR.NS,Fujiyama Power Systems Ltd.,Capital Goods,418.65,12848.44
+ATLANTAELE,ATLANTAELE.NS,Atlanta Electricals Ltd.,Capital Goods,1666.1,12811.75
+VINATIORGA,VINATIORGA.NS,Vinati Organics Limited,Diversified,1234.9,12810.93
+DOMS,DOMS.NS,DOMS Industries Ltd.,Fast Moving Consumer Goods,2105.3,12776.72
+LLOYDSENGG,LLOYDSENGG.NS,Lloyds Engineering Works Ltd.,Capital Goods,82.43,12773.01
+GODREJAGRO,GODREJAGRO.NS,Godrej Agrovet Ltd.,Fast Moving Consumer Goods,661.6,12729.94
+UJJIVANSFB,UJJIVANSFB.NS,Ujjivan Small Finance Bank Ltd.,Financial Services,65.02,12685.77
+BLUESTONE,BLUESTONE.NS,BlueStone Jewellery and Lifestyle Ltd.,Consumer Durables,827.5,12642.44
+JSWHL,JSWHL.NS,JSW Holdings Limited,Diversified,11282.0,12521.26
+E2E,E2E.NS,E2E Networks Limited,Diversified,607.65,12484.65
+NSLNISP,NSLNISP.NS,NMDC Steel Ltd.,Metals & Mining,42.6,12484.38
+EIDPARRY,EIDPARRY.NS,E.I.D. Parry (India) Ltd.,Fast Moving Consumer Goods,700.7,12469.36
+MANORAMA,MANORAMA.NS,Manorama Industries Ltd.,Fast Moving Consumer Goods,1966.9,12415.54
+PCJEWELLER,PCJEWELLER.NS,PC Jeweller Ltd.,Consumer Durables,12.72,12404.72
+METROPOLIS,METROPOLIS.NS,Metropolis Healthcare Ltd.,Healthcare,597.45,12394.33
+AMAGI,AMAGI.NS,Amagi Media Labs Limited,Diversified,569.5,12320.5
+PARKHOSPS,PARKHOSPS.NS,Park Medi World Ltd.,Healthcare,282.05,12182.61
+VEDPOWER,VEDPOWER.NS,Vedanta Power Limited,Diversified,31.17,12169.25
+SKYGOLD,SKYGOLD.NS,SKY GOLD AND DIAMONDS Ltd.,Consumer Durables,783.7,12137.47
+VISL,VISL.NS,Vedanta Iron and Steel Limited,Diversified,30.91,12087.01
+JMFINANCIL,JMFINANCIL.NS,JM Financial Ltd.,Financial Services,126.3,12086.4
+SOUTHBANK,SOUTHBANK.NS,South Indian Bank Ltd.,Financial Services,46.07,12067.12
+AKUMS,AKUMS.NS,Akums Drugs and Pharmaceuticals Ltd.,Healthcare,783.7,11998.61
+TECHNOE,TECHNOE.NS,Techno Electric & Engineering Company Ltd.,Construction,1030.45,11984.09
+APTUS,APTUS.NS,Aptus Value Housing Finance India Ltd.,Financial Services,237.68,11903.73
+QPOWER,QPOWER.NS,QUALITY POWER ELECTRICAL EQUIPMENTS Ltd.,Capital Goods,1536.1,11896.19
+KTKBANK,KTKBANK.NS,Karnataka Bank Ltd.,Financial Services,313.8,11867.33
+TRIDENT,TRIDENT.NS,Trident Ltd.,Textiles,23.22,11831.95
+NUVOCO,NUVOCO.NS,Nuvoco Vistas Corporation Ltd.,Construction Materials,328.6,11736.15
+GRAVITA,GRAVITA.NS,Gravita India Ltd.,Metals & Mining,1598.4,11642.25
+SHREEJISPG,SHREEJISPG.NS,Shreeji Shipping Global Limited,Diversified,708.05,11535.43
+BLACKBUCK,BLACKBUCK.NS,Blackbuck Ltd.,Services,632.4,11520.25
+UTIAMC,UTIAMC.NS,UTI Asset Management Company Ltd.,Financial Services,895.0,11504.35
+BLUEDART,BLUEDART.NS,Blue Dart Express Ltd.,Services,4821.0,11439.24
+ELANTAS,ELANTAS.NS,Elantas Beck India Limited,Diversified,14228.0,11279.51
+STAR,STAR.NS,Strides Pharma Science Ltd.,Healthcare,1219.8,11243.23
+CYIENT,CYIENT.NS,Cyient Ltd.,Information Technology,1073.3,11173.23
+WELENT,WELENT.NS,Welspun Enterprises Ltd.,Construction,823.35,11165.76
+PARAS,PARAS.NS,Paras Defence and Space Technologies Ltd.,Capital Goods,1372.7,11062.22
+VIYASH,VIYASH.NS,Viyash Scientific Ltd.,Healthcare,249.65,11014.94
+VOLTAMP,VOLTAMP.NS,Voltamp Transformers Ltd,Capital Goods,10879.0,11006.41
+YATHARTH,YATHARTH.NS,Yatharth Hospital & Trauma Care Services Ltd.,Healthcare,1139.5,10979.58
+IIFLCAPS,IIFLCAPS.NS,IIFL Capital Services Ltd.,Financial Services,345.1,10876.82
+KEC,KEC.NS,Kec International Ltd.,Construction,404.25,10761.14
+MGL,MGL.NS,Mahanagar Gas Ltd.,Oil Gas & Consumable Fuels,1081.7,10684.79
+SIGNATURE,SIGNATURE.NS,Signatureglobal (India) Ltd.,Realty,756.95,10649.23
+PGIL,PGIL.NS,Pearl Global Industries Ltd.,Textiles,1146.1,10587.8
+HCG,HCG.NS,Healthcare Global Enterprises Ltd.,Healthcare,708.25,10574.33
+AVANTIFEED,AVANTIFEED.NS,Avanti Feeds Ltd.,Fast Moving Consumer Goods,774.45,10551.54
+BBTC,BBTC.NS,Bombay Burmah Trading Corporation Ltd.,Fast Moving Consumer Goods,1512.1,10550.21
+JPPOWER,JPPOWER.NS,Jaiprakash Power Ventures Ltd.,Power,15.37,10533.77
+LOTUSDEV,LOTUSDEV.NS,SRI LOTUS DEVELOPERS AND REALTY Ltd.,Realty,215.13,10513.91
+LLOYDSENT,LLOYDSENT.NS,Lloyds Enterprises Ltd.,Metals & Mining,68.84,10508.78
+CANFINHOME,CANFINHOME.NS,Can Fin Homes Ltd.,Financial Services,778.5,10366.08
+IRCON,IRCON.NS,IRCON International Ltd.,Construction,109.85,10331.57
+IEX,IEX.NS,Indian Energy Exchange Ltd.,Financial Services,115.46,10272.79
+SBFC,SBFC.NS,SBFC Finance Ltd.,Financial Services,92.36,10236.38
+AAVAS,AAVAS.NS,Aavas Financiers Ltd.,Financial Services,1284.6,10186.15
+RATEGAIN,RATEGAIN.NS,Rategain Travel Technologies Ltd.,Information Technology,858.4,10165.65
+JKTYRE,JKTYRE.NS,JK Tyre & Industries Ltd.,Automobile and Auto Components,349.35,10071.39
+SUDARSCHEM,SUDARSCHEM.NS,Sudarshan Chemical Industries Ltd.,Chemicals,1263.5,10059.59
+TSFINV,TSFINV.NS,TSF Investments Ltd.,Financial Services,455.65,10055.82
+TITAGARH,TITAGARH.NS,Titagarh Rail Systems Ltd.,Capital Goods,837.65,10041.83
+BLUEJET,BLUEJET.NS,Blue Jet Healthcare Ltd.,Healthcare,575.25,9978.6
+RITES,RITES.NS,RITES Ltd.,Construction,207.23,9959.55
+ZENSARTECH,ZENSARTECH.NS,Zensar Technolgies Ltd.,Information Technology,436.45,9898.66
+ABLBL,ABLBL.NS,Aditya Birla Lifestyle Brands Ltd.,Consumer Services,81.17,9859.22
+JUBLINGREA,JUBLINGREA.NS,Jubilant Ingrevia Ltd.,Chemicals,624.9,9855.71
+OLECTRA,OLECTRA.NS,Olectra Greentech Ltd.,Automobile and Auto Components,1198.8,9839.84
+JWL,JWL.NS,Jupiter Wagons Ltd.,Capital Goods,230.13,9835.07
+MAXESTATES,MAXESTATES.NS,Max Estates Limited,Diversified,594.0,9716.64
+AFCONS,AFCONS.NS,Afcons Infrastructure Ltd.,Construction,263.4,9687.45
+KWIL,KWIL.NS,Kwality Wall's (India) Limited,Diversified,41.22,9685.02
+SUVEN,SUVEN.NS,Suven Life Sciences Limited,Diversified,341.55,9650.93
+MAHSEAMLES,MAHSEAMLES.NS,Maharashtra Seamless Ltd.,Capital Goods,717.55,9615.12
+SAREGAMA,SAREGAMA.NS,Saregama India Ltd,Media Entertainment & Publication,499.9,9596.05
+FINPIPE,FINPIPE.NS,Finolex Industries Ltd.,Capital Goods,154.63,9560.99
+JAINREC,JAINREC.NS,Jain Resource Recycling Ltd.,Metals & Mining,276.25,9533.0
+ALKYLAMINE,ALKYLAMINE.NS,Alkyl Amines Chemicals Ltd.,Chemicals,1863.0,9528.91
+KRN,KRN.NS,KRN HEAT EXCHANGER AND REFRIGERATION Ltd.,Capital Goods,1446.2,9466.61
+WEWORK,WEWORK.NS,WeWork India Management Ltd.,Services,681.2,9459.84
+ELECON,ELECON.NS,Elecon Engineering Co. Ltd.,Capital Goods,421.2,9451.73
+KENNAMET,KENNAMET.NS,Kennametal India Limited,Diversified,4281.5,9409.98
+PRICOLLTD,PRICOLLTD.NS,Pricol Ltd.,Automobile and Auto Components,767.5,9354.4
+BLS,BLS.NS,BLS International Services Ltd.,Consumer Services,226.5,9320.98
+SANOFICONR,SANOFICONR.NS,Sanofi Consumer Healthcare India Ltd.,Healthcare,4033.4,9302.43
+SGMART,SGMART.NS,SG Mart Limited,Diversified,733.55,9248.19
+SWANCORP,SWANCORP.NS,Swan Corp Ltd.,Chemicals,294.95,9245.41
+TEJASNET,TEJASNET.NS,Tejas Networks Ltd.,Telecommunication,518.3,9218.8
+JLHL,JLHL.NS,Jupiter Life Line Hospitals Ltd.,Healthcare,280.05,9180.88
+PGHL,PGHL.NS,Procter & Gamble Health Limited,Diversified,5503.5,9135.47
+WHIRLPOOL,WHIRLPOOL.NS,Whirlpool of India Ltd.,Consumer Durables,717.7,9109.07
+SMLMAH,SMLMAH.NS,SML Mahindra Ltd.,Capital Goods,6292.5,9106.28
+KIRLPNU,KIRLPNU.NS,Kirloskar Pneumatic Company Ltd.,Capital Goods,698.65,9077.31
+CLEAN,CLEAN.NS,Clean Science and Technology Ltd.,Chemicals,851.9,9054.34
+MMTC,MMTC.NS,MMTC Ltd.,Services,60.27,9040.5
+INTELLECT,INTELLECT.NS,Intellect Design Arena Ltd.,Information Technology,647.45,9033.28
+SANDUMA,SANDUMA.NS,Sandur Manganese & Iron Ores Ltd.,Metals & Mining,185.4,9012.38
+KRBL,KRBL.NS,KRBL Ltd.,Fast Moving Consumer Goods,392.45,8982.78
+PNGJL,PNGJL.NS,P N Gadgil Jewellers Ltd.,Consumer Durables,604.75,8902.08
+ICIL,ICIL.NS,Indo Count Industries Ltd.,Textiles,447.35,8859.96
+TIMETECHNO,TIMETECHNO.NS,Time Technoplast Ltd.,Capital Goods,179.24,8847.92
+SHIPROCKET,SHIPROCKET.NS,Shiprocket Limited,Diversified,121.59,8846.62
+THYROCARE,THYROCARE.NS,Thyrocare Technologies Ltd.,Healthcare,555.8,8846.21
+WESTLIFE,WESTLIFE.NS,Westlife Foodworld Ltd.,Consumer Services,564.4,8760.38
+PRECWIRE,PRECWIRE.NS,Precision Wires India Limited,Diversified,478.4,8745.53
+RPOWER,RPOWER.NS,Reliance Power Ltd.,Power,21.13,8738.88
+RELIGARE,RELIGARE.NS,Religare Enterprises Ltd.,Financial Services,253.02,8722.45
+JAYNECOIND,JAYNECOIND.NS,Jayaswal Neco Industries Ltd.,Capital Goods,89.26,8667.13
+ESABINDIA,ESABINDIA.NS,Esab India Limited,Diversified,5627.5,8662.42
+GNFC,GNFC.NS,Gujarat Narmada Valley Fertilizers and Chemicals Ltd.,Chemicals,588.9,8653.34
+BANCOINDIA,BANCOINDIA.NS,Banco Products (India) Ltd.,Automobile and Auto Components,604.0,8639.45
+NCC,NCC.NS,NCC Ltd.,Construction,137.13,8609.66
+GENUSPOWER,GENUSPOWER.NS,Genus Power Infrastructures Limited,Diversified,310.75,8595.31
+WAAREERTL,WAAREERTL.NS,Waaree Renewable Technologies Ltd.,Capital Goods,819.65,8555.44
+RAILTEL,RAILTEL.NS,Railtel Corporation Of India Ltd.,Telecommunication,265.0,8504.87
+EQUITASBNK,EQUITASBNK.NS,Equitas Small Finance Bank Ltd.,Financial Services,74.09,8476.84
+LEMONTREE,LEMONTREE.NS,Lemon Tree Hotels Ltd.,Consumer Services,106.47,8430.8
+TARIL,TARIL.NS,Transformers And Rectifiers (India) Ltd.,Capital Goods,279.85,8400.14
+TIPSMUSIC,TIPSMUSIC.NS,Tips Music Ltd.,Media Entertainment & Publication,657.7,8390.27
+FIRSTCRY,FIRSTCRY.NS,Brainbees Solutions Ltd.,Consumer Services,172.15,8353.34
+CORDELIA,CORDELIA.NS,Waterways Leisure Tourism Limited,Diversified,115.15,8336.23
+VESUVIUS,VESUVIUS.NS,Vesuvius India Limited,Diversified,405.95,8239.19
+AVL,AVL.NS,Aditya Vision Ltd.,Consumer Services,636.95,8225.45
+BATAINDIA,BATAINDIA.NS,Bata India Ltd.,Consumer Durables,638.3,8203.91
+DYNAMATECH,DYNAMATECH.NS,Dynamatic Technologies Ltd.,Capital Goods,12061.0,8191.16
+PAISALO,PAISALO.NS,Paisalo Digital Limited,Diversified,89.51,8182.55
+ORKLAINDIA,ORKLAINDIA.NS,Orkla India Ltd.,Fast Moving Consumer Goods,595.65,8159.76
+GALAXYSURF,GALAXYSURF.NS,Galaxy Surfactants Limited,Diversified,2215.2,8102.05
+UNIMECH,UNIMECH.NS,Unimech Aerospace and Manufacturing Limited,Diversified,1591.3,8100.04
+SETL,SETL.NS,Standard Engineering Technology Limited,Diversified,402.35,8026.55
+EBGNG,EBGNG.NS,GNG Electronics Limited,Diversified,703.05,8015.58
+GARFIBRES,GARFIBRES.NS,Garware Technical Fibres Limited,Diversified,819.0,7997.4
+GRINFRA,GRINFRA.NS,G R Infraprojects Limited,Diversified,825.9,7991.45
+KIRLFER,KIRLFER.NS,Kirloskar Ferrous Industries Limited,Diversified,480.65,7932.07
+MEDPLUS,MEDPLUS.NS,Medplus Health Services Ltd.,Consumer Services,659.65,7921.58
+KINGFA,KINGFA.NS,Kingfa Science & Technology (India) Limited,Diversified,5828.0,7897.74
+STARCEMENT,STARCEMENT.NS,Star Cement Ltd.,Construction Materials,194.25,7851.2
+BSOFT,BSOFT.NS,Birlasoft Ltd.,Information Technology,280.4,7841.3
+NESCO,NESCO.NS,NESCO Ltd.,Services,1111.3,7830.22
+MAHLIFE,MAHLIFE.NS,Mahindra Lifespace Developers Limited,Diversified,366.4,7825.73
+MIDHANI,MIDHANI.NS,Mishra Dhatu Nigam Ltd.,Capital Goods,417.3,7817.7
+SJS,SJS.NS,S.J.S. Enterprises Limited,Diversified,2422.8,7813.42
+JKPAPER,JKPAPER.NS,JK Paper Ltd.,Forest Materials,430.6,7807.59
+V2RETAIL,V2RETAIL.NS,V2 Retail Ltd.,Consumer Services,214.03,7804.34
+GPPL,GPPL.NS,Gujarat Pipavav Port Ltd.,Services,160.35,7754.94
+AXISCADES,AXISCADES.NS,AXISCADES Technologies Ltd.,Capital Goods,1811.2,7703.67
+SKFINDIA,SKFINDIA.NS,SKF India Ltd.,Automobile and Auto Components,1552.6,7675.74
+EPL,EPL.NS,EPL Ltd.,Capital Goods,239.35,7666.72
+RHIM,RHIM.NS,RHI MAGNESITA INDIA LTD.,Capital Goods,368.7,7613.71
+HNDFDS,HNDFDS.NS,Hindustan Foods Limited,Diversified,625.7,7590.3
+RPEL,RPEL.NS,Raghav Productivity Enhancers Limited,Diversified,1652.4,7588.14
+SONATSOFTW,SONATSOFTW.NS,Sonata Software Ltd.,Information Technology,274.0,7584.17
+EMIL,EMIL.NS,Electronics Mart India Ltd.,Consumer Services,196.28,7551.85
+ZEEL,ZEEL.NS,Zee Entertainment Enterprises Ltd.,Media Entertainment & Publication,78.62,7551.6
+ENTERO,ENTERO.NS,Entero Healthcare Solutions Ltd.,Consumer Services,1732.3,7539.5
+POWERMECH,POWERMECH.NS,Power Mech Projects Ltd.,Construction,2371.4,7497.49
+EMBDL,EMBDL.NS,Embassy Developments Ltd.,Realty,53.88,7489.5
+NEOGEN,NEOGEN.NS,NEOGEN CHEMICALS LTD.,Chemicals,2488.4,7475.76
+NEPHROPLUS,NEPHROPLUS.NS,Nephrocare Health Services Limited,Diversified,743.35,7475.05
+CYIENTDLM,CYIENTDLM.NS,Cyient DLM Limited,Diversified,940.7,7465.81
+EUREKAFORB,EUREKAFORB.NS,Eureka Forbes Ltd.,Consumer Durables,385.3,7460.83
+INDIASHLTR,INDIASHLTR.NS,India Shelter Finance Corporation Ltd.,Financial Services,681.85,7443.57
+AARTIPHARM,AARTIPHARM.NS,Aarti Pharmalabs Ltd.,Healthcare,820.4,7439.37
+SAPPHIRE,SAPPHIRE.NS,Sapphire Foods India Ltd.,Consumer Services,230.11,7403.97
+SAFARI,SAFARI.NS,Safari Industries (India) Ltd.,Consumer Durables,1501.0,7354.5
+KMEW,KMEW.NS,Knowledge Marine & Engineering Works Limited,Diversified,2885.6,7319.13
+IXIGO,IXIGO.NS,Le Travenues Technology Ltd.,Consumer Services,165.65,7305.9
+SUPRIYA,SUPRIYA.NS,Supriya Lifescience Ltd.,Healthcare,906.3,7294.16
+POWERICA,POWERICA.NS,Powerica Limited,Diversified,576.3,7293.18
+CERA,CERA.NS,Cera Sanitaryware Ltd,Consumer Durables,5645.0,7279.21
+TTKPRESTIG,TTKPRESTIG.NS,TTK Prestige Limited,Diversified,530.85,7270.86
+RELAXO,RELAXO.NS,Relaxo Footwears Ltd.,Consumer Durables,291.25,7250.34
+BLISSGVS,BLISSGVS.NS,Bliss GVS Pharma Limited,Diversified,681.85,7250.14
+TIMEX,TIMEX.NS,Timex Group India Limited,Diversified,714.2,7209.85
+GMRP&UI,GMRP&UI.NS,GMR Power and Urban Infra Ltd.,Power,92.31,7209.57
+GAEL,GAEL.NS,Gujarat Ambuja Exports Ltd.,Fast Moving Consumer Goods,156.95,7198.84
+SFL,SFL.NS,Sheela Foam Ltd.,Consumer Durables,657.3,7177.93
+JYOTHYLAB,JYOTHYLAB.NS,Jyothy Labs Ltd.,Fast Moving Consumer Goods,195.07,7163.25
+CELLO,CELLO.NS,Cello World Ltd.,Consumer Durables,322.45,7122.44
+ETHOSLTD,ETHOSLTD.NS,Ethos Ltd.,Consumer Durables,2661.5,7121.56
+SANOFI,SANOFI.NS,Sanofi India Limited,Diversified,3087.4,7110.47
+KSHINTL,KSHINTL.NS,KSH International Limited,Diversified,1046.95,7093.68
+BALAMINES,BALAMINES.NS,Balaji Amines Ltd.,Chemicals,2171.5,7035.88
+DCBBANK,DCBBANK.NS,DCB Bank Ltd.,Financial Services,218.35,7034.78
+NEWGEN,NEWGEN.NS,Newgen Software Technologies Ltd.,Information Technology,497.3,7029.42
+MBAPL,MBAPL.NS,Madhya Bharat Agro Products Limited,Diversified,159.82,7002.27
+TTML,TTML.NS,Tata Teleservices (Maharashtra) Ltd.,Telecommunication,35.73,6984.96
+RAIN,RAIN.NS,Rain Industries Ltd,Chemicals,206.92,6959.66
+TIIL,TIIL.NS,Technocraft Industries (India) Limited,Diversified,3054.1,6924.5
+SKIPPER,SKIPPER.NS,Skipper Ltd.,Capital Goods,566.2,6916.74
+DBL,DBL.NS,Dilip Buildcon Ltd.,Construction,425.5,6912.03
+INOXGREEN,INOXGREEN.NS,Inox Green Energy Services Ltd.,Services,171.32,6878.36
+OMNI,OMNI.NS,Omnitech Engineering Limited,Diversified,556.15,6877.69
+SUPRAJIT,SUPRAJIT.NS,Suprajit Engineering Limited,Diversified,499.05,6845.94
+KOVAI,KOVAI.NS,Kovai Medical Center & Hospital Limited,Diversified,6226.0,6812.65
+IBULLSLTD,IBULLSLTD.NS,Indiabulls Limited,Diversified,30.39,6811.01
+BECTORFOOD,BECTORFOOD.NS,Mrs. Bectors Food Specialities Ltd.,Fast Moving Consumer Goods,221.55,6794.99
+RBA,RBA.NS,Restaurant Brands Asia Ltd.,Consumer Services,95.12,6773.29
+BORORENEW,BORORENEW.NS,Borosil Renewables Ltd.,Capital Goods,459.5,6763.09
+AEROFLEX,AEROFLEX.NS,Aeroflex Industries Limited,Diversified,510.9,6760.78
+IMFA,IMFA.NS,Indian Metals & Ferro Alloys Ltd.,Metals & Mining,1252.2,6756.13
+INNOVACAP,INNOVACAP.NS,Innova Captab Limited,Diversified,1179.8,6751.4
+SHARDACROP,SHARDACROP.NS,Sharda Cropchem Ltd.,Chemicals,743.1,6704.28
+BAJAJCON,BAJAJCON.NS,Bajaj Consumer Care Limited,Diversified,512.15,6689.62
+FCL,FCL.NS,Fineotex Chemical Limited,Diversified,57.02,6639.98
+MOREPENLAB,MOREPENLAB.NS,Morepen Laboratories Limited,Diversified,120.9,6624.76
+GOKULAGRO,GOKULAGRO.NS,Gokul Agro Resources Ltd.,Fast Moving Consumer Goods,224.24,6617.02
+GMMPFAUDLR,GMMPFAUDLR.NS,GMM Pfaudler Ltd.,Capital Goods,1467.0,6595.22
+JKLAKSHMI,JKLAKSHMI.NS,JK Lakshmi Cement Ltd.,Construction Materials,530.2,6582.14
+DODLA,DODLA.NS,Dodla Dairy Limited,Diversified,1083.6,6537.12
+CEIGALL,CEIGALL.NS,Ceigall India Limited,Diversified,373.75,6510.91
+RAYMOND,RAYMOND.NS,Raymond Limited,Diversified,978.0,6508.73
+REDTAPE,REDTAPE.NS,Redtape Ltd.,Consumer Durables,117.35,6487.2
+CAMPUS,CAMPUS.NS,Campus Activewear Ltd.,Consumer Durables,212.12,6484.08
+TFCILTD,TFCILTD.NS,Tourism Finance Corporation of India Limited,Diversified,139.62,6464.09
+TANLA,TANLA.NS,Tanla Platforms Ltd.,Information Technology,489.25,6460.58
+SENORES,SENORES.NS,Senores Pharmaceuticals Limited,Diversified,1402.6,6459.48
+VMART,VMART.NS,V-Mart Retail Ltd.,Consumer Services,808.15,6430.89
+AJAXENGG,AJAXENGG.NS,Ajax Engineering Limited,Diversified,559.75,6404.17
+CENTUM,CENTUM.NS,Centum Electronics Limited,Diversified,4333.3,6396.82
+MANINDS,MANINDS.NS,Man Industries (India) Limited,Diversified,851.55,6387.44
+TCI,TCI.NS,Transport Corporation of India Limited,Diversified,829.8,6375.45
+JSLL,JSLL.NS,Jeena Sikho Lifecare Ltd.,Consumer Services,510.4,6344.31
+BIRLACORPN,BIRLACORPN.NS,Birla Corporation Ltd.,Construction Materials,823.6,6342.16
+BALUFORGE,BALUFORGE.NS,Balu Forge Industries Ltd.,Capital Goods,522.15,6338.48
+SBCL,SBCL.NS,Shivalik Bimetal Controls Limited,Diversified,1096.2,6314.57
+KISSHT,KISSHT.NS,OnEMI Technology Solutions Limited,Diversified,356.05,6311.67
+SPARC,SPARC.NS,Sun Pharma Advanced Research Company Ltd.,Healthcare,193.92,6293.12
+SMARTWORKS,SMARTWORKS.NS,Smartworks Coworking Spaces Ltd.,Services,547.35,6260.65
+SUNFLAG,SUNFLAG.NS,Sunflag Iron And Steel Company Limited,Diversified,345.1,6219.37
+LEAPIND,LEAPIND.NS,LEAP India Limited,Diversified,140.47,6188.22
+GANESHHOU,GANESHHOU.NS,GANESH HOUSING LIMITED,Diversified,741.45,6182.74
+ABFRL,ABFRL.NS,Aditya Birla Fashion and Retail Ltd.,Consumer Services,50.16,6103.35
+GSFC,GSFC.NS,Gujarat State Fertilizers & Chemicals Ltd.,Chemicals,151.92,6053.67
+RCF,RCF.NS,Rashtriya Chemicals & Fertilizers Ltd.,Chemicals,109.08,6017.81
+VIKRAMSOLR,VIKRAMSOLR.NS,Vikram Solar Ltd.,Capital Goods,165.42,5994.07
+SIS,SIS.NS,SIS LIMITED,Diversified,428.25,5979.9
+IOLCP,IOLCP.NS,IOL Chemicals and Pharmaceuticals Limited,Diversified,203.15,5963.01
+GREENLAM,GREENLAM.NS,Greenlam Industries Limited,Diversified,231.51,5906.92
+TVSSCS,TVSSCS.NS,TVS Supply Chain Solutions Ltd.,Services,133.85,5905.78
+PRSMJOHNSN,PRSMJOHNSN.NS,Prism Johnson Ltd.,Construction Materials,117.05,5891.79
+JAIBALAJI,JAIBALAJI.NS,JAI BALAJI INDUSTRIES Ltd.,Metals & Mining,64.48,5882.2
+SSWL,SSWL.NS,Steel Strips Wheels Limited,Diversified,372.4,5856.55
+STYL,STYL.NS,Seshaasai Technologies Ltd.,Financial Services,360.35,5830.67
+FEDFINA,FEDFINA.NS,Fedbank Financial Services Ltd.,Financial Services,155.25,5824.08
+PICCADIL,PICCADIL.NS,Piccadily Agro Industries Ltd.,Fast Moving Consumer Goods,589.4,5809.8
+PRAJIND,PRAJIND.NS,Praj Industries Ltd.,Capital Goods,316.05,5809.41
+ISGEC,ISGEC.NS,Isgec Heavy Engineering Limited,Diversified,786.25,5781.26
+ACI,ACI.NS,Archean Chemical Industries Ltd.,Chemicals,467.15,5767.36
+FDC,FDC.NS,FDC Limited,Diversified,352.5,5739.06
+ARVINDFASN,ARVINDFASN.NS,Arvind Fashions Ltd.,Consumer Services,428.1,5724.96
+SENCO,SENCO.NS,Senco Gold Ltd.,Consumer Durables,348.0,5703.75
+HCC,HCC.NS,Hindustan Construction Co. Ltd.,Construction,21.77,5702.58
+CSBBANK,CSBBANK.NS,CSB Bank Ltd.,Financial Services,336.15,5696.99
+LCL,LCL.NS,Lohia Corp Limited,Diversified,538.6,5690.31
+JUSTDIAL,JUSTDIAL.NS,Justdial Ltd.,Consumer Services,669.0,5689.78
+SHAKTIPUMP,SHAKTIPUMP.NS,Shakti Pumps (India) Ltd.,Capital Goods,460.95,5688.03
+KALPATARU,KALPATARU.NS,Kalpataru Limited,Diversified,274.45,5651.66
+ITDC,ITDC.NS,India Tourism Development Corporation Limited,Diversified,658.3,5646.2
+KPIGREEN,KPIGREEN.NS,KPI Green Energy Ltd.,Power,284.45,5622.78
+CCAVENUE,CCAVENUE.NS,AvenuesAI Ltd.,Financial Services,16.08,5597.48
+STYLAMIND,STYLAMIND.NS,Stylam Industries Limited,Diversified,3295.5,5588.75
+JSFB,JSFB.NS,Jana Small Finance Bank Ltd.,Financial Services,527.3,5580.0
+GUJTHEM,GUJTHEM.NS,Gujarat Themis Biosyn Limited,Diversified,427.4,5562.68
+KRISHANA,KRISHANA.NS,Krishana Phoschem Limited,Diversified,179.89,5561.08
+SHARDAMOTR,SHARDAMOTR.NS,Sharda Motor Industries Limited,Diversified,967.05,5551.61
+LGBBROSLTD,LGBBROSLTD.NS,LG Balakrishnan & Bros Limited,Diversified,1730.4,5519.43
+TRANSRAILL,TRANSRAILL.NS,Transrail Lighting Ltd.,Capital Goods,408.75,5487.72
+LUMAXIND,LUMAXIND.NS,Lumax Industries Limited,Diversified,5851.0,5469.36
+IONEXCHANG,IONEXCHANG.NS,Ion Exchange (India) Ltd.,Utilities,442.3,5437.21
+NIRLON,NIRLON.NS,Nirlon Limited,Diversified,600.4,5410.69
+SHANTIGEAR,SHANTIGEAR.NS,Shanthi Gears Limited,Diversified,700.05,5372.21
+GOKEX,GOKEX.NS,Gokaldas Exports Ltd.,Textiles,727.75,5332.78
+OPTIEMUS,OPTIEMUS.NS,Optiemus Infracom Ltd.,Telecommunication,590.1,5320.72
+WHEELS,WHEELS.NS,Wheels India Limited,Diversified,2175.7,5315.89
+MARINE,MARINE.NS,Marine Electricals (India) Limited,Diversified,379.2,5306.69
+GULFOILLUB,GULFOILLUB.NS,Gulf Oil Lubricants India Limited,Diversified,1070.1,5302.94
+RPTECH,RPTECH.NS,Rashi Peripherals Limited,Diversified,798.05,5299.51
+VADILALIND,VADILALIND.NS,Vadilal Industries Limited,Diversified,7362.0,5291.68
+LATENTVIEW,LATENTVIEW.NS,Latent View Analytics Ltd.,Information Technology,255.35,5287.87
+TRIVENI,TRIVENI.NS,Triveni Engineering & Industries Ltd.,Fast Moving Consumer Goods,238.8,5262.27
+ELLEN,ELLEN.NS,Ellenbarrie Industrial Gases Ltd.,Chemicals,373.1,5258.31
+QUESS,QUESS.NS,Quess Corp Ltd.,Services,351.65,5253.16
+INDIGOPNTS,INDIGOPNTS.NS,Indigo Paints Ltd.,Consumer Durables,1099.7,5249.16
+MASFIN,MASFIN.NS,MAS Financial Services Limited,Diversified,288.95,5243.1
+SAATVIKGL,SAATVIKGL.NS,Saatvik Green Energy Ltd.,Capital Goods,411.8,5234.18
+ROSSTECH,ROSSTECH.NS,Rossell Techsys Limited,Diversified,1374.3,5200.39
+SPECTRUM,SPECTRUM.NS,Spectrum Electrical Industries Limited,Diversified,3039.6,5193.91
+DBREALTY,DBREALTY.NS,VALOR ESTATE Ltd.,Realty,95.68,5189.75
+RAMRAT,RAMRAT.NS,Ram Ratna Wires Limited,Diversified,554.75,5178.54
+GOODLUCK,GOODLUCK.NS,Goodluck India Limited,Diversified,517.25,5157.79
+VRLLOG,VRLLOG.NS,VRL Logistics Limited,Diversified,293.6,5136.15
+UNIVCABLES,UNIVCABLES.NS,Universal Cables Limited,Diversified,1477.0,5124.51
+FIEMIND,FIEMIND.NS,Fiem Industries Ltd,Automobile and Auto Components,1937.3,5098.91
+MSTCLTD,MSTCLTD.NS,MSTC Ltd.,Services,724.05,5097.31
+NRBBEARING,NRBBEARING.NS,NRB Bearing Limited,Diversified,525.5,5093.28
+WSTCSTPAPR,WSTCSTPAPR.NS,West Coast Paper Mills Limited,Diversified,768.3,5074.54
+NORTHARC,NORTHARC.NS,Northern Arc Capital Limited,Diversified,313.6,5073.94
+PURVA,PURVA.NS,Puravankara Ltd.,Realty,213.43,5061.49
+FOSECOIND,FOSECOIND.NS,Foseco India Limited,Diversified,6677.5,5057.97
+NOVARTIND,NOVARTIND.NS,Novartis India Limited,Diversified,2046.8,5053.71
+EMUDHRA,EMUDHRA.NS,eMudhra Limited,Diversified,613.45,5032.96
+DEEDEV,DEEDEV.NS,DEE Development Engineers Limited,Diversified,668.75,5031.64
+CARERATING,CARERATING.NS,CARE Ratings Limited,Diversified,1668.6,5020.34
+ORCHPHARMA,ORCHPHARMA.NS,Orchid Pharma Limited,Diversified,989.7,5019.67
+ASHAPURMIN,ASHAPURMIN.NS,Ashapura Minechem Ltd.,Metals & Mining,525.35,5018.46
+JAMNAAUTO,JAMNAAUTO.NS,Jamna Auto Industries Ltd.,Automobile and Auto Components,125.03,5001.01
+MANINFRA,MANINFRA.NS,Man Infraconstruction Limited,Diversified,125.64,4998.25
+SHAREINDIA,SHAREINDIA.NS,Share India Securities Ltd.,Financial Services,228.15,4992.5
+JUNIPER,JUNIPER.NS,Juniper Hotels Limited,Diversified,224.33,4991.4
+JINDWORLD,JINDWORLD.NS,Jindal Worldwide Limited,Diversified,49.7,4982.93
+IFBIND,IFBIND.NS,IFB Industries Ltd.,Consumer Durables,1225.1,4963.96
+MOIL,MOIL.NS,MOIL Ltd.,Metals & Mining,243.88,4962.6
+PDSL,PDSL.NS,PDS Limited,Diversified,351.15,4959.55
+LXCHEM,LXCHEM.NS,Laxmi Organic Industries Ltd.,Chemicals,178.24,4953.55
+THOMASCOOK,THOMASCOOK.NS,Thomas Cook (India) Ltd.,Consumer Services,106.04,4941.26
+MAPMYINDIA,MAPMYINDIA.NS,C.E. Info Systems Ltd.,Information Technology,899.4,4925.21
+MASTEK,MASTEK.NS,Mastek Ltd.,Information Technology,1588.2,4924.43
+GOLDIAM,GOLDIAM.NS,Goldiam International Limited,Diversified,326.75,4919.45
+RENUKA,RENUKA.NS,Shree Renuka Sugars Ltd.,Fast Moving Consumer Goods,23.06,4908.3
+WAKEFIT,WAKEFIT.NS,Wakefit Innovations Ltd.,Consumer Durables,146.85,4870.21
+BANSALWIRE,BANSALWIRE.NS,Bansal Wire Industries Limited,Diversified,310.6,4862.63
+VISHNU,VISHNU.NS,Vishnu Chemicals Limited,Diversified,722.15,4861.17
+SOTL,SOTL.NS,Savita Oil Technologies Limited,Diversified,708.05,4854.42
+HAPPSTMNDS,HAPPSTMNDS.NS,Happiest Minds Technologies Ltd.,Information Technology,321.55,4831.67
+YASHO,YASHO.NS,Yasho Industries Limited,Diversified,4002.0,4825.25
+AGI,AGI.NS,AGI Greenpac Limited,Diversified,745.05,4820.28
+EPIGRAL,EPIGRAL.NS,Epigral Limited,Diversified,1105.3,4768.41
+UFLEX,UFLEX.NS,UFLEX Limited,Diversified,659.45,4761.99
+DEEPINDS,DEEPINDS.NS,Deep Industries Limited,Diversified,743.35,4757.44
+KDDL,KDDL.NS,KDDL Limited,Diversified,3858.4,4745.55
+VENUSPIPES,VENUSPIPES.NS,Venus Pipes & Tubes Limited,Diversified,2282.9,4729.28
+SUBROS,SUBROS.NS,Subros Ltd.,Capital Goods,720.3,4698.93
+GUJALKALI,GUJALKALI.NS,Gujarat Alkalies and Chemicals Limited,Diversified,638.7,4690.42
+CRAMC,CRAMC.NS,Canara Robeco Asset Management Company Ltd.,Financial Services,234.0,4666.37
+BAJAJHIND,BAJAJHIND.NS,Bajaj Hindusthan Sugar Limited,Diversified,19.53,4665.49
+TEXRAIL,TEXRAIL.NS,Texmaco Rail & Eng. Ltd.,Capital Goods,114.66,4665.11
+SHILCTECH,SHILCTECH.NS,Shilchar Technologies Limited,Diversified,4067.9,4653.76
+RPGLIFE,RPGLIFE.NS,RPG Life Sciences Limited,Diversified,2802.4,4634.89
+PTC,PTC.NS,PTC India Ltd.,Power,156.23,4624.54
+BOSCH-HCIL,BOSCH-HCIL.NS,BOSCH HOME COMFORT INDIA LIMITED,Diversified,1694.0,4606.14
+GREAVESCOT,GREAVESCOT.NS,Greaves Cotton Ltd.,Capital Goods,197.35,4597.3
+SURYAROSNI,SURYAROSNI.NS,Surya Roshni Ltd.,Capital Goods,210.62,4583.85
+AYE,AYE.NS,Aye Finance Limited,Diversified,185.72,4583.35
+HEG,HEG.NS,H.E.G. Ltd.,Capital Goods,237.05,4574.53
+SINDHUTRAD,SINDHUTRAD.NS,Sindhu Trade Links Limited,Diversified,24.72,4554.37
+ELECTCAST,ELECTCAST.NS,Electrosteel Castings Ltd.,Capital Goods,73.38,4536.24
+MPSLTD,MPSLTD.NS,MPS Limited,Diversified,2667.3,4527.88
+DATAMATICS,DATAMATICS.NS,Datamatics Global Services Ltd.,Information Technology,765.95,4527.25
+ROLEXRINGS,ROLEXRINGS.NS,Rolex Rings Limited,Diversified,172.08,4514.23
+LCCPROJECT,LCCPROJECT.NS,LCC Projects Limited,Diversified,155.78,4512.5
+PILANIINVS,PILANIINVS.NS,Pilani Investment and Industries Corporation Limited,Diversified,4067.0,4503.08
+RUSTOMJEE,RUSTOMJEE.NS,Keystone Realtors Limited,Diversified,353.75,4466.0
+GVPIL,GVPIL.NS,GE Power India Limited,Diversified,656.1,4410.79
+SHOPERSTOP,SHOPERSTOP.NS,Shoppers Stop Limited,Diversified,399.75,4405.47
+SEAMECLTD,SEAMECLTD.NS,Seamec Limited,Diversified,1726.3,4404.48
+SWARAJENG,SWARAJENG.NS,Swaraj Engines Limited,Diversified,3625.1,4404.45
+HAWKINCOOK,HAWKINCOOK.NS,Hawkins Cookers Limited,Diversified,8286.0,4381.48
+ICRA,ICRA.NS,ICRA Limited,Diversified,4544.7,4374.32
+GUFICBIO,GUFICBIO.NS,Gufic Biosciences Limited,Diversified,436.0,4372.32
+DECNGOLD,DECNGOLD.NS,Deccan Gold Mines Limited,Diversified,217.21,4365.29
+SAMBHV,SAMBHV.NS,Sambhv Steel Tubes Limited,Diversified,147.57,4348.47
+DHANUKA,DHANUKA.NS,Dhanuka Agritech Limited,Diversified,973.3,4338.81
+SUNTECK,SUNTECK.NS,Sunteck Realty Ltd.,Realty,294.05,4317.89
+HIRECT,HIRECT.NS,Hirect Limited,Diversified,1242.8,4271.78
+VIPIND,VIPIND.NS,V.I.P. Industries Ltd.,Consumer Durables,299.1,4248.83
+RESPONIND,RESPONIND.NS,Responsive Industries Limited,Diversified,159.18,4243.87
+PITTIENG,PITTIENG.NS,Pitti Engineering Limited,Diversified,1146.1,4230.67
+KSL,KSL.NS,Kalyani Steels Limited,Diversified,955.05,4179.24
+NETWORK18,NETWORK18.NS,Network18 Media & Investments Ltd.,Media Entertainment & Publication,27.0,4170.12
+FILATEX,FILATEX.NS,Filatex India Limited,Diversified,93.83,4166.6
+PRASOLCHEM,PRASOLCHEM.NS,Prasol Chemicals Limited,Diversified,703.4,4162.96
+BANARISUG,BANARISUG.NS,Bannari Amman Sugars Limited,Diversified,3316.7,4159.04
+SGFIN,SGFIN.NS,SG Finserve Limited,Diversified,630.95,4157.65
+SMSPHARMA,SMSPHARMA.NS,SMS Pharmaceuticals Limited,Diversified,442.95,4148.32
+TATVA,TATVA.NS,Tatva Chintan Pharma Chem Limited,Diversified,1770.2,4140.86
+SWSOLAR,SWSOLAR.NS,Sterling and Wilson Renewable Energy Ltd.,Construction,176.06,4111.73
+SYMPHONY,SYMPHONY.NS,Symphony Limited,Diversified,598.65,4111.01
+INDIQUBE,INDIQUBE.NS,Indiqube Spaces Limited,Diversified,192.85,4088.37
+63MOONS,63MOONS.NS,63 moons technologies limited,Diversified,884.75,4076.8
+MOSCHIP,MOSCHIP.NS,Moschip Technologies Limited,Diversified,208.89,4073.06
+SANATHAN,SANATHAN.NS,Sanathan Textiles Limited,Diversified,480.85,4058.57
+TBZ,TBZ.NS,Tribhovandas Bhimji Zaveri Limited,Diversified,603.55,4027.53
+MHRIL,MHRIL.NS,Mahindra Holidays & Resorts India Limited,Diversified,199.29,4019.22
+HARSHA,HARSHA.NS,Harsha Engineers International Limited,Diversified,440.45,4010.04
+ZOTA,ZOTA.NS,Zota Health Care LImited,Diversified,1144.5,3963.7
+RALLIS,RALLIS.NS,Rallis India Ltd.,Chemicals,203.8,3963.28
+RAYMONDLSL,RAYMONDLSL.NS,Raymond Lifestyle Ltd.,Textiles,648.35,3948.83
+AARTIDRUGS,AARTIDRUGS.NS,Aarti Drugs Ltd.,Healthcare,431.8,3941.04
+LASERPOWER,LASERPOWER.NS,Laser Power & Infra Limited,Diversified,280.75,3940.84
+GRAUWEIL,GRAUWEIL.NS,Grauer & Weil India Limited,Diversified,86.62,3927.45
+TARC,TARC.NS,TARC Ltd.,Realty,133.09,3927.44
+AHLUCONT,AHLUCONT.NS,Ahluwalia Contracts (India) Ltd.,Construction,584.7,3916.76
+RAYMONDREL,RAYMONDREL.NS,Raymond Realty Limited,Diversified,588.3,3915.22
+AVANTEL,AVANTEL.NS,Avantel Limited,Diversified,147.23,3913.02
+VSSL,VSSL.NS,Vardhman Special Steels Limited,Diversified,404.7,3912.87
+MAHLOG,MAHLOG.NS,Mahindra Logistics Limited,Diversified,392.75,3899.12
+INDOSTAR,INDOSTAR.NS,IndoStar Capital Finance Limited,Diversified,241.05,3897.06
+KIRLOSIND,KIRLOSIND.NS,Kirloskar Industries Limited,Diversified,3699.8,3888.33
+ANTELOPUS,ANTELOPUS.NS,Antelopus Selan Energy Limited,Diversified,1104.85,3884.91
+HERITGFOOD,HERITGFOOD.NS,Heritage Foods Ltd.,Fast Moving Consumer Goods,418.1,3879.8
+GHCL,GHCL.NS,GHCL Ltd.,Chemicals,421.7,3865.49
+CAPILLARY,CAPILLARY.NS,Capillary Technologies India Ltd.,Information Technology,484.05,3846.84
+UNICHEMLAB,UNICHEMLAB.NS,Unichem Laboratories Limited,Diversified,545.7,3842.04
+RTNPOWER,RTNPOWER.NS,RattanIndia Power Ltd.,Power,7.14,3834.26
+KOLTEPATIL,KOLTEPATIL.NS,Kolte - Patil Developers Limited,Diversified,431.75,3828.76
+NPST,NPST.NS,Network People Services Technologies Limited,Diversified,1828.5,3814.89
+UNIPARTS,UNIPARTS.NS,Uniparts India Limited,Diversified,831.5,3752.0
+REFEX,REFEX.NS,Refex Industries Ltd.,Utilities,271.85,3730.56
+SANGHVIMOV,SANGHVIMOV.NS,Sanghvi Movers Limited,Diversified,430.7,3728.83
+BAJAJELEC,BAJAJELEC.NS,Bajaj Electricals Ltd,Consumer Durables,323.05,3728.76
+TVSSRICHAK,TVSSRICHAK.NS,TVS Srichakra Limited,Diversified,4844.5,3709.46
+CMSINFO,CMSINFO.NS,CMS Info Systems Ltd.,Services,230.93,3696.34
+AURIONPRO,AURIONPRO.NS,Aurionpro Solution Ltd.,Information Technology,685.6,3688.5
+JKIL,JKIL.NS,J.Kumar Infraprojects Limited,Diversified,486.55,3681.51
+VSTTILLERS,VSTTILLERS.NS,V.S.T Tillers Tractors Limited,Diversified,4240.0,3668.77
+RTNINDIA,RTNINDIA.NS,RattanIndia Enterprises Ltd.,Consumer Services,26.54,3664.88
+RML,RML.NS,Rane (Madras) Limited,Diversified,1324.5,3660.54
+GREENPLY,GREENPLY.NS,Greenply Industries Limited,Diversified,292.85,3657.76
+STYRENIX,STYRENIX.NS,Styrenix Performance Materials Ltd.,Chemicals,2067.9,3638.74
+PRABHA,PRABHA.NS,Prabha Energy Limited,Diversified,233.01,3636.98
+SANDHAR,SANDHAR.NS,Sandhar Technologies Limited,Diversified,601.25,3627.66
+IDEAFORGE,IDEAFORGE.NS,Ideaforge Technology Limited,Diversified,729.6,3626.73
+TRUALT,TRUALT.NS,TruAlt Bioenergy Limited,Diversified,421.7,3616.19
+INDOTECH,INDOTECH.NS,Indo Tech Transformers Limited,Diversified,3394.7,3605.17
+SAMHI,SAMHI.NS,Samhi Hotels Ltd.,Consumer Services,161.98,3601.78
+PREMEXPLN,PREMEXPLN.NS,Premier Explosives Limited,Diversified,668.25,3594.13
+POCL,POCL.NS,Pondy Oxides & Chemicals Limited,Diversified,469.95,3584.69
+SOLARA,SOLARA.NS,Solara Active Pharma Sciences Limited,Diversified,742.05,3580.43
+ORIENTELEC,ORIENTELEC.NS,Orient Electric Limited,Diversified,167.36,3571.3
+ASHIANA,ASHIANA.NS,Ashiana Housing Limited,Diversified,354.75,3566.12
+PNCINFRA,PNCINFRA.NS,PNC Infratech Ltd.,Construction,138.87,3562.56
+KSCL,KSCL.NS,Kaveri Seed Company Ltd.,Fast Moving Consumer Goods,696.35,3554.23
+MIDWESTLTD,MIDWESTLTD.NS,Midwest Limited,Diversified,980.8,3546.65
+VSTIND,VSTIND.NS,VST Industries Limited,Diversified,208.92,3542.11
+VAIBHAVGBL,VAIBHAVGBL.NS,Vaibhav Global Ltd.,Consumer Durables,209.9,3520.08
+EIEL,EIEL.NS,Enviro Infra Engineers Ltd.,Utilities,200.01,3510.78
+KNRCON,KNRCON.NS,KNR Constructions Ltd.,Construction,124.8,3509.81
+ALOKINDS,ALOKINDS.NS,Alok Industries Ltd.,Textiles,7.05,3500.49
+TCPLPACK,TCPLPACK.NS,TCPL Packaging Limited,Diversified,3844.2,3490.88
+NITINSPIN,NITINSPIN.NS,Nitin Spinners Limited,Diversified,619.2,3481.14
+KIRIINDUS,KIRIINDUS.NS,Kiri Industries Limited,Diversified,531.75,3465.31
+DIVGIITTS,DIVGIITTS.NS,Divgi Torqtransfer Systems Limited,Diversified,1130.2,3456.48
+JTLIND,JTLIND.NS,JTL INDUSTRIES LIMITED,Diversified,87.67,3446.15
+HEMIPROP,HEMIPROP.NS,Hemisphere Properties India Ltd.,Services,120.77,3443.45
+NACLIND,NACLIND.NS,NACL Industries Limited,Diversified,146.75,3437.52
+LUXIND,LUXIND.NS,Lux Industries Limited,Diversified,1139.2,3425.77
+PARAGMILK,PARAGMILK.NS,Parag Milk Foods Limited,Diversified,268.5,3396.75
+POLYPLEX,POLYPLEX.NS,Polyplex Corporation Limited,Diversified,1079.3,3388.19
+AGIIL,AGIIL.NS,Agi Infra Limited,Diversified,270.45,3380.55
+PACEDIGITK,PACEDIGITK.NS,Pace Digitek Limited,Diversified,156.17,3370.95
+WONDERLA,WONDERLA.NS,Wonderla Holidays Limited,Diversified,527.85,3347.77
+INDRAMEDCO,INDRAMEDCO.NS,Indraprastha Medical Corporation Limited,Diversified,362.9,3326.81
+HEIDELBERG,HEIDELBERG.NS,HeidelbergCement India Limited,Diversified,145.92,3307.0
+DPABHUSHAN,DPABHUSHAN.NS,D. P. Abhushan Limited,Diversified,1448.3,3306.17
+ANUP,ANUP.NS,The Anup Engineering Ltd.,Capital Goods,1638.3,3281.76
+DBCORP,DBCORP.NS,D.B.Corp Limited,Diversified,184.06,3280.96
+JASH,JASH.NS,Jash Engineering Limited,Diversified,521.15,3278.3
+NFL,NFL.NS,National Fertilizers Ltd.,Chemicals,66.79,3276.57
+JTEKTINDIA,JTEKTINDIA.NS,Jtekt India Limited,Diversified,117.77,3266.9
+NOCIL,NOCIL.NS,NOCIL Limited,Diversified,194.56,3249.64
+INDSWFTLAB,INDSWFTLAB.NS,Ind-Swift Laboratories Limited,Diversified,373.25,3245.84
+STEELCAS,STEELCAS.NS,Steelcast Limited,Diversified,319.9,3237.39
+MAYURUNIQ,MAYURUNIQ.NS,Mayur Uniquoters Ltd,Diversified,743.4,3230.27
+CARYSIL,CARYSIL.NS,CARYSIL LIMITED,Diversified,1131.3,3217.71
+PSPPROJECT,PSPPROJECT.NS,PSP Projects Limited,Diversified,810.1,3211.38
+BEPL,BEPL.NS,Bhansali Engineering Polymers Limited,Diversified,128.95,3209.03
+BHAGCHEM,BHAGCHEM.NS,Bhagiradha Chemicals & Industries Limited,Diversified,246.85,3200.88
+GOPAL,GOPAL.NS,Gopal Snacks Limited,Diversified,256.75,3200.82
+ASHOKA,ASHOKA.NS,Ashoka Buildcon Ltd.,Construction,113.43,3184.24
+ADVENZYMES,ADVENZYMES.NS,Advanced Enzyme Tech Ltd.,Healthcare,287.8,3182.13
+MUTHOOTMF,MUTHOOTMF.NS,Muthoot Microfin Limited,Diversified,189.28,3175.49
+OSWALPUMPS,OSWALPUMPS.NS,Oswal Pumps Ltd.,Capital Goods,278.1,3170.48
+WEBELSOLAR,WEBELSOLAR.NS,Websol Energy System Ltd.,Capital Goods,72.94,3166.79
+ARSSBL,ARSSBL.NS,Anand Rathi Share and Stock Brokers Limited,Diversified,502.05,3166.25
+DALMIASUG,DALMIASUG.NS,Dalmia Bharat Sugar and Industries Limited,Diversified,390.5,3160.68
+VINDHYATEL,VINDHYATEL.NS,Vindhya Telelinks Limited,Diversified,2660.0,3152.33
+JINDALPOLY,JINDALPOLY.NS,Jindal Poly Films Limited,Diversified,718.45,3145.83
+APCOTEXIND,APCOTEXIND.NS,Apcotex Industries Limited,Diversified,604.85,3135.84
+CMLL,CMLL.NS,Caliber Mining and Logistics Limited,Diversified,477.7,3123.0
+WINDMACHIN,WINDMACHIN.NS,Windsor Machines Limited,Diversified,300.05,3104.3
+HLEGLAS,HLEGLAS.NS,HLE Glascoat Limited,Diversified,446.9,3103.93
+BOROLTD,BOROLTD.NS,Borosil Limited,Diversified,259.21,3099.83
+SEIL,SEIL.NS,Shanti Educational Initiatives Limited,Diversified,192.19,3094.26
+CONFIPET,CONFIPET.NS,Confidence Petroleum India Limited,Diversified,91.95,3054.96
+BUILDPRO,BUILDPRO.NS,Shankara Buildpro Limited,Diversified,1253.8,3040.38
+CRIZAC,CRIZAC.NS,Crizac Ltd.,Consumer Services,173.73,3039.97
+MMFL,MMFL.NS,MM Forgings Limited,Diversified,628.55,3034.74
+JUBLCPL,JUBLCPL.NS,Jubilant Agri and Consumer Products Limited,Diversified,2000.1,3030.65
+FUSION,FUSION.NS,Fusion Finance Limited,Diversified,185.12,2993.69
+NIITMTS,NIITMTS.NS,NIIT Learning Systems Limited,Diversified,217.16,2992.78
+KKCL,KKCL.NS,Kewal Kiran Clothing Limited,Diversified,485.6,2992.52
+IMAGICAA,IMAGICAA.NS,Imagicaaworld Entertainment Limited,Diversified,52.82,2988.95
+PRINCEPIPE,PRINCEPIPE.NS,Prince Pipes And Fittings Limited,Diversified,269.8,2983.51
+CARRARO,CARRARO.NS,Carraro India Limited,Diversified,524.65,2982.72
+RISHABH,RISHABH.NS,Rishabh Instruments Limited,Diversified,764.7,2959.16
+STYLEBAAZA,STYLEBAAZA.NS,Baazar Style Retail Limited,Diversified,386.75,2943.84
+TALBROAUTO,TALBROAUTO.NS,Talbros Automotive Components Limited,Diversified,476.7,2942.58
+MAITHANALL,MAITHANALL.NS,Maithan Alloys Limited,Diversified,1009.1,2937.65
+RELTD,RELTD.NS,Ravindra Energy Limited,Diversified,147.59,2930.58
+ROUTE,ROUTE.NS,Route Mobile Ltd.,Telecommunication,464.4,2925.86
+ELPROINTL,ELPROINTL.NS,Elpro International Limited,Diversified,172.53,2924.02
+GIPCL,GIPCL.NS,Gujarat Industries Power Company Limited,Diversified,188.35,2923.49
+KERNEX,KERNEX.NS,Kernex Microsystems (India) Limited,Diversified,1732.5,2911.23
+MONARCH,MONARCH.NS,Monarch Networth Capital Limited,Diversified,366.15,2903.87
+RAMCOIND,RAMCOIND.NS,Ramco Industries Limited,Diversified,332.1,2884.01
+HGINFRA,HGINFRA.NS,H.G. Infra Engineering Ltd.,Construction,442.45,2883.5
+ADFFOODS,ADFFOODS.NS,ADF Foods Limited,Diversified,261.45,2872.38
+XPROINDIA,XPROINDIA.NS,Xpro India Limited,Diversified,1223.0,2870.43
+RSYSTEMS,RSYSTEMS.NS,R Systems International Limited,Diversified,242.15,2869.38
+BLSE,BLSE.NS,BLS E-Services Limited,Diversified,316.5,2869.2
+INTERARCH,INTERARCH.NS,Interarch Building Solutions Limited,Diversified,1705.8,2868.65
+BALMLAWRIE,BALMLAWRIE.NS,Balmer Lawrie & Company Limited,Diversified,167.41,2862.78
+SANGAMIND,SANGAMIND.NS,Sangam (India) Limited,Diversified,580.0,2859.98
+INDNIPPON,INDNIPPON.NS,India Nippon Electricals Limited,Diversified,1260.0,2850.3
+PANAMAPET,PANAMAPET.NS,Panama Petrochem Limited,Diversified,470.2,2844.41
+MANGLMCEM,MANGLMCEM.NS,Mangalam Cement Limited,Diversified,1030.8,2834.42
+NSIL,NSIL.NS,Nalwa Sons Investments Limited,Diversified,5507.5,2828.74
+NILKAMAL,NILKAMAL.NS,Nilkamal Limited,Diversified,1887.5,2826.02
+NAVNETEDUL,NAVNETEDUL.NS,Navneet Education Limited,Diversified,126.89,2806.97
+RPSGVENT,RPSGVENT.NS,RPSG VENTURES LIMITED,Diversified,843.45,2790.67
+HIKAL,HIKAL.NS,Hikal Limited,Diversified,226.04,2787.09
+DREDGECORP,DREDGECORP.NS,Dredging Corporation of India Limited,Diversified,992.3,2778.44
+ADOR,ADOR.NS,Ador Welding Limited,Diversified,1592.1,2770.7
+SUNCLAY,SUNCLAY.NS,Sundaram Clayton Limited,Diversified,1254.6,2765.91
+MARATHON,MARATHON.NS,Marathon Nextgen Realty Limited,Diversified,409.0,2758.48
+STOVEKRAFT,STOVEKRAFT.NS,Stove Kraft Limited,Diversified,829.3,2745.59
+TECHNVISN,TECHNVISN.NS,TechNVision Ventures Limited,Diversified,4349.0,2729.0
+UEL,UEL.NS,Ujaas Energy Limited,Diversified,203.73,2717.71
+CHEMPLASTS,CHEMPLASTS.NS,Chemplast Sanmar Limited,Diversified,171.48,2711.26
+UFBL,UFBL.NS,United Foodbrands Limited,Diversified,692.45,2708.7
+GANDHAR,GANDHAR.NS,Gandhar Oil Refinery (India) Limited,Diversified,276.2,2703.43
+VIMTALABS,VIMTALABS.NS,Vimta Labs Limited,Diversified,603.1,2695.85
+GANECOS,GANECOS.NS,Ganesha Ecosphere Limited,Diversified,1002.0,2679.09
+DCAL,DCAL.NS,Dishman Carbogen Amcis Limited,Diversified,170.52,2673.47
+DOLPHIN,DOLPHIN.NS,Dolphin Offshore Enterprises (India) Limited,Diversified,665.5,2662.3
+MUFIN,MUFIN.NS,Mufin Green Finance Limited,Diversified,133.45,2644.47
+EFCIL,EFCIL.NS,EFC (I) Limited,Diversified,178.67,2643.35
+GATEWAY,GATEWAY.NS,Gateway Distriparks Limited,Diversified,52.87,2641.62
+DDEVPLSTIK,DDEVPLSTIK.NS,Ddev Plastiks Industries Limited,Diversified,254.95,2638.14
+ALEMBICLTD,ALEMBICLTD.NS,Alembic Limited,Diversified,102.63,2635.35
+SASKEN,SASKEN.NS,Sasken Technologies Limited,Diversified,1719.6,2612.33
+DIAMONDYD,DIAMONDYD.NS,Prataap Snacks Limited,Diversified,1088.1,2603.82
+SPORTKING,SPORTKING.NS,Sportking India Limited,Diversified,203.85,2594.41
+SAKAR,SAKAR.NS,Sakar Healthcare Limited,Diversified,1179.8,2589.65
+GLOBUSSPR,GLOBUSSPR.NS,Globus Spirits Limited,Diversified,819.75,2579.04
+AUTOAXLES,AUTOAXLES.NS,Automotive Axles Limited,Diversified,1701.2,2570.85
+ORIENTHOT,ORIENTHOT.NS,Oriental Hotels Limited,Diversified,143.45,2562.01
+STALLION,STALLION.NS,Stallion India Fluorochemicals Limited,Diversified,220.49,2559.57
+ORIENTCEM,ORIENTCEM.NS,Orient Cement Ltd.,Construction Materials,124.55,2559.0
+TASTYBITE,TASTYBITE.NS,Tasty Bite Eatables Limited,Diversified,9901.0,2540.6
+VINCOFE,VINCOFE.NS,Vintage Coffee And Beverages Limited,Diversified,174.19,2537.75
+HUBTOWN,HUBTOWN.NS,Hubtown Limited,Diversified,177.69,2524.99
+ARVSMART,ARVSMART.NS,Arvind SmartSpaces Limited,Diversified,550.1,2523.14
+UTKARSHBNK,UTKARSHBNK.NS,Utkarsh Small Finance Bank Limited,Diversified,14.17,2521.59
+RATNAVEER,RATNAVEER.NS,Ratnaveer Precision Engineering Limited,Diversified,299.25,2511.5
+SUNDROP,SUNDROP.NS,Sundrop Brands Limited,Diversified,663.4,2500.81
+SPAL,SPAL.NS,S. P. Apparels Limited,Diversified,994.3,2499.56
+BBL,BBL.NS,Bharat Bijlee Limited,Diversified,2207.9,2495.62
+FMGOETZE,FMGOETZE.NS,Federal-Mogul Goetze (India) Limited.,Diversified,446.15,2482.03
+FLAIR,FLAIR.NS,Flair Writing Industries Limited,Diversified,235.23,2479.22
+SHUKRAPHAR,SHUKRAPHAR.NS,Shukra Pharmaceuticals Limited,Diversified,55.93,2465.32
+KMCSHIL,KMCSHIL.NS,K M C Speciality Hospitals (India) Limited,Diversified,150.26,2450.52
+PATELENG,PATELENG.NS,Patel Engineering Limited,Diversified,25.62,2446.83
+GKENERGY,GKENERGY.NS,GK Energy Limited,Diversified,119.77,2429.14
+MEDIASSIST,MEDIASSIST.NS,Medi Assist Healthcare Services Limited,Diversified,324.85,2426.69
+ROSSARI,ROSSARI.NS,Rossari Biotech Limited,Diversified,437.95,2425.99
+SATIN,SATIN.NS,Satin Creditcare Network Limited,Diversified,219.32,2412.26
+BODALCHEM,BODALCHEM.NS,Bodal Chemicals Limited,Diversified,191.23,2408.43
+EVEREADY,EVEREADY.NS,Eveready Industries India Limited,Diversified,331.0,2405.95
+ZAGGLE,ZAGGLE.NS,Zaggle Prepaid Ocean Services Ltd.,Information Technology,178.56,2405.51
+JGCHEM,JGCHEM.NS,J.G.Chemicals Limited,Diversified,612.4,2399.75
+GNA,GNA.NS,GNA Axles Limited,Diversified,558.55,2397.9
+SIYSIL,SIYSIL.NS,Siyaram Silk Mills Limited,Diversified,527.4,2392.82
+ASIANENE,ASIANENE.NS,Asian Energy Services Limited,Diversified,492.25,2391.91
+APOLLOPIPE,APOLLOPIPE.NS,Apollo Pipes Limited,Diversified,543.6,2387.46
+THEJO,THEJO.NS,Thejo Engineering Limited,Diversified,2199.7,2386.11
+HINDOILEXP,HINDOILEXP.NS,Hindustan Oil Exploration Company Limited,Diversified,180.29,2384.21
+KITEX,KITEX.NS,Kitex Garments Ltd.,Textiles,119.5,2384.03
+KABRAEXTRU,KABRAEXTRU.NS,Kabra Extrusion Technik Limited,Diversified,681.6,2383.75
+INDORAMA,INDORAMA.NS,Indo Rama Synthetics (India) Limited,Diversified,91.05,2377.44
+PIXTRANS,PIXTRANS.NS,Pix Transmissions Limited,Diversified,1741.1,2372.28
+EUROPRATIK,EUROPRATIK.NS,Euro Pratik Sales Limited,Diversified,231.75,2368.49
+SOMANYCERA,SOMANYCERA.NS,Somany Ceramics Limited,Diversified,572.6,2348.39
+SBC,SBC.NS,SBC Exports Limited,Diversified,49.24,2344.76
+VEEDOL,VEEDOL.NS,Veedol Corporation Limited,Diversified,1377.7,2341.38
+VENKEYS,VENKEYS.NS,Venky's (India) Limited,Diversified,1646.8,2319.9
+SANSTAR,SANSTAR.NS,Sanstar Limited,Diversified,115.7,2317.11
+JNKINDIA,JNKINDIA.NS,JNK India Limited,Diversified,413.9,2315.93
+POKARNA,POKARNA.NS,Pokarna Limited,Diversified,746.85,2315.53
+PENIND,PENIND.NS,Pennar Industries Limited,Diversified,171.43,2313.38
+SIRCA,SIRCA.NS,Sirca Paints India Limited,Diversified,406.25,2312.9
+NELCO,NELCO.NS,NELCO Limited,Diversified,1011.85,2308.88
+BOMDYEING,BOMDYEING.NS,Bombay Dyeing & Mfg Company Limited,Diversified,111.3,2298.73
+RAJRATAN,RAJRATAN.NS,Rajratan Global Wire Limited,Diversified,452.6,2297.9
+INDOCO,INDOCO.NS,Indoco Remedies Limited,Diversified,249.01,2295.22
+EASEMYTRIP,EASEMYTRIP.NS,Easy Trip Planners Limited,Diversified,5.76,2295.16
+ORISSAMINE,ORISSAMINE.NS,The Orissa Minerals Development Company Limited,Diversified,3821.2,2292.72
+PARKHOTELS,PARKHOTELS.NS,Apeejay Surrendra Park Hotels Limited,Diversified,107.38,2291.21
+WINDLAS,WINDLAS.NS,Windlas Biotech Limited,Diversified,1109.45,2289.49
+GEOJITFSL,GEOJITFSL.NS,Geojit Financial Services Limited,Diversified,81.99,2288.52
+RANEHOLDIN,RANEHOLDIN.NS,Rane Holdings Limited,Diversified,1598.4,2282.17
+EPACKPEB,EPACKPEB.NS,EPack Prefab Technologies Limited,Diversified,226.26,2276.88
+EXICOM,EXICOM.NS,Exicom Tele-Systems Limited,Diversified,163.68,2276.46
+AJMERA,AJMERA.NS,Ajmera Realty & Infra India Limited,Diversified,115.6,2274.96
+MVELECTRO,MVELECTRO.NS,MV Electrosystems Limited,Diversified,832.75,2271.97
+FISCHER,FISCHER.NS,Fischer Medical Ventures Limited,Diversified,33.15,2268.81
+COSMOFIRST,COSMOFIRST.NS,COSMO FIRST LIMITED,Diversified,871.25,2261.6
+SAIPARENT,SAIPARENT.NS,Sai Parenterals Limited,Diversified,510.75,2256.45
+PANACEABIO,PANACEABIO.NS,Panacea Biotec Limited,Diversified,367.9,2253.41
+GSPCROP,GSPCROP.NS,GSP Crop Science Limited,Diversified,482.1,2242.67
+KNACK,KNACK.NS,Knack Packaging Limited,Diversified,182.6,2234.39
+JISLJALEQS,JISLJALEQS.NS,Jain Irrigation Systems Limited,Diversified,30.42,2231.34
+REPCOHOME,REPCOHOME.NS,Repco Home Finance Limited,Diversified,354.5,2217.8
+DYCL,DYCL.NS,Dynamic Cables Limited,Diversified,457.4,2216.5
+MARSONS,MARSONS.NS,Marsons Limited,Diversified,128.62,2213.55
+GOCLCORP,GOCLCORP.NS,GOCL Corporation Limited,Diversified,446.1,2211.43
+RAMKY,RAMKY.NS,Ramky Infrastructure Limited,Diversified,319.35,2209.83
+ARKADE,ARKADE.NS,Arkade Developers Limited,Diversified,118.85,2206.61
+NITCO,NITCO.NS,Nitco Limited,Diversified,87.0,2197.41
+ADVAIT,ADVAIT.NS,Advait Energy Transitions Limited,Diversified,2003.6,2191.29
+FREDUN,FREDUN.NS,Fredun Pharmaceuticals Limited,Diversified,1303.5,2191.09
+MOLDTKPAC,MOLDTKPAC.NS,Mold-Tek Packaging Limited,Diversified,658.3,2187.46
+KICL,KICL.NS,Kalyani Investment Company Limited,Diversified,5009.5,2186.8
+GMBREW,GMBREW.NS,GM Breweries Limited,Diversified,953.95,2179.48
+JAYKAY,JAYKAY.NS,Jaykay Enterprises Limited,Diversified,167.18,2178.14
+OMAXE,OMAXE.NS,Omaxe Limited,Diversified,117.31,2154.45
+VERANDA,VERANDA.NS,Veranda Learning Solutions Limited,Diversified,221.76,2140.13
+BRIGHOTEL,BRIGHOTEL.NS,Brigade Hotel Ventures Limited,Diversified,56.23,2135.85
+RAMCOSYS,RAMCOSYS.NS,Ramco Systems Limited,Diversified,567.25,2132.67
+TIL,TIL.NS,TIL Limited,Diversified,257.51,2123.01
+PRAKASH,PRAKASH.NS,Prakash Industries Limited,Diversified,118.51,2122.3
+VENUSREM,VENUSREM.NS,Venus Remedies Limited,Diversified,1582.2,2117.41
+QUADFUTURE,QUADFUTURE.NS,Quadrant Future Tek Limited,Diversified,528.2,2112.8
+MACPOWER,MACPOWER.NS,Macpower CNC Machines Limited,Diversified,2104.5,2105.38
+TAJGVK,TAJGVK.NS,Taj GVK Hotels & Resorts Limited,Diversified,334.7,2098.62
+STLNETWORK,STLNETWORK.NS,STL Networks Limited,Diversified,42.95,2097.13
+LANDMARK,LANDMARK.NS,Landmark Cars Limited,Diversified,504.5,2091.9
+KCP,KCP.NS,KCP Limited,Diversified,161.95,2087.88
+AEROPLANE,AEROPLANE.NS,Amir Chand Jagdish Kumar (Exports) Limited,Diversified,201.49,2086.46
+MOTISONS,MOTISONS.NS,Motisons Jewellers Limited,Diversified,18.3,2081.64
+RACLGEAR,RACLGEAR.NS,RACL Geartech Limited,Diversified,1760.9,2079.43
+BETA,BETA.NS,Beta Drugs Limited,Diversified,2055.2,2074.63
+BCG,BCG.NS,Brightcom Group Limited,Diversified,10.26,2071.0
+ARMANFIN,ARMANFIN.NS,Arman Financial Services Limited,Diversified,1961.0,2068.14
+BFUTILITIE,BFUTILITIE.NS,BF Utilities Limited,Diversified,542.0,2041.59
+RELINFRA,RELINFRA.NS,Reliance Infrastructure Limited,Diversified,49.99,2040.5
+EMSLIMITED,EMSLIMITED.NS,EMS Limited,Diversified,366.65,2036.04
+SPANDANA,SPANDANA.NS,Spandana Sphoorty Financial Limited,Diversified,229.25,2032.06
+SHRINGARMS,SHRINGARMS.NS,Shringar House of Mangalsutra Limited,Diversified,210.67,2031.53
+ALGOQUANT,ALGOQUANT.NS,Algoquant Fintech Limited,Diversified,72.27,2031.48
+PARACABLES,PARACABLES.NS,Paramount Communications Limited,Diversified,62.02,2029.54
+CANTABIL,CANTABIL.NS,Cantabil Retail India Limited,Diversified,242.63,2029.31
+BNAGROCHEM,BNAGROCHEM.NS,BN Agrochem Limited,Diversified,207.0,2023.9
+ESAFSFB,ESAFSFB.NS,ESAF Small Finance Bank Limited,Diversified,39.19,2022.27
+INA,INA.NS,Insolation Energy Limited,Diversified,91.7,2021.52
+PROTEAN,PROTEAN.NS,Protean eGov Technologies Limited,Diversified,490.3,1999.4
+NIBE,NIBE.NS,NIBE Limited,Diversified,1287.0,1995.08
+BAJEL,BAJEL.NS,Bajel Projects Limited,Diversified,171.91,1988.95
+SIMPLEXINF,SIMPLEXINF.NS,Simplex Infrastructures Limited,Diversified,251.4,1988.46
+SAGCEM,SAGCEM.NS,Sagar Cements Limited,Diversified,151.79,1984.01
+AWFIS,AWFIS.NS,Awfis Space Solutions Ltd.,Services,275.75,1973.35
+HONDAPOWER,HONDAPOWER.NS,Honda India Power Products Limited,Diversified,1930.3,1957.92
+MUKANDLTD,MUKANDLTD.NS,Mukand Limited,Diversified,134.78,1947.51
+BHARATRAS,BHARATRAS.NS,Bharat Rasayan Limited,Diversified,1168.8,1942.67
+MSPL,MSPL.NS,MSP Steel & Power Limited,Diversified,34.15,1935.61
+GREENPANEL,GREENPANEL.NS,Greenpanel Industries Limited,Diversified,157.83,1935.43
+SHANTIGOLD,SHANTIGOLD.NS,Shanti Gold International Limited,Diversified,251.27,1928.23
+INDIANHUME,INDIANHUME.NS,Indian Hume Pipe Company Limited,Diversified,365.3,1924.46
+TIRUMALCHM,TIRUMALCHM.NS,Thirumalai Chemicals Limited,Diversified,158.54,1911.24
+GENESYS,GENESYS.NS,Genesys International Corporation Limited,Diversified,285.19,1906.91
+SHK,SHK.NS,S H Kelkar and Company Limited,Diversified,137.04,1896.92
+SYNCOMF,SYNCOMF.NS,Syncom Formulations (India) Limited,Diversified,20.04,1883.76
+MAHASTEEL,MAHASTEEL.NS,Mahamaya Steel Industries Limited,Diversified,1141.9,1876.64
+CAMLINFINE,CAMLINFINE.NS,Camlin Fine Sciences Limited,Diversified,97.28,1868.67
+HESTERBIO,HESTERBIO.NS,Hester Biosciences Limited,Diversified,2195.6,1867.77
+TCIEXP,TCIEXP.NS,TCI Express Limited,Diversified,485.35,1865.89
+TEAMLEASE,TEAMLEASE.NS,Teamlease Services Limited,Diversified,1219.0,1862.8
+SILVERTUC,SILVERTUC.NS,Silver Touch Technologies Limited,Diversified,146.28,1854.98
+HUHTAMAKI,HUHTAMAKI.NS,Huhtamaki India Limited,Diversified,245.0,1850.29
+EIHAHOTELS,EIHAHOTELS.NS,EIH Associated Hotels Limited,Diversified,303.5,1849.42
+VIDYAWIRES,VIDYAWIRES.NS,Vidya Wires Limited,Diversified,86.87,1847.66
+BGRENERGY,BGRENERGY.NS,BGR Energy Systems Limited,Diversified,255.62,1844.59
+BLUSPRING,BLUSPRING.NS,Bluspring Enterprises Limited,Diversified,123.34,1843.96
+TINNARUBR,TINNARUBR.NS,Tinna Rubber and Infrastructure Limited,Diversified,1018.75,1835.36
+HPL,HPL.NS,HPL Electric & Power Limited,Diversified,284.3,1828.06
+DCXINDIA,DCXINDIA.NS,DCX Systems Limited,Diversified,163.1,1816.71
+SAKSOFT,SAKSOFT.NS,Saksoft Limited,Diversified,141.14,1814.06
+DEEPA,DEEPA.NS,Deepa Jewellers Limited,Diversified,188.31,1810.12
+SKYWAYS,SKYWAYS.NS,Skyways Air Services Limited,Diversified,124.43,1808.51
+NUCLEUS,NUCLEUS.NS,Nucleus Software Exports Limited,Diversified,686.25,1806.57
+LAOPALA,LAOPALA.NS,La Opala RG Limited,Diversified,162.6,1804.86
+KAPSTON,KAPSTON.NS,Kapston Services Limited,Diversified,584.3,1778.15
+GRANDOAK,GRANDOAK.NS,Grand Oak Canyons Distillery Limited,Diversified,34.23,1776.14
+MENONBE,MENONBE.NS,Menon Bearings Limited,Diversified,316.85,1775.63
+INDIAGLYCO,INDIAGLYCO.NS,India Glycols Ltd.,Fast Moving Consumer Goods,263.7,1767.5
+HATHWAY,HATHWAY.NS,Hathway Cable & Datacom Limited,Diversified,9.98,1766.56
+RICOAUTO,RICOAUTO.NS,Rico Auto Industries Limited,Diversified,130.58,1766.55
+PAUSHAKLTD,PAUSHAKLTD.NS,Paushak Limited,Diversified,716.35,1766.3
+HGS,HGS.NS,Hinduja Global Solutions Limited,Diversified,379.4,1764.98
+INSECTICID,INSECTICID.NS,Insecticides (India) Limited,Diversified,605.6,1762.16
+KRSNAA,KRSNAA.NS,Krsnaa Diagnostics Limited,Diversified,541.15,1755.42
+WENDT,WENDT.NS,Wendt (India) Limited,Diversified,8767.5,1753.5
+TECHNOCRAF,TECHNOCRAF.NS,Technocraft Ventures Limited,Diversified,440.8,1745.84
+SURAKSHA,SURAKSHA.NS,Suraksha Diagnostic Limited,Diversified,335.1,1745.23
+VOEPL,VOEPL.NS,Virtuoso Optoelectronics Limited,Diversified,506.75,1735.67
+NDRAUTO,NDRAUTO.NS,Ndr Auto Components Limited,Diversified,726.0,1731.89
+OAL,OAL.NS,Oriental Aromatics Limited,Diversified,514.15,1730.3
+INDOKEM,INDOKEM.NS,Indokem Limited,Diversified,620.0,1729.07
+JINDRILL,JINDRILL.NS,Jindal Drilling And Industries Limited,Diversified,594.85,1723.94
+EPACK,EPACK.NS,EPACK Durable Limited,Diversified,178.84,1721.81
+VIDHIING,VIDHIING.NS,Vidhi Specialty Food Ingredients Limited,Diversified,344.55,1720.85
+SCILAL,SCILAL.NS,Shipping Corporation of India Land and Assets Limited,Diversified,36.83,1715.54
+NGLFINE,NGLFINE.NS,NGL Fine-Chem Limited,Diversified,2768.2,1710.2
+SMCGLOBAL,SMCGLOBAL.NS,SMC Global Securities Limited,Diversified,80.94,1694.88
+GRMOVER,GRMOVER.NS,GRM Overseas Limited,Diversified,81.64,1694.22
+IGPL,IGPL.NS,IG Petrochemicals Limited,Diversified,550.15,1694.18
+CNL,CNL.NS,Creative Newtech Limited,Diversified,1127.1,1692.53
+AURUM,AURUM.NS,Aurum PropTech Limited,Diversified,219.78,1686.51
+PFS,PFS.NS,PTC India Financial Services Limited,Diversified,26.17,1680.86
+BFINVEST,BFINVEST.NS,BF Investment Limited,Diversified,445.25,1677.15
+ACCELYA,ACCELYA.NS,Accelya Solutions India Limited,Diversified,1123.0,1676.22
+MOBIKWIK,MOBIKWIK.NS,One Mobikwik Systems Limited,Diversified,212.48,1673.21
+AYMSYNTEX,AYMSYNTEX.NS,AYM Syntex Limited,Diversified,283.15,1664.58
+ALLCARGO,ALLCARGO.NS,Allcargo Logistics Limited,Diversified,11.11,1664.03
+SHREEPUSHK,SHREEPUSHK.NS,Shree Pushkar Chemicals & Fertilisers Limited,Diversified,514.3,1663.13
+JAICORPLTD,JAICORPLTD.NS,Jai Corp Limited,Diversified,94.42,1657.12
+CAPACITE,CAPACITE.NS,Capacit'e Infraprojects Limited,Diversified,195.71,1655.79
+DIFFNKG,DIFFNKG.NS,Diffusion Engineers Limited,Diversified,445.8,1655.09
+RGL,RGL.NS,Renaissance Global Limited,Diversified,153.4,1647.58
+YATRA,YATRA.NS,Yatra Online Limited,Diversified,104.83,1644.95
+SERVOTECH,SERVOTECH.NS,Servotech Renewable Power System Limited,Diversified,72.8,1644.15
+GARUDA,GARUDA.NS,Garuda Construction and Engineering Limited,Diversified,175.53,1633.16
+XTRANET,XTRANET.NS,Xtranet Technologies Limited,Diversified,312.16,1632.15
+TARSONS,TARSONS.NS,Tarsons Products Limited,Diversified,306.1,1628.64
+GOODYEAR,GOODYEAR.NS,Goodyear India Limited,Diversified,704.85,1625.84
+IKIO,IKIO.NS,IKIO Technologies Limited,Diversified,210.25,1624.83
+ASTEC,ASTEC.NS,Astec LifeSciences Limited,Diversified,726.7,1619.25
+GOCOLORS,GOCOLORS.NS,Go Fashion (India) Limited,Diversified,306.0,1609.44
+MOL,MOL.NS,Meghmani Organics Limited,Diversified,63.05,1603.45
+STUDDS,STUDDS.NS,Studds Accessories Limited,Diversified,407.1,1602.08
+ASIANHOTNR,ASIANHOTNR.NS,Asian Hotels (North) Limited,Diversified,374.9,1598.32
+RIR,RIR.NS,RIR Power Electronics Limited,Diversified,198.93,1582.93
+SESHAPAPER,SESHAPAPER.NS,Seshasayee Paper and Boards Limited,Diversified,249.77,1575.25
+PNGSREVA,PNGSREVA.NS,PNGS Reva Diamond Jewellery Limited,Diversified,495.75,1571.45
+ONEPOINT,ONEPOINT.NS,One Point One Solutions Limited,Diversified,59.64,1568.15
+DELTACORP,DELTACORP.NS,Delta Corp Limited,Diversified,58.34,1562.18
+RUBYMILLS,RUBYMILLS.NS,The Ruby Mills Limited,Diversified,467.1,1561.98
+KOTIC,KOTIC.NS,Kothari Industrial Corporation Limited,Diversified,144.41,1559.94
+RHETAN,RHETAN.NS,Rhetan TMT Limited,Diversified,19.57,1559.48
+SURYODAY,SURYODAY.NS,Suryoday Small Finance Bank Limited,Diversified,146.63,1558.63
+NITTAGELA,NITTAGELA.NS,Nitta Gelatin India Limited,Diversified,1711.4,1553.81
+ARDEE,ARDEE.NS,Ardee Industries Limited,Diversified,49.28,1553.31
+IPL,IPL.NS,India Pesticides Limited,Diversified,134.67,1550.91
+DOLLAR,DOLLAR.NS,Dollar Industries Limited,Diversified,273.25,1549.77
+YUKEN,YUKEN.NS,Yuken India Limited,Diversified,1139.2,1547.49
+SUMMITSEC,SUMMITSEC.NS,Summit Securities Limited,Diversified,1412.0,1545.69
+MIIL,MIIL.NS,Meghna Infracon Infrastructure Limited,Diversified,711.35,1545.32
+PVP,PVP.NS,PVP Ventures Limited,Diversified,59.28,1543.67
+HITECH,HITECH.NS,Hi-Tech Pipes Limited,Diversified,76.14,1543.44
+KROSS,KROSS.NS,Kross Limited,Diversified,239.19,1543.0
+KRISHNADEF,KRISHNADEF.NS,Krishna Defence And Allied Industries Limited,Diversified,1030.0,1538.14
+JISLDVREQS,JISLDVREQS.NS,Jain Irrigation Systems Limited,Diversified,20.94,1535.97
+DLINKINDIA,DLINKINDIA.NS,D-Link (India) Limited,Diversified,430.05,1526.89
+INDOBORAX,INDOBORAX.NS,Indo Borax & Chemicals Limited,Diversified,472.6,1516.57
+RSL,RSL.NS,Rajputana Stainless Limited,Diversified,181.21,1514.33
+ARFIN,ARFIN.NS,Arfin India Limited,Diversified,89.62,1512.09
+JAGSNPHARM,JAGSNPHARM.NS,Jagsonpal Pharmaceuticals Limited,Diversified,228.42,1506.6
+5PAISA,5PAISA.NS,5Paisa Capital Limited,Diversified,321.35,1506.46
+GPTINFRA,GPTINFRA.NS,GPT Infraprojects Limited,Diversified,118.96,1503.23
+ASIANTILES,ASIANTILES.NS,Asian Granito India Limited,Diversified,50.65,1501.65
+MTNL,MTNL.NS,Mahanagar Telephone Nigam Limited,Diversified,23.8,1499.4
+STEELXIND,STEELXIND.NS,STEEL EXCHANGE INDIA LIMITED,Diversified,11.74,1497.46
+BHAGYANGR,BHAGYANGR.NS,Bhagyanagar India Limited,Diversified,446.7,1496.29
+MCLOUD,MCLOUD.NS,Magellanic Cloud Limited,Diversified,25.3,1490.34
+BLIL,BLIL.NS,Balmer Lawrie Investments Limited,Diversified,67.1,1489.44
+MODISONLTD,MODISONLTD.NS,MODISON LIMITED,Diversified,457.6,1484.91
+ANDHRAPAP,ANDHRAPAP.NS,ANDHRA PAPER LIMITED,Diversified,74.62,1483.82
+TTKHLTCARE,TTKHLTCARE.NS,TTK Healthcare Limited,Diversified,1050.0,1483.68
+SHALBY,SHALBY.NS,Shalby Limited,Diversified,137.66,1477.07
+GTLINFRA,GTLINFRA.NS,GTL Infrastructure Limited,Diversified,1.15,1473.08
+KPEL,KPEL.NS,K.P. Energy Limited,Diversified,216.88,1470.41
+INFOBEAN,INFOBEAN.NS,InfoBeans Technologies Limited,Diversified,151.27,1466.71
+CLSEL,CLSEL.NS,Chaman Lal Setia Exports Limited,Diversified,294.9,1466.41
+AVADHSUGAR,AVADHSUGAR.NS,Avadh Sugar & Energy Limited,Diversified,730.45,1462.25
+BHAGERIA,BHAGERIA.NS,Bhageria Industries Limited,Diversified,334.75,1460.99
+MMWL,MMWL.NS,Media Matrix Worldwide Limited,Diversified,12.89,1460.1
+GCSL,GCSL.NS,Gretex Corporate Services Limited,Diversified,618.55,1452.69
+VIKRAN,VIKRAN.NS,Vikran Engineering Limited,Diversified,56.31,1452.3
+SIGNPOST,SIGNPOST.NS,Signpost India Limited,Diversified,271.5,1451.17
+TEXINFRA,TEXINFRA.NS,Texmaco Infrastructure & Holdings Limited,Diversified,113.54,1446.8
+MBEL,MBEL.NS,M & B Engineering Limited,Diversified,252.25,1441.88
+HINDWAREAP,HINDWAREAP.NS,Hindware Home Innovation Limited,Diversified,172.08,1439.39
+IFGLEXPOR,IFGLEXPOR.NS,IFGL Refractories Limited,Diversified,199.03,1434.58
+GKSL,GKSL.NS,Gujarat Kidney And Super Speciality Limited,Diversified,181.25,1429.03
+AMRUTANJAN,AMRUTANJAN.NS,Amrutanjan Health Care Limited,Diversified,493.8,1427.09
+MANALIPETC,MANALIPETC.NS,Manali Petrochemicals Limited,Diversified,82.92,1426.22
+PNBGILTS,PNBGILTS.NS,PNB Gilts Limited,Diversified,79.18,1425.32
+AEROENTER,AEROENTER.NS,Aeroflex Enterprises Limited,Diversified,125.49,1420.1
+FRONTSP,FRONTSP.NS,Frontier Springs Limited,Diversified,1198.4,1415.97
+SPMLINFRA,SPMLINFRA.NS,SPML Infra Limited,Diversified,168.23,1415.65
+SDBL,SDBL.NS,Som Distilleries & Breweries Limited,Diversified,68.06,1414.98
+CEINSYS,CEINSYS.NS,Ceinsys Tech Limited,Diversified,675.35,1414.02
+IZMO,IZMO.NS,IZMO Limited,Diversified,934.35,1399.69
+SPIC,SPIC.NS,Southern Petrochemicals Industries Corporation  Limited,Diversified,68.7,1399.01
+BIL,BIL.NS,Bhartiya International Limited,Diversified,1040.85,1395.82
+PANORAMA,PANORAMA.NS,Panorama Studios International Limited,Diversified,53.26,1387.61
+MANAKCOAT,MANAKCOAT.NS,Manaksia Coated Metals & Industries Limited,Diversified,129.22,1377.93
+WALCHANNAG,WALCHANNAG.NS,Walchandnagar Industries Limited,Diversified,202.71,1376.49
+BENARAS,BENARAS.NS,Benares Hotels Limited,Diversified,10588.0,1376.44
+EXPLEOSOL,EXPLEOSOL.NS,Expleo Solutions Limited,Diversified,881.95,1368.76
+SHANKESH,SHANKESH.NS,Shankesh Jewellers Limited,Diversified,93.06,1368.27
+ALLTIME,ALLTIME.NS,All Time Plastics Limited,Diversified,208.4,1365.18
+GPTHEALTH,GPTHEALTH.NS,GPT Healthcare Limited,Diversified,166.21,1363.83
+IGARASHI,IGARASHI.NS,Igarashi Motors India Limited,Diversified,432.35,1360.82
+FERMENTA,FERMENTA.NS,Fermenta Biotech Limited,Diversified,474.15,1359.42
+JAGRAN,JAGRAN.NS,Jagran Prakashan Limited,Diversified,62.36,1357.29
+AGL,AGL.NS,Allcargo Global Limited,Diversified,13.8,1356.24
+BHARATSE,BHARATSE.NS,Bharat Seats Limited,Diversified,214.02,1344.05
+ARROWGREEN,ARROWGREEN.NS,Arrow Greentech Limited,Diversified,889.25,1341.69
+KOPRAN,KOPRAN.NS,Kopran Limited,Diversified,277.6,1341.53
+MBECL,MBECL.NS,Mcnally Bharat Engineering Company Limited,Diversified,401.59,1338.63
+NAVKARCORP,NAVKARCORP.NS,Navkar Corporation Limited,Diversified,88.91,1338.27
+DCW,DCW.NS,DCW Limited,Diversified,45.18,1333.51
+IMPAL,IMPAL.NS,India Motor Parts and Accessories Limited,Diversified,1065.6,1329.87
+ASALCBR,ASALCBR.NS,Associated Alcohols & Breweries Ltd.,Diversified,659.55,1324.32
+PUNJABCHEM,PUNJABCHEM.NS,Punjab Chemicals & Crop Protection Limited,Diversified,1075.7,1319.04
+ONIXSOLAR,ONIXSOLAR.NS,Onix Solar Energy Limited,Diversified,357.4,1317.66
+NINSYS,NINSYS.NS,NINtec Systems Limited,Diversified,707.5,1314.25
+GYFTR,GYFTR.NS,Gyftr Limited,Diversified,171.05,1313.81
+AVTNPL,AVTNPL.NS,AVT Natural Products Limited,Diversified,85.7,1305.07
+EIMCOELECO,EIMCOELECO.NS,Eimco Elecon (India) Limited,Diversified,2248.4,1296.96
+GALAPREC,GALAPREC.NS,Gala Precision Engineering Limited,Diversified,1011.2,1295.97
+ASTAR,ASTAR.NS,Asian Star Company Limited,Diversified,807.35,1292.31
+DSSL,DSSL.NS,Dynacons Systems & Solutions Limited,Diversified,1013.4,1290.78
+ANDREWYU,ANDREWYU.NS,Andrew Yule & Company Limited,Diversified,26.27,1284.47
+UDS,UDS.NS,Updater Services Limited,Diversified,189.82,1281.96
+UGROCAP,UGROCAP.NS,Ugro Capital Limited,Diversified,83.74,1279.68
+ANDHRSUGAR,ANDHRSUGAR.NS,The Andhra Sugars Limited,Diversified,94.1,1275.39
+DEN,DEN.NS,Den Networks Limited,Diversified,26.62,1269.15
+CAPITALSFB,CAPITALSFB.NS,Capital Small Finance Bank Limited,Diversified,278.9,1268.02
+PASHUPATI,PASHUPATI.NS,Pashupati Cotspin Limited,Diversified,80.26,1266.82
+GNRL,GNRL.NS,Gujarat Natural Resources Limited,Diversified,98.43,1263.87
+MWL,MWL.NS,Mangalam Worldwide Limited,Diversified,42.52,1262.87
+UNIENTER,UNIENTER.NS,Uniphos Enterprises Limited,Diversified,90.71,1261.7
+NIITLTD,NIITLTD.NS,NIIT Limited,Diversified,91.57,1254.45
+DIGITIDE,DIGITIDE.NS,Digitide Solutions Limited,Diversified,83.45,1244.91
+SUNSHINE,SUNSHINE.NS,Sunshine Pictures Limited,Diversified,398.3,1240.66
+ULTRAMAR,ULTRAMAR.NS,Ultramarine & Pigments Limited,Diversified,424.4,1239.25
+ATULAUTO,ATULAUTO.NS,Atul Auto Limited,Diversified,446.45,1238.96
+COMSYN,COMSYN.NS,Commercial Syn Bags Limited,Diversified,306.55,1236.6
+GODAVARIB,GODAVARIB.NS,Godavari Biorefineries Limited,Diversified,241.01,1233.39
+IRISDOREME,IRISDOREME.NS,Iris Clothings Limited,Diversified,64.58,1229.16
+BIRLACABLE,BIRLACABLE.NS,Birla Cable Limited,Diversified,409.5,1228.5
+CENTENKA,CENTENKA.NS,Century Enka Limited,Diversified,561.45,1226.8
+AHCL,AHCL.NS,Anlon Healthcare Limited,Diversified,22.9,1217.17
+SHRIRAMPPS,SHRIRAMPPS.NS,Shriram Properties Limited,Diversified,71.22,1215.4
+ONIDA,ONIDA.NS,Onida Electronics Limited,Diversified,32.89,1215.38
+IVALUE,IVALUE.NS,Ivalue Infosolutions Limited,Diversified,222.03,1212.96
+LINCOLN,LINCOLN.NS,Lincoln Pharmaceuticals Limited,Diversified,604.85,1211.5
+SKMEGGPROD,SKMEGGPROD.NS,SKM Egg Products Export (India) Limited,Diversified,229.75,1211.37
+STEL,STEL.NS,Stel Holdings Limited,Diversified,654.2,1207.35
+EXCELINDUS,EXCELINDUS.NS,Excel Industries Limited,Diversified,958.2,1204.52
+JAYBARMARU,JAYBARMARU.NS,Jay Bharat Maruti Limited,Diversified,111.15,1203.2
+VALIANTORG,VALIANTORG.NS,Valiant Organics Limited,Diversified,426.65,1196.1
+ALICON,ALICON.NS,Alicon Castalloy Limited,Diversified,729.35,1191.53
+SALSTEEL,SALSTEEL.NS,S.A.L. Steel Limited,Diversified,82.26,1190.85
+HMAAGRO,HMAAGRO.NS,HMA Agro Industries Limited,Diversified,23.77,1190.33
+BHARATWIRE,BHARATWIRE.NS,Bharat Wire Ropes Limited,Diversified,173.05,1190.29
+GHCLTEXTIL,GHCLTEXTIL.NS,GHCL Textiles Limited,Diversified,124.51,1190.14
+BLKASHYAP,BLKASHYAP.NS,B. L. Kashyap and Sons Limited,Diversified,52.74,1189.19
+MMP,MMP.NS,MMP Industries Limited,Diversified,466.85,1185.92
+DOLATALGO,DOLATALGO.NS,Dolat Algotech Limited,Diversified,67.32,1184.83
+ROTO,ROTO.NS,Roto Pumps Limited,Diversified,62.68,1184.1
+ALLDIGI,ALLDIGI.NS,Alldigi Tech Limited,Diversified,776.3,1182.95
+ELECTHERM,ELECTHERM.NS,Electrotherm (India) Limited,Diversified,925.5,1179.35
+PLATIND,PLATIND.NS,Platinum Industries Limited,Diversified,214.05,1175.67
+RAJRILTD,RAJRILTD.NS,Raj Rayon Industries Limited,Diversified,20.82,1172.35
+DHANBANK,DHANBANK.NS,Dhanlaxmi Bank Limited,Diversified,29.47,1163.18
+BALAJITELE,BALAJITELE.NS,Balaji Telefilms Limited,Diversified,95.25,1161.12
+JINDALPHOT,JINDALPHOT.NS,Jindal Photo Limited,Diversified,1125.6,1159.08
+SOLARWORLD,SOLARWORLD.NS,Solarworld Energy Solutions Limited,Diversified,133.56,1157.6
+KAMDHENU,KAMDHENU.NS,Kamdhenu Limited,Diversified,41.05,1157.13
+KALAMANDIR,KALAMANDIR.NS,Sai Silks (Kalamandir) Limited,Diversified,78.26,1153.16
+AKCAPIT,AKCAPIT.NS,AK Capital Services Limited,Diversified,1746.4,1152.62
+THEMISMED,THEMISMED.NS,Themis Medicare Limited,Diversified,123.97,1151.48
+GAYAPROJ,GAYAPROJ.NS,Gayatri Projects Limited,Diversified,24.72,1147.75
+MONTECARLO,MONTECARLO.NS,Monte Carlo Fashions Limited,Diversified,553.05,1146.59
+ZSARACOM,ZSARACOM.NS,Saraswati Commercial India Limited,Diversified,10400.0,1139.77
+SULA,SULA.NS,Sula Vineyards Limited,Diversified,134.49,1135.73
+EKC,EKC.NS,Everest Kanto Cylinder Limited,Diversified,101.07,1134.08
+SIGACHI,SIGACHI.NS,Sigachi Industries Limited,Diversified,29.6,1132.16
+TNPETRO,TNPETRO.NS,Tamilnadu PetroProducts Limited,Diversified,125.73,1131.21
+UNITECH,UNITECH.NS,Unitech Limited,Diversified,4.31,1127.63
+FINOPB,FINOPB.NS,Fino Payments Bank Limited,Diversified,135.48,1127.44
+HARIOMPIPE,HARIOMPIPE.NS,Hariom Pipe Industries Limited,Diversified,362.9,1123.8
+SUBEXLTD,SUBEXLTD.NS,Subex Limited,Diversified,20.11,1115.81
+WAAREEINDO,WAAREEINDO.NS,Indosolar Limited,Diversified,267.95,1114.77
+BAJAJHCARE,BAJAJHCARE.NS,Bajaj Healthcare Limited,Diversified,330.55,1112.8
+IRMENERGY,IRMENERGY.NS,IRM Energy Limited,Diversified,270.2,1109.43
+JYOTISTRUC,JYOTISTRUC.NS,Jyoti Structures Limited,Diversified,9.29,1108.91
+MATRIMONY,MATRIMONY.NS,Matrimony.Com Limited,Diversified,535.55,1107.16
+PRECAM,PRECAM.NS,Precision Camshafts Limited,Diversified,116.41,1105.73
+MASTERTR,MASTERTR.NS,Master Trust Limited,Diversified,89.74,1103.95
+TGVSL,TGVSL.NS,TGV Sraac Limited,Diversified,102.59,1098.63
+RUPA,RUPA.NS,Rupa & Company Limited,Diversified,137.16,1091.03
+ARIS,ARIS.NS,Arisinfra Solutions Limited,Diversified,133.33,1090.56
+LAXMIDENTL,LAXMIDENTL.NS,Laxmi Dental Limited,Diversified,197.95,1089.46
+TEMBO,TEMBO.NS,Tembo Global Industries Limited,Diversified,56.19,1087.57
+ORIENTTECH,ORIENTTECH.NS,Orient Technologies Limited,Diversified,236.35,1082.62
+ICEMAKE,ICEMAKE.NS,Ice Make Refrigeration Limited,Diversified,685.6,1081.86
+APEX,APEX.NS,Apex Frozen Foods Limited,Diversified,345.35,1079.22
+VHL,VHL.NS,Vardhman Holdings Limited,Diversified,3377.1,1077.81
+FAZE3Q,FAZE3Q.NS,Faze Three Limited,Diversified,442.95,1075.08
+KRISHIVAL,KRISHIVAL.NS,Krishival Foods Limited,Diversified,419.3,1074.59
+GRPLTD,GRPLTD.NS,GRP Limited,Diversified,2008.2,1071.04
+FEDDERSHOL,FEDDERSHOL.NS,Fedders Holding Limited,Diversified,52.9,1065.49
+NRAIL,NRAIL.NS,N R Agarwal Industries Limited,Diversified,625.2,1064.03
+BOROSCI,BOROSCI.NS,Borosil Scientific Limited,Diversified,119.56,1063.45
+RIIL,RIIL.NS,Reliance Industrial Infrastructure Limited,Diversified,703.15,1061.76
+GREENPOWER,GREENPOWER.NS,Orient Green Power Company Limited,Diversified,9.05,1061.59
+GULPOLY,GULPOLY.NS,Gulshan Polyols Limited,Diversified,169.99,1057.06
+ONEGLOBAL,ONEGLOBAL.NS,One Global Service Provider Limited,Diversified,538.75,1052.88
+UNITEDPOLY,UNITEDPOLY.NS,United Polyfab Gujarat Limited,Diversified,45.85,1052.33
+MVGJL,MVGJL.NS,Manoj Vaibhav Gems N Jewellers Limited,Diversified,214.47,1047.63
+BUTTERFLY,BUTTERFLY.NS,Butterfly Gandhimathi Appliances Limited,Diversified,585.8,1047.38
+CENTRUM,CENTRUM.NS,Centrum Capital Limited,Diversified,21.94,1041.07
+BIRLANU,BIRLANU.NS,BirlaNu Limited,Diversified,1380.1,1040.72
+MUNJALAU,MUNJALAU.NS,Munjal Auto Industries Limited,Diversified,103.99,1039.9
+RSWM,RSWM.NS,RSWM Limited,Diversified,220.4,1038.12
+JARO,JARO.NS,Jaro Institute of Technology Management and Research Limited,Diversified,465.4,1036.46
+AWHCL,AWHCL.NS,Antony Waste Handling Cell Limited,Diversified,364.9,1035.28
+CREST,CREST.NS,Crest Ventures Limited,Diversified,365.75,1033.93
+SEKURITIND,SEKURITIND.NS,Saint Gobain Sekurit India Limited,Diversified,113.44,1033.5
+JPOLYINVST,JPOLYINVST.NS,Jindal Poly Investment and Finance Company Limited,Diversified,980.75,1030.96
+AFSL,AFSL.NS,Abans Financial Services Limited,Diversified,201.0,1029.42
+TNPL,TNPL.NS,Tamil Nadu Newsprint & Papers Limited,Diversified,148.34,1026.67
+FINKURVE,FINKURVE.NS,Finkurve Financial Services Limited,Diversified,73.1,1024.45
+ARIHANT,ARIHANT.NS,Arihant Foundations & Housing Limited,Diversified,936.35,1017.11
+SEPC,SEPC.NS,SEPC Limited,Diversified,5.23,1016.36
+HITECHGEAR,HITECHGEAR.NS,The Hi-Tech Gears Limited,Diversified,540.0,1016.28
+DVL,DVL.NS,Dhunseri Ventures Limited,Diversified,290.0,1015.72
+GANDHITUBE,GANDHITUBE.NS,Gandhi Special Tubes Limited,Diversified,899.2,1014.65
+SYSTMTXC,SYSTMTXC.NS,Systematix Corporate Services Limited,Diversified,74.12,1013.57
+SHREDIGCEM,SHREDIGCEM.NS,Shree Digvijay Cement Co.Ltd,Diversified,68.51,1013.36
+JYOTIRES,JYOTIRES.NS,Jyoti Resins & Adhesives Limited,Diversified,841.0,1009.2
+PRIMESECU,PRIMESECU.NS,Prime Securities Limited,Diversified,296.85,1008.11
+DHAMPURSUG,DHAMPURSUG.NS,Dhampur Sugar Mills Limited,Diversified,156.22,1004.6
